@@ -1,0 +1,169 @@
+2011-11-30 16:35:43,720 870163 1322666473565 Start request 1322666473565 http://jsk-virtualbox:8180/cs/Satellite?c=Page&childpagename=FirstSiteII/FSIILayout&p=1118867611403&pagename=FSIIWrapper&cid=1118867611403
+2011-11-30 16:35:43,735 870178 1322666473565 Executed element FSIIWrapper in 8ms.
+2011-11-30 16:35:43,736 870179 1322666473565 Execute page FSIIWrapper Hours: 0 Minutes: 0 Seconds: 0:010
+2011-11-30 16:35:43,736 870179 1322666473565 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:008
+2011-11-30 16:35:43,738 870181 1322666473565 Executed element FSIICommon/Locale/ExecuteFilter in 1ms.
+2011-11-30 16:35:43,742 870185 1322666473565 Executed query SELECT urldata FROM scratch WHERE id = '1299863431689:_VISITOROBJECT_' in 0ms
+2011-11-30 16:35:43,743 870186 1322666473565 Executed query SELECT urldata FROM scratch WHERE id = '1299863431689:Cart' in 0ms
+2011-11-30 16:35:43,743 870186 1322666473565 Executed query SELECT urldata FROM scratch WHERE id = '1299863431689:CurrentDate' in 0ms
+2011-11-30 16:35:43,745 870188 1322666473565 Executed query SELECT description FROM VMVISITOR WHERE id='1299863431689' in 0ms
+2011-11-30 16:35:43,747 870190 1322666473565 Executed query SELECT urldata FROM scratch WHERE id = '1299863431689:EffectiveSegments' in 0ms
+2011-11-30 16:35:43,748 870191 1322666473565 Executed query SELECT urldata FROM scratch WHERE id = '1299863431689:EffectivePromotions' in 1ms
+2011-11-30 16:35:43,752 870195 1322666473565 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:35:43,753 870196 1322666473565 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:35:43,753 870196 1322666473565 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:35:43,754 870197 1322666473565 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:35:43,754 870197 1322666473565 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:35:43,754 870197 1322666473565 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:35:43,755 870198 1322666473565 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:35:43,755 870198 1322666473565 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:35:43,756 870199 1322666473565 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:35:43,756 870199 1322666473565 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:35:43,760 870203 1322666473565 Executed element AdvCols/FSIIStyleSheetResolver in 19ms.
+2011-11-30 16:35:43,764 870207 1322666473565 Executed element FSIICommon/LookAndFeel/TopNavJavaScript in 0ms.
+2011-11-30 16:35:43,765 870208 1322666473565 Executed element Page/FSIITopNav in 2ms.
+2011-11-30 16:35:43,765 870208 1322666473565 Execute page FirstSiteII/Page/FSIITopNav Hours: 0 Minutes: 0 Seconds: 0:003
+2011-11-30 16:35:43,765 870208 1322666473565 Processed 2 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:002
+2011-11-30 16:35:43,776 870219 1322666473565 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:35:43,777 870220 1322666473565 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:35:43,777 870220 1322666473565 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:35:43,778 870221 1322666473565 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:35:43,778 870221 1322666473565 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:35:43,780 870223 1322666473565 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:35:43,780 870223 1322666473565 Executed element AdvCols/FSIIBannerTemplate in 13ms.
+2011-11-30 16:35:43,788 870231 1322666473565 Executed element FSIICommon/Locale/ExecuteFilter in 2ms.
+2011-11-30 16:35:43,791 870234 1322666473565 Executed element FSIICommon/Locale/ExecuteFilter in 2ms.
+2011-11-30 16:35:43,791 870234 1322666473565 Executed element Page/FSIIStandardSideNavView in 7ms.
+2011-11-30 16:35:43,791 870234 1322666473565 Execute page FirstSiteII/Page/FSIIStandardSideNavView Hours: 0 Minutes: 0 Seconds: 0:008
+2011-11-30 16:35:43,791 870234 1322666473565 Processed 3 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:011
+2011-11-30 16:35:43,792 870235 1322666473565 Executed element Page/FSIISideNav in 11ms.
+2011-11-30 16:35:43,795 870238 1322666473565 Executed element Page/FSIIDetail in 3ms.
+2011-11-30 16:35:43,796 870239 1322666473565 Executed element Page/FSIIBottomNav in 0ms.
+2011-11-30 16:35:43,796 870239 1322666473565 Execute page FirstSiteII/Page/FSIIBottomNav Hours: 0 Minutes: 0 Seconds: 0:000
+2011-11-30 16:35:43,797 870240 1322666473565 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:000
+2011-11-30 16:35:43,797 870240 1322666473565 Executed element /FSIILayout in 61ms.
+2011-11-30 16:35:43,797 870240 1322666473565 Execute page FirstSiteII/FSIILayout Hours: 0 Minutes: 0 Seconds: 0:061
+2011-11-30 16:35:43,797 870240 1322666473565 Fetched 6 result sets in  Hours: 0 Minutes: 0 Seconds: 0:000
+2011-11-30 16:35:43,797 870240 1322666473565 Processed 6 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:108
+2011-11-30 16:35:43,801 870244 1322666473565 Executed element Page/FSIIHead in 1ms.
+2011-11-30 16:35:43,802 870245 1322666473565 Execute page FirstSiteII/Page/FSIIHead Hours: 0 Minutes: 0 Seconds: 0:002
+2011-11-30 16:35:43,802 870245 1322666473565 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:001
+2011-11-30 16:35:43,806 870249 1322666473565 Executed element FSIICommon/Locale/ExecuteFilter in 1ms.
+2011-11-30 16:35:43,815 870258 1322666473565 Executed element FSIICommon/Nav/TopNav in 13ms.
+2011-11-30 16:35:43,815 870258 1322666473565 Execute page FSIICommon/Nav/TopNav Hours: 0 Minutes: 0 Seconds: 0:013
+2011-11-30 16:35:43,815 870258 1322666473565 Processed 2 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:014
+2011-11-30 16:35:43,822 870265 1322666473565 Executed element Page/FSIILink in 5ms.
+2011-11-30 16:35:43,822 870265 1322666473565 Execute page FirstSiteII/Page/FSIILink Hours: 0 Minutes: 0 Seconds: 0:007
+2011-11-30 16:35:43,822 870265 1322666473565 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:005
+2011-11-30 16:35:43,830 870273 1322666473565 Executed element Page/FSIILink in 8ms.
+2011-11-30 16:35:43,830 870273 1322666473565 Execute page FirstSiteII/Page/FSIILink Hours: 0 Minutes: 0 Seconds: 0:008
+2011-11-30 16:35:43,830 870273 1322666473565 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:008
+2011-11-30 16:35:43,837 870280 1322666473565 Executed element Page/FSIILink in 6ms.
+2011-11-30 16:35:43,837 870280 1322666473565 Execute page FirstSiteII/Page/FSIILink Hours: 0 Minutes: 0 Seconds: 0:007
+2011-11-30 16:35:43,837 870280 1322666473565 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:006
+2011-11-30 16:35:43,844 870287 1322666473565 Executed element Page/FSIILink in 7ms.
+2011-11-30 16:35:43,844 870287 1322666473565 Execute page FirstSiteII/Page/FSIILink Hours: 0 Minutes: 0 Seconds: 0:007
+2011-11-30 16:35:43,844 870287 1322666473565 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:007
+2011-11-30 16:35:43,851 870294 1322666473565 Executed element Page/FSIILink in 6ms.
+2011-11-30 16:35:43,851 870294 1322666473565 Execute page FirstSiteII/Page/FSIILink Hours: 0 Minutes: 0 Seconds: 0:007
+2011-11-30 16:35:43,851 870294 1322666473565 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:006
+2011-11-30 16:35:43,858 870301 1322666473565 Executed element Page/FSIILink in 6ms.
+2011-11-30 16:35:43,859 870302 1322666473565 Execute page FirstSiteII/Page/FSIILink Hours: 0 Minutes: 0 Seconds: 0:008
+2011-11-30 16:35:43,859 870302 1322666473565 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:006
+2011-11-30 16:35:43,887 870330 1322666473565 Executed element FSIICommon/Nav/LocaleForm in 27ms.
+2011-11-30 16:35:43,888 870331 1322666473565 Execute page FSIICommon/Nav/LocaleForm Hours: 0 Minutes: 0 Seconds: 0:029
+2011-11-30 16:35:43,888 870331 1322666473565 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:027
+2011-11-30 16:35:43,893 870336 1322666473565 Executed query SELECT COUNT(recoid) AS countvar FROM Promotions_ManRec WHERE ownerid IN (1124886357637) AND relid=1120593564193 AND assetid IS NULL in 0ms
+2011-11-30 16:35:43,898 870341 1322666473565 Executed element AdvCols/FSIIDetail in 9ms.
+2011-11-30 16:35:43,899 870342 1322666473565 Execute page FirstSiteII/AdvCols/FSIIDetail Hours: 0 Minutes: 0 Seconds: 0:010
+2011-11-30 16:35:43,899 870342 1322666473565 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:009
+2011-11-30 16:35:43,910 870353 1322666473565 Executed element Product_C/FSIISummary in 11ms.
+2011-11-30 16:35:43,910 870353 1322666473565 Execute page FirstSiteII/Product_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:011
+2011-11-30 16:35:43,910 870353 1322666473565 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:011
+2011-11-30 16:35:43,918 870361 1322666473565 Executed element Media_C/FSIISummary in 6ms.
+2011-11-30 16:35:43,918 870361 1322666473565 Execute page FirstSiteII/Media_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:007
+2011-11-30 16:35:43,918 870361 1322666473565 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:006
+2011-11-30 16:35:43,924 870367 1322666473565 Executed query SELECT COUNT(recoid) AS countvar FROM Promotions_ManRec WHERE ownerid IN (1124886357637) AND relid=1120854395753 AND assetid IS NULL in 0ms
+2011-11-30 16:35:43,926 870369 1322666473565 Executed element AdvCols/FSIIDetail in 7ms.
+2011-11-30 16:35:43,926 870369 1322666473565 Execute page FirstSiteII/AdvCols/FSIIDetail Hours: 0 Minutes: 0 Seconds: 0:007
+2011-11-30 16:35:43,926 870369 1322666473565 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:007
+2011-11-30 16:35:43,937 870380 1322666473565 Executed element Media_C/FSIISummary in 10ms.
+2011-11-30 16:35:43,937 870380 1322666473565 Execute page FirstSiteII/Media_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:010
+2011-11-30 16:35:43,937 870380 1322666473565 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:010
+2011-11-30 16:35:43,943 870386 1322666473565 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:35:43,943 870386 1322666473565 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:35:43,944 870387 1322666473565 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:35:43,944 870387 1322666473565 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:35:43,945 870388 1322666473565 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:35:43,946 870389 1322666473565 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:35:43,947 870390 1322666473565 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:35:43,948 870391 1322666473565 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:35:43,952 870395 1322666473565 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:35:43,952 870395 1322666473565 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:35:43,953 870396 1322666473565 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:35:43,954 870397 1322666473565 Executed element Page/FSIIStandardDetailView in 15ms.
+2011-11-30 16:35:43,954 870397 1322666473565 Executed element Page/FSIIHomeDetailView in 16ms.
+2011-11-30 16:35:43,954 870397 1322666473565 Execute page FirstSiteII/Page/FSIIHomeDetailView Hours: 0 Minutes: 0 Seconds: 0:016
+2011-11-30 16:35:43,954 870397 1322666473565 Processed 2 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:031
+2011-11-30 16:35:43,961 870404 1322666473565 Executed element Content_C/FSIIDetail in 6ms.
+2011-11-30 16:35:43,961 870404 1322666473565 Execute page FirstSiteII/Content_C/FSIIDetail Hours: 0 Minutes: 0 Seconds: 0:007
+2011-11-30 16:35:43,961 870404 1322666473565 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:006
+2011-11-30 16:35:43,976 870419 1322666473565 Executed element AdvCols/FSIIDetail in 14ms.
+2011-11-30 16:35:43,977 870420 1322666473565 Execute page FirstSiteII/AdvCols/FSIIDetail Hours: 0 Minutes: 0 Seconds: 0:015
+2011-11-30 16:35:43,977 870420 1322666473565 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:014
+2011-11-30 16:35:43,981 870424 1322666473565 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:35:43,985 870428 1322666473565 Executed element Content_C/FSIISummary in 7ms.
+2011-11-30 16:35:43,985 870428 1322666473565 Execute page FirstSiteII/Content_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:008
+2011-11-30 16:35:43,985 870428 1322666473565 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:007
+2011-11-30 16:35:43,991 870434 1322666473565 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:35:43,994 870437 1322666473565 Executed element Content_C/FSIISummary in 8ms.
+2011-11-30 16:35:43,994 870437 1322666473565 Execute page FirstSiteII/Content_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:008
+2011-11-30 16:35:43,994 870437 1322666473565 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:008
+2011-11-30 16:35:43,999 870442 1322666473565 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:35:44,003 870446 1322666473565 Executed element Content_C/FSIISummary in 8ms.
+2011-11-30 16:35:44,003 870446 1322666473565 Execute page FirstSiteII/Content_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:008
+2011-11-30 16:35:44,003 870446 1322666473565 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:008
+2011-11-30 16:35:44,008 870451 1322666473565 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:35:44,012 870455 1322666473565 Executed element Content_C/FSIISummary in 8ms.
+2011-11-30 16:35:44,012 870455 1322666473565 Execute page FirstSiteII/Content_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:008
+2011-11-30 16:35:44,012 870455 1322666473565 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:008
+2011-11-30 16:35:44,017 870460 1322666473565 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:35:44,020 870463 1322666473565 Executed element Content_C/FSIISummary in 8ms.
+2011-11-30 16:35:44,020 870463 1322666473565 Execute page FirstSiteII/Content_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:008
+2011-11-30 16:35:44,020 870463 1322666473565 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:008
+2011-11-30 16:35:44,025 870468 1322666473565 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:35:44,028 870471 1322666473565 Executed element Content_C/FSIISummary in 7ms.
+2011-11-30 16:35:44,029 870472 1322666473565 Execute page FirstSiteII/Content_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:008
+2011-11-30 16:35:44,029 870472 1322666473565 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:007
+2011-11-30 16:35:44,034 870477 1322666473565 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:35:44,037 870480 1322666473565 Executed element Content_C/FSIISummary in 7ms.
+2011-11-30 16:35:44,037 870480 1322666473565 Execute page FirstSiteII/Content_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:008
+2011-11-30 16:35:44,037 870480 1322666473565 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:007
+2011-11-30 16:35:44,057 870500 1322666473565 Executed element AdvCols/FSIIDetail in 19ms.
+2011-11-30 16:35:44,057 870500 1322666473565 Execute page FirstSiteII/AdvCols/FSIIDetail Hours: 0 Minutes: 0 Seconds: 0:019
+2011-11-30 16:35:44,057 870500 1322666473565 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:019
+2011-11-30 16:35:44,092 870535 1322666473565 Executed element Product_C/FSIISummary in 34ms.
+2011-11-30 16:35:44,093 870536 1322666473565 Execute page FirstSiteII/Product_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:035
+2011-11-30 16:35:44,093 870536 1322666473565 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:034
+2011-11-30 16:35:44,105 870548 1322666473565 Executed element Media_C/FSIISummary in 11ms.
+2011-11-30 16:35:44,105 870548 1322666473565 Execute page FirstSiteII/Media_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:011
+2011-11-30 16:35:44,105 870548 1322666473565 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:011
+2011-11-30 16:35:44,110 870553 1322666473565 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:35:44,113 870556 1322666473565 Executed element Content_C/FSIISummary in 7ms.
+2011-11-30 16:35:44,113 870556 1322666473565 Execute page FirstSiteII/Content_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:008
+2011-11-30 16:35:44,114 870557 1322666473565 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:007
+2011-11-30 16:35:44,120 870563 1322666473565 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:35:44,123 870566 1322666473565 Executed element Content_C/FSIISummary in 7ms.
+2011-11-30 16:35:44,123 870566 1322666473565 Execute page FirstSiteII/Content_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:009
+2011-11-30 16:35:44,123 870566 1322666473565 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:007
+2011-11-30 16:35:44,133 870576 1322666473565 Executed element Product_C/FSIISummary in 8ms.
+2011-11-30 16:35:44,133 870576 1322666473565 Execute page FirstSiteII/Product_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:009
+2011-11-30 16:35:44,134 870577 1322666473565 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:008
+2011-11-30 16:35:44,141 870584 1322666473565 Executed element Media_C/FSIISummary in 6ms.
+2011-11-30 16:35:44,141 870584 1322666473565 Execute page FirstSiteII/Media_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:007
+2011-11-30 16:35:44,141 870584 1322666473565 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:006
+2011-11-30 16:35:44,147 870590 1322666473565 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:35:44,150 870593 1322666473565 Executed element Content_C/FSIISummary in 8ms.
+2011-11-30 16:35:44,150 870593 1322666473565 Execute page FirstSiteII/Content_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:008
+2011-11-30 16:35:44,150 870593 1322666473565 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:008
+2011-11-30 16:35:44,151 870594 1322666473565 Executed request 1322666473565 'http://jsk-virtualbox:8180/cs/Satellite?c=Page&childpagename=FirstSiteII/FSIILayout&p=1118867611403&pagename=FSIIWrapper&cid=1118867611403' in 431 ms

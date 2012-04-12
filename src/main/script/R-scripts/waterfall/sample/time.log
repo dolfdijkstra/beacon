@@ -1,0 +1,1223 @@
+2011-11-30 16:38:32,542 24723 1322667487776 Start request 1322667487776 http://jsk-virtualbox:8180/cs/ContentServer?c=Page&childpagename=FirstSiteII/FSIILayout&p=1118867611403&pagename=FSIIWrapper&cid=1118867611403
+2011-11-30 16:38:32,544 24725 1322667487776 Executed query SELECT pagename,rootelement,csstatus,pageletonly,resargs1,resargs2,pagecriteria,cscacheinfo,sscacheinfo,acl FROM SiteCatalog WHERE pagename = ? in 0ms.
+2011-11-30 16:38:32,546 24727 1322667487776 Executed query SELECT elementname,description,url,resdetails1,resdetails2 FROM ElementCatalog WHERE elementname = ? in 0ms.
+2011-11-30 16:38:32,607 24788 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 1ms.
+2011-11-30 16:38:32,608 24789 1322667487776 Loaded table metadata for SiteEntry in 1ms.
+2011-11-30 16:38:32,608 24789 1322667487776 Executed query SELECT aclname,cataccess,description FROM SystemACL WHERE aclname IN (?,?,?,?) in 0ms.
+2011-11-30 16:38:32,609 24790 1322667487776 Executed query SELECT * FROM SiteEntry WHERE id = ? in 0ms.
+2011-11-30 16:38:32,620 24801 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:32,621 24802 1322667487776 Loaded table metadata for CSElement in 0ms.
+2011-11-30 16:38:32,621 24802 1322667487776 Executed query SELECT * FROM CSElement WHERE id = ? in 0ms.
+2011-11-30 16:38:32,626 24807 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:32,627 24808 1322667487776 Executed query SELECT aclname,cataccess,description FROM SystemACL WHERE aclname IN (?,?,?) in 0ms.
+2011-11-30 16:38:32,631 24812 1322667487776 Loaded table metadata for ComplexAssets in 4ms.
+2011-11-30 16:38:32,634 24815 1322667487776 Executed query SELECT assettypename AS typename,class AS classname,category AS category FROM ComplexAssets in 0ms
+2011-11-30 16:38:32,671 24852 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 1ms.
+2011-11-30 16:38:32,671 24852 1322667487776 Loaded table metadata for Publication in 0ms.
+2011-11-30 16:38:32,672 24853 1322667487776 Executed query SELECT * FROM Publication WHERE name = ? in 0ms.
+2011-11-30 16:38:32,684 24865 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:32,685 24866 1322667487776 Loaded table metadata for PublicationTree in 0ms.
+2011-11-30 16:38:32,685 24866 1322667487776 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode FROM PublicationTree WHERE otype = ? AND oid = ? in 0ms.
+2011-11-30 16:38:32,687 24868 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:32,689 24870 1322667487776 Executed query SELECT aclname,cataccess,description FROM SystemACL WHERE aclname IN (?,?,?) in 1ms.
+2011-11-30 16:38:32,690 24871 1322667487776 Loaded table metadata for Publication_Replicate in 1ms.
+2011-11-30 16:38:32,690 24871 1322667487776 Executed query SELECT * FROM Publication_Replicate WHERE cs_ownerid=1112198287026 in 0ms
+2011-11-30 16:38:32,699 24880 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:32,704 24885 1322667487776 Loaded table metadata for CSElement_Map in 1ms.
+2011-11-30 16:38:32,705 24886 1322667487776 Executed prepared statement SELECT * FROM CSElement_Map WHERE cs_ownerid= ? in 1ms
+2011-11-30 16:38:32,714 24895 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:32,715 24896 1322667487776 Loaded table metadata for AssetType in 0ms.
+2011-11-30 16:38:32,716 24897 1322667487776 Executed query SELECT aclname,cataccess,description FROM SystemACL WHERE aclname IN (?,?,?) in 1ms.
+2011-11-30 16:38:32,716 24897 1322667487776 Executed query SELECT * FROM AssetType WHERE assettype = ? in 0ms.
+2011-11-30 16:38:32,727 24908 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:32,728 24909 1322667487776 Loaded table metadata for Dimension in 0ms.
+2011-11-30 16:38:32,729 24910 1322667487776 Executed query SELECT * FROM Dimension WHERE name = ? in 1ms.
+2011-11-30 16:38:32,731 24912 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:32,732 24913 1322667487776 Loaded table metadata for Dimension_Dim in 1ms.
+2011-11-30 16:38:32,732 24913 1322667487776 Executed prepared statement SELECT * FROM Dimension_Dim WHERE cs_ownerid= ? in 0ms
+2011-11-30 16:38:32,733 24914 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:32,735 24916 1322667487776 Loaded table metadata for Dimension_DimP in 1ms.
+2011-11-30 16:38:32,739 24920 1322667487776 Executed query SELECT * FROM Dimension_DimP WHERE cs_ownerid=1154551493541 in 3ms
+2011-11-30 16:38:32,741 24922 1322667487776 Executed query SELECT * FROM Dimension WHERE id = ? in 1ms.
+2011-11-30 16:38:32,749 24930 1322667487776 Executed query SELECT pagename,rootelement,csstatus,pageletonly,resargs1,resargs2,pagecriteria,cscacheinfo,sscacheinfo,acl FROM SiteCatalog WHERE pagename = ? in 0ms.
+2011-11-30 16:38:32,756 24937 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:33,095 25276 1322667487776 Executed query SELECT elementname,description,url,resdetails1,resdetails2 FROM ElementCatalog WHERE elementname = ? in 0ms.
+2011-11-30 16:38:33,102 25283 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:33,103 25284 1322667487776 Loaded table metadata for Template in 0ms.
+2011-11-30 16:38:33,104 25285 1322667487776 Executed query SELECT * FROM Template WHERE id = ? in 1ms.
+2011-11-30 16:38:33,118 25299 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:33,119 25300 1322667487776 Loaded table metadata for Template_Map in 1ms.
+2011-11-30 16:38:33,120 25301 1322667487776 Executed prepared statement SELECT * FROM Template_Map WHERE cs_ownerid= ? in 0ms
+2011-11-30 16:38:33,123 25304 1322667487776 Executed query SELECT elementname,description,url,resdetails1,resdetails2 FROM ElementCatalog WHERE elementname = ? in 0ms.
+2011-11-30 16:38:33,130 25311 1322667487776 Executed query SELECT * FROM CSElement WHERE id = ? in 2ms.
+2011-11-30 16:38:33,136 25317 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:33,137 25318 1322667487776 Loaded table metadata for Page_Dim in 1ms.
+2011-11-30 16:38:33,138 25319 1322667487776 Executed prepared statement SELECT * FROM Page_Dim WHERE cs_ownerid= ? in 1ms
+2011-11-30 16:38:33,141 25322 1322667487776 Executed query select * from Dimension where id = 1154551493541  in 1ms
+2011-11-30 16:38:33,147 25328 1322667487776 Executed element FSIICommon/Locale/ExecuteFilter in 24ms.
+2011-11-30 16:38:33,158 25339 1322667487776 Executed query SELECT elementname,description,url,resdetails1,resdetails2 FROM ElementCatalog WHERE elementname = ? in 0ms.
+2011-11-30 16:38:33,167 25348 1322667487776 Executed query SELECT * FROM Template WHERE id = ? in 1ms.
+2011-11-30 16:38:33,168 25349 1322667487776 Executed query SELECT * FROM AssetType WHERE assettype = ? in 0ms.
+2011-11-30 16:38:33,181 25362 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 1ms.
+2011-11-30 16:38:33,182 25363 1322667487776 Executed query SELECT aclname,cataccess,description FROM SystemACL WHERE aclname IN (?,?,?) in 1ms.
+2011-11-30 16:38:33,189 25370 1322667487776 Executed prepared statement SELECT tblname, acl from SystemInfo where tblname in ('ElementCatalog', 'SiteCatalog') in 7ms
+2011-11-30 16:38:33,242 25423 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 1ms.
+2011-11-30 16:38:33,242 25423 1322667487776 Loaded table metadata for AdvCols in 0ms.
+2011-11-30 16:38:33,243 25424 1322667487776 Executed query SELECT * FROM AdvCols WHERE id = ? in 0ms.
+2011-11-30 16:38:33,244 25425 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:33,246 25427 1322667487776 Loaded table metadata for AdvCols_Dim in 1ms.
+2011-11-30 16:38:33,247 25428 1322667487776 Executed prepared statement SELECT * FROM AdvCols_Dim WHERE cs_ownerid= ? in 1ms
+2011-11-30 16:38:33,247 25428 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:33,249 25430 1322667487776 Loaded table metadata for AdvCols_DimP in 1ms.
+2011-11-30 16:38:33,249 25430 1322667487776 Executed query SELECT * FROM AdvCols_DimP WHERE cs_ownerid=1200501455346 in 0ms
+2011-11-30 16:38:33,250 25431 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:33,251 25432 1322667487776 Loaded table metadata for AdvCols_Extension in 1ms.
+2011-11-30 16:38:33,251 25432 1322667487776 Executed query SELECT rulesetid AS ruleid FROM AdvCols_Extension WHERE ownerid=1200501455346 in 0ms
+2011-11-30 16:38:33,252 25433 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 1ms.
+2011-11-30 16:38:33,253 25434 1322667487776 Executed query SELECT aclname,cataccess,description FROM SystemACL WHERE aclname IN (?,?,?) in 0ms.
+2011-11-30 16:38:33,254 25435 1322667487776 Loaded table metadata for RuleSetDef in 0ms.
+2011-11-30 16:38:33,257 25438 1322667487776 Executed query SELECT urlxml FROM RuleSetDef WHERE id=1200501455354 in 2ms
+2011-11-30 16:38:33,258 25439 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:33,259 25440 1322667487776 Loaded table metadata for RuleMap in 0ms.
+2011-11-30 16:38:33,260 25441 1322667487776 Executed query SELECT * FROM RuleMap WHERE cs_ownerid=1200501455354 in 0ms
+2011-11-30 16:38:33,263 25444 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:33,265 25446 1322667487776 Loaded table metadata for AdvCols_ManRec in 1ms.
+2011-11-30 16:38:33,266 25447 1322667487776 Executed query SELECT assettype AS assettype,assetid AS assetid,confidence AS confidence,bucketname AS bucket FROM AdvCols_ManRec WHERE ownerid=1200501455346 in 1ms
+2011-11-30 16:38:33,268 25449 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:33,269 25450 1322667487776 Loaded table metadata for AdvCols_SSpec in 1ms.
+2011-11-30 16:38:33,269 25450 1322667487776 Executed query SELECT attrtypename AS attributetypename,attrname AS attributename,direction AS direction FROM AdvCols_SSpec WHERE ownerid=1200501455346 ORDER BY id ASC in 0ms
+2011-11-30 16:38:33,270 25451 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:33,273 25454 1322667487776 Loaded table metadata for AdvCols_Types in 2ms.
+2011-11-30 16:38:33,273 25454 1322667487776 Executed query SELECT assettype FROM AdvCols_Types WHERE ownerid=1200501455346 in 0ms
+2011-11-30 16:38:33,291 25472 1322667487776 Executed prepared statement select id from AdvCols where id=? in 1ms
+2011-11-30 16:38:33,316 25497 1322667487776 Loaded table metadata for SystemIdGenerator in 1ms.
+2011-11-30 16:38:33,316 25497 1322667487776 Executed query SELECT id FROM SystemIdGenerator in 0ms.
+2011-11-30 16:38:33,317 25498 1322667487776 Executed query update SystemIdGenerator set id=1299863431883 where id=1299863431783 in 1ms
+2011-11-30 16:38:33,372 25553 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 1ms.
+2011-11-30 16:38:33,372 25553 1322667487776 Executed query SELECT aclname,cataccess,description FROM SystemACL WHERE aclname IN (?,?) in 0ms.
+2011-11-30 16:38:33,373 25554 1322667487776 Loaded table metadata for scratch in 0ms.
+2011-11-30 16:38:33,373 25554 1322667487776 Executed query SELECT urldata FROM scratch WHERE id = '1299863431784:_VISITOROBJECT_' in 0ms
+2011-11-30 16:38:33,378 25559 1322667487776 Executed query SELECT urldata FROM scratch WHERE id = '1299863431784:Cart' in 0ms
+2011-11-30 16:38:33,382 25563 1322667487776 Executed query SELECT urldata FROM scratch WHERE id = '1299863431784:CurrentDate' in 0ms
+2011-11-30 16:38:33,383 25564 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:33,384 25565 1322667487776 Loaded table metadata for ObjectRegistry in 0ms.
+2011-11-30 16:38:33,384 25565 1322667487776 Executed query SELECT contextid,class FROM ObjectRegistry WHERE association='Commerce' in 0ms
+2011-11-30 16:38:33,385 25566 1322667487776 Executed prepared statement SELECT id FROM AdvCols WHERE name=? in 0ms
+2011-11-30 16:38:33,394 25575 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 1ms.
+2011-11-30 16:38:33,395 25576 1322667487776 Loaded table metadata for Segments in 0ms.
+2011-11-30 16:38:33,396 25577 1322667487776 Executed query SELECT id AS assetid FROM Segments WHERE status <> 'VO' in 1ms
+2011-11-30 16:38:33,398 25579 1322667487776 Executed query SELECT classname,id FROM RuleSetDef j1 WHERE EXISTS(SELECT 'x' FROM Segments_Extension WHERE j1.id=rulesetid) in 1ms
+2011-11-30 16:38:33,411 25592 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 1ms.
+2011-11-30 16:38:33,412 25593 1322667487776 Executed query SELECT aclname,cataccess,description FROM SystemACL WHERE aclname IN (?,?,?,?) in 1ms.
+2011-11-30 16:38:33,412 25593 1322667487776 Loaded table metadata for VMVISITOR in 0ms.
+2011-11-30 16:38:33,414 25595 1322667487776 Executed query SELECT description FROM VMVISITOR WHERE id='1299863431784' in 0ms
+2011-11-30 16:38:33,418 25599 1322667487776 Executed query SELECT urldata FROM scratch WHERE id = '1299863431784:EffectiveSegments' in 0ms
+2011-11-30 16:38:33,420 25601 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:33,421 25602 1322667487776 Loaded table metadata for Promotions in 0ms.
+2011-11-30 16:38:33,422 25603 1322667487776 Executed query SELECT id AS assetid FROM Promotions WHERE status <> 'VO' in 0ms
+2011-11-30 16:38:33,422 25603 1322667487776 Executed query SELECT classname,id FROM RuleSetDef j1 WHERE EXISTS(SELECT 'x' FROM Promotions_Extension WHERE j1.id=rulesetid) in 0ms
+2011-11-30 16:38:33,427 25608 1322667487776 Executed query SELECT urldata FROM scratch WHERE id = '1299863431784:EffectivePromotions' in 0ms
+2011-11-30 16:38:33,441 25622 1322667487776 Executed query SELECT DISTINCT assettype FROM AdvCols_ManRec WHERE ownerid=1200501455346 in 5ms
+2011-11-30 16:38:33,441 25622 1322667487776 Executed query SELECT DISTINCT bucketname AS bucket FROM AdvCols_ManRec WHERE ownerid=1200501455346 in 0ms
+2011-11-30 16:38:33,444 25625 1322667487776 Executed query SELECT classname FROM RuleSetDef WHERE id=1200501455354 in 0ms
+2011-11-30 16:38:33,454 25635 1322667487776 Executed query SELECT assetid,MAX(confidence) AS confidence FROM AdvCols_ManRec WHERE ownerid=1200501455346 AND assettype='StyleSheet' AND bucketname IS NULL GROUP BY assetid in 3ms
+2011-11-30 16:38:33,459 25640 1322667487776 Executed query SELECT id,status,updateddate FROM AdvCols WHERE id IN (1200501455346) in 1ms
+2011-11-30 16:38:33,505 25686 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:33,507 25688 1322667487776 Loaded table metadata for StyleSheet in 1ms.
+2011-11-30 16:38:33,507 25688 1322667487776 Executed query SELECT * FROM StyleSheet WHERE id IN (1202138292485,1200501462732,1202138292500,1202138292420,1202138292471,1202138292436,1200501462745,1202138292145,1202138292354,1200501462739) in 0ms
+2011-11-30 16:38:33,509 25690 1322667487776 Executed query SELECT * FROM StyleSheet WHERE id = ? in 0ms.
+2011-11-30 16:38:33,510 25691 1322667487776 Executed query SELECT * FROM StyleSheet WHERE id = ? in 0ms.
+2011-11-30 16:38:33,511 25692 1322667487776 Executed query SELECT * FROM StyleSheet WHERE id = ? in 0ms.
+2011-11-30 16:38:33,513 25694 1322667487776 Executed query SELECT * FROM StyleSheet WHERE id = ? in 0ms.
+2011-11-30 16:38:33,514 25695 1322667487776 Executed query SELECT * FROM StyleSheet WHERE id = ? in 0ms.
+2011-11-30 16:38:33,517 25698 1322667487776 Executed query SELECT * FROM StyleSheet WHERE id = ? in 2ms.
+2011-11-30 16:38:33,518 25699 1322667487776 Executed query SELECT * FROM StyleSheet WHERE id = ? in 0ms.
+2011-11-30 16:38:33,521 25702 1322667487776 Executed query SELECT * FROM StyleSheet WHERE id = ? in 0ms.
+2011-11-30 16:38:33,522 25703 1322667487776 Executed query SELECT * FROM StyleSheet WHERE id = ? in 0ms.
+2011-11-30 16:38:33,523 25704 1322667487776 Executed query SELECT * FROM StyleSheet WHERE id = ? in 0ms.
+2011-11-30 16:38:33,549 25730 1322667487776 Executed query SELECT * FROM AssetType WHERE assettype = ? in 0ms.
+2011-11-30 16:38:33,558 25739 1322667487776 Executed nested tag asset.list using using ICS.runTag in 18ms
+2011-11-30 16:38:33,561 25742 1322667487776 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:38:33,563 25744 1322667487776 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:38:33,564 25745 1322667487776 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:38:33,565 25746 1322667487776 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:38:33,565 25746 1322667487776 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:38:33,566 25747 1322667487776 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:38:33,567 25748 1322667487776 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:38:33,569 25750 1322667487776 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:38:33,570 25751 1322667487776 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:38:33,575 25756 1322667487776 Executed prepared statement SELECT * FROM Template_Map WHERE cs_ownerid= ? in 0ms
+2011-11-30 16:38:33,582 25763 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 1ms.
+2011-11-30 16:38:33,583 25764 1322667487776 Loaded table metadata for StyleSheet_Dim in 1ms.
+2011-11-30 16:38:33,583 25764 1322667487776 Executed prepared statement SELECT * FROM StyleSheet_Dim WHERE cs_ownerid= ? in 0ms
+2011-11-30 16:38:33,584 25765 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 1ms.
+2011-11-30 16:38:33,585 25766 1322667487776 Loaded table metadata for StyleSheet_DimP in 1ms.
+2011-11-30 16:38:33,585 25766 1322667487776 Executed query SELECT * FROM StyleSheet_DimP WHERE cs_ownerid=1202138292354 in 0ms
+2011-11-30 16:38:33,595 25776 1322667487776 Executed prepared statement SELECT * FROM StyleSheet_Dim WHERE cs_ownerid= ? in 0ms
+2011-11-30 16:38:33,595 25776 1322667487776 Executed query SELECT * FROM StyleSheet_DimP WHERE cs_ownerid=1202138292485 in 0ms
+2011-11-30 16:38:33,596 25777 1322667487776 Executed element AdvCols/FSIIStyleSheetResolver in 437ms.
+2011-11-30 16:38:33,599 25780 1322667487776 Executed query SELECT pagename,rootelement,csstatus,pageletonly,resargs1,resargs2,pagecriteria,cscacheinfo,sscacheinfo,acl FROM SiteCatalog WHERE pagename = ? in 0ms.
+2011-11-30 16:38:33,601 25782 1322667487776 Executed query SELECT elementname,description,url,resdetails1,resdetails2 FROM ElementCatalog WHERE elementname = ? in 1ms.
+2011-11-30 16:38:33,607 25788 1322667487776 Executed query SELECT * FROM Template WHERE id = ? in 0ms.
+2011-11-30 16:38:33,608 25789 1322667487776 Executed query SELECT * FROM AssetType WHERE assettype = ? in 0ms.
+2011-11-30 16:38:33,615 25796 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:33,615 25796 1322667487776 Loaded table metadata for Page in 0ms.
+2011-11-30 16:38:33,616 25797 1322667487776 Executed query SELECT * FROM Page WHERE id = ? in 0ms.
+2011-11-30 16:38:33,618 25799 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:33,620 25801 1322667487776 Loaded table metadata for Page_DimP in 1ms.
+2011-11-30 16:38:33,621 25802 1322667487776 Executed query SELECT * FROM Page_DimP WHERE cs_ownerid=1118867611403 in 1ms
+2011-11-30 16:38:33,623 25804 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:33,624 25805 1322667487776 Loaded table metadata for SitePlanTree in 0ms.
+2011-11-30 16:38:33,624 25805 1322667487776 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode FROM SitePlanTree WHERE otype = ? AND oid = ? in 0ms.
+2011-11-30 16:38:33,626 25807 1322667487776 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode FROM SitePlanTree WHERE nid = ? in 1ms.
+2011-11-30 16:38:33,630 25811 1322667487776 Executed prepared statement select id from Page where id=? in 0ms
+2011-11-30 16:38:33,635 25816 1322667487776 Executed element Page/FSIIHead in 34ms.
+2011-11-30 16:38:33,638 25819 1322667487776 Execute page FirstSiteII/Page/FSIIHead Hours: 0 Minutes: 0 Seconds: 0:038
+2011-11-30 16:38:33,638 25819 1322667487776 Fetched 5 result sets in  Hours: 0 Minutes: 0 Seconds: 0:001
+2011-11-30 16:38:33,638 25819 1322667487776 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:034
+2011-11-30 16:38:33,643 25824 1322667487776 Executed query SELECT pagename,rootelement,csstatus,pageletonly,resargs1,resargs2,pagecriteria,cscacheinfo,sscacheinfo,acl FROM SiteCatalog WHERE pagename = ? in 1ms.
+2011-11-30 16:38:33,645 25826 1322667487776 Executed query SELECT elementname,description,url,resdetails1,resdetails2 FROM ElementCatalog WHERE elementname = ? in 0ms.
+2011-11-30 16:38:33,650 25831 1322667487776 Executed query SELECT * FROM Template WHERE id = ? in 0ms.
+2011-11-30 16:38:33,654 25835 1322667487776 Executed prepared statement SELECT * FROM Template_Map WHERE cs_ownerid= ? in 1ms
+2011-11-30 16:38:33,654 25835 1322667487776 Executed query SELECT elementname,description,url,resdetails1,resdetails2 FROM ElementCatalog WHERE elementname = ? in 0ms.
+2011-11-30 16:38:33,660 25841 1322667487776 Executed query SELECT * FROM CSElement WHERE id = ? in 0ms.
+2011-11-30 16:38:33,663 25844 1322667487776 Executed element FSIICommon/LookAndFeel/TopNavJavaScript in 8ms.
+2011-11-30 16:38:33,667 25848 1322667487776 Executed query SELECT pagename,rootelement,csstatus,pageletonly,resargs1,resargs2,pagecriteria,cscacheinfo,sscacheinfo,acl FROM SiteCatalog WHERE pagename = ? in 1ms.
+2011-11-30 16:38:33,668 25849 1322667487776 Executed query SELECT elementname,description,url,resdetails1,resdetails2 FROM ElementCatalog WHERE elementname = ? in 0ms.
+2011-11-30 16:38:33,674 25855 1322667487776 Executed query SELECT * FROM CSElement WHERE id = ? in 0ms.
+2011-11-30 16:38:33,675 25856 1322667487776 Executed query SELECT * FROM SiteEntry WHERE id = ? in 0ms.
+2011-11-30 16:38:33,678 25859 1322667487776 Executed prepared statement SELECT * FROM CSElement_Map WHERE cs_ownerid= ? in 0ms
+2011-11-30 16:38:33,690 25871 1322667487776 Executed query SELECT * FROM Page WHERE name = ? in 0ms.
+2011-11-30 16:38:33,704 25885 1322667487776 Executed element FSIICommon/Locale/ExecuteFilter in 6ms.
+2011-11-30 16:38:33,716 25897 1322667487776 Executed query SELECT pagename,rootelement,csstatus,pageletonly,resargs1,resargs2,pagecriteria,cscacheinfo,sscacheinfo,acl FROM SiteCatalog WHERE pagename = ? in 0ms.
+2011-11-30 16:38:33,718 25899 1322667487776 Executed query SELECT elementname,description,url,resdetails1,resdetails2 FROM ElementCatalog WHERE elementname = ? in 1ms.
+2011-11-30 16:38:33,723 25904 1322667487776 Executed query SELECT * FROM Template WHERE id = ? in 0ms.
+2011-11-30 16:38:33,730 25911 1322667487776 Executed prepared statement SELECT * FROM Template_Map WHERE cs_ownerid= ? in 1ms
+2011-11-30 16:38:33,739 25920 1322667487776 Executed element Page/FSIILink in 21ms.
+2011-11-30 16:38:33,740 25921 1322667487776 Execute page FirstSiteII/Page/FSIILink Hours: 0 Minutes: 0 Seconds: 0:023
+2011-11-30 16:38:33,740 25921 1322667487776 Fetched 2 result sets in  Hours: 0 Minutes: 0 Seconds: 0:001
+2011-11-30 16:38:33,740 25921 1322667487776 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:021
+2011-11-30 16:38:33,746 25927 1322667487776 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode,id,category,status,createdby,createddate,updatedby,updateddate,name,description,startdate,enddate,subtype,filename,path,template,urlexternaldoc,externaldoctype,urlexternaldocxml,fw_uid FROM SitePlanTree,Page WHERE (SitePlanTree.otype = 'Page' AND nparentid = 1118867611406 AND Page.id = SitePlanTree.oid AND SitePlanTree.ncode = 'Placed') ORDER BY nrank in 1ms
+2011-11-30 16:38:33,752 25933 1322667487776 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode FROM SitePlanTree WHERE nid = ? in 1ms.
+2011-11-30 16:38:33,753 25934 1322667487776 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode,id,category,status,createdby,createddate,updatedby,updateddate,name,description,startdate,enddate,subtype,filename,path,template,urlexternaldoc,externaldoctype,urlexternaldocxml,fw_uid FROM SitePlanTree,Page WHERE (SitePlanTree.otype = 'Page' AND nparentid = 1118867611411 AND Page.id = SitePlanTree.oid AND SitePlanTree.ncode = 'Placed') ORDER BY nrank in 1ms
+2011-11-30 16:38:33,753 25934 1322667487776 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode FROM SitePlanTree WHERE nid = ? in 0ms.
+2011-11-30 16:38:33,754 25935 1322667487776 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode,id,category,status,createdby,createddate,updatedby,updateddate,name,description,startdate,enddate,subtype,filename,path,template,urlexternaldoc,externaldoctype,urlexternaldocxml,fw_uid FROM SitePlanTree,Page WHERE (SitePlanTree.otype = 'Page' AND nparentid = 1124747609915 AND Page.id = SitePlanTree.oid AND SitePlanTree.ncode = 'Placed') ORDER BY nrank in 0ms
+2011-11-30 16:38:33,755 25936 1322667487776 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode FROM SitePlanTree WHERE nid = ? in 0ms.
+2011-11-30 16:38:33,760 25941 1322667487776 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode,id,category,status,createdby,createddate,updatedby,updateddate,name,description,startdate,enddate,subtype,filename,path,template,urlexternaldoc,externaldoctype,urlexternaldocxml,fw_uid FROM SitePlanTree,Page WHERE (SitePlanTree.otype = 'Page' AND nparentid = 1124747609919 AND Page.id = SitePlanTree.oid AND SitePlanTree.ncode = 'Placed') ORDER BY nrank in 4ms
+2011-11-30 16:38:33,761 25942 1322667487776 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode FROM SitePlanTree WHERE nid = ? in 0ms.
+2011-11-30 16:38:33,763 25944 1322667487776 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode,id,category,status,createdby,createddate,updatedby,updateddate,name,description,startdate,enddate,subtype,filename,path,template,urlexternaldoc,externaldoctype,urlexternaldocxml,fw_uid FROM SitePlanTree,Page WHERE (SitePlanTree.otype = 'Page' AND nparentid = 1123788998842 AND Page.id = SitePlanTree.oid AND SitePlanTree.ncode = 'Placed') ORDER BY nrank in 0ms
+2011-11-30 16:38:33,764 25945 1322667487776 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode FROM SitePlanTree WHERE nid = ? in 0ms.
+2011-11-30 16:38:33,765 25946 1322667487776 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode,id,category,status,createdby,createddate,updatedby,updateddate,name,description,startdate,enddate,subtype,filename,path,template,urlexternaldoc,externaldoctype,urlexternaldocxml,fw_uid FROM SitePlanTree,Page WHERE (SitePlanTree.otype = 'Page' AND nparentid = 1118867611431 AND Page.id = SitePlanTree.oid AND SitePlanTree.ncode = 'Placed') ORDER BY nrank in 1ms
+2011-11-30 16:38:33,768 25949 1322667487776 Executed query SELECT * FROM Page WHERE id = ? in 0ms.
+2011-11-30 16:38:33,768 25949 1322667487776 Executed prepared statement SELECT * FROM Page_Dim WHERE cs_ownerid= ? in 0ms
+2011-11-30 16:38:33,771 25952 1322667487776 Executed query SELECT * FROM Page_DimP WHERE cs_ownerid=1118867611408 in 0ms
+2011-11-30 16:38:33,772 25953 1322667487776 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode FROM SitePlanTree WHERE otype = ? AND oid = ? in 0ms.
+2011-11-30 16:38:33,775 25956 1322667487776 Executed prepared statement select id from Page where id=? in 0ms
+2011-11-30 16:38:33,779 25960 1322667487776 Executed element Page/FSIILink in 12ms.
+2011-11-30 16:38:33,779 25960 1322667487776 Execute page FirstSiteII/Page/FSIILink Hours: 0 Minutes: 0 Seconds: 0:013
+2011-11-30 16:38:33,779 25960 1322667487776 Fetched 4 result sets in  Hours: 0 Minutes: 0 Seconds: 0:000
+2011-11-30 16:38:33,780 25961 1322667487776 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:012
+2011-11-30 16:38:33,783 25964 1322667487776 Executed query SELECT * FROM Page WHERE id = ? in 0ms.
+2011-11-30 16:38:33,786 25967 1322667487776 Executed prepared statement SELECT * FROM Page_Dim WHERE cs_ownerid= ? in 0ms
+2011-11-30 16:38:33,789 25970 1322667487776 Executed query SELECT * FROM Page_DimP WHERE cs_ownerid=1124747609912 in 1ms
+2011-11-30 16:38:33,790 25971 1322667487776 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode FROM SitePlanTree WHERE otype = ? AND oid = ? in 1ms.
+2011-11-30 16:38:33,792 25973 1322667487776 Executed prepared statement select id from Page where id=? in 1ms
+2011-11-30 16:38:33,799 25980 1322667487776 Executed element Page/FSIILink in 19ms.
+2011-11-30 16:38:33,799 25980 1322667487776 Execute page FirstSiteII/Page/FSIILink Hours: 0 Minutes: 0 Seconds: 0:019
+2011-11-30 16:38:33,800 25981 1322667487776 Fetched 4 result sets in  Hours: 0 Minutes: 0 Seconds: 0:000
+2011-11-30 16:38:33,800 25981 1322667487776 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:019
+2011-11-30 16:38:33,801 25982 1322667487776 Executed query SELECT * FROM Page WHERE id = ? in 0ms.
+2011-11-30 16:38:33,802 25983 1322667487776 Executed prepared statement SELECT * FROM Page_Dim WHERE cs_ownerid= ? in 0ms
+2011-11-30 16:38:33,803 25984 1322667487776 Executed query SELECT * FROM Page_DimP WHERE cs_ownerid=1124747609916 in 0ms
+2011-11-30 16:38:33,807 25988 1322667487776 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode FROM SitePlanTree WHERE otype = ? AND oid = ? in 0ms.
+2011-11-30 16:38:33,809 25990 1322667487776 Executed prepared statement select id from Page where id=? in 0ms
+2011-11-30 16:38:33,812 25993 1322667487776 Executed element Page/FSIILink in 12ms.
+2011-11-30 16:38:33,813 25994 1322667487776 Execute page FirstSiteII/Page/FSIILink Hours: 0 Minutes: 0 Seconds: 0:013
+2011-11-30 16:38:33,813 25994 1322667487776 Fetched 4 result sets in  Hours: 0 Minutes: 0 Seconds: 0:001
+2011-11-30 16:38:33,813 25994 1322667487776 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:012
+2011-11-30 16:38:33,816 25997 1322667487776 Executed query SELECT * FROM Page WHERE id = ? in 1ms.
+2011-11-30 16:38:33,817 25998 1322667487776 Executed prepared statement SELECT * FROM Page_Dim WHERE cs_ownerid= ? in 0ms
+2011-11-30 16:38:33,819 26000 1322667487776 Executed query SELECT * FROM Page_DimP WHERE cs_ownerid=1123788998839 in 1ms
+2011-11-30 16:38:33,821 26002 1322667487776 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode FROM SitePlanTree WHERE otype = ? AND oid = ? in 2ms.
+2011-11-30 16:38:33,827 26008 1322667487776 Executed prepared statement select id from Page where id=? in 1ms
+2011-11-30 16:38:33,837 26018 1322667487776 Executed element Page/FSIILink in 23ms.
+2011-11-30 16:38:33,837 26018 1322667487776 Execute page FirstSiteII/Page/FSIILink Hours: 0 Minutes: 0 Seconds: 0:024
+2011-11-30 16:38:33,837 26018 1322667487776 Fetched 4 result sets in  Hours: 0 Minutes: 0 Seconds: 0:000
+2011-11-30 16:38:33,837 26018 1322667487776 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:023
+2011-11-30 16:38:33,839 26020 1322667487776 Executed query SELECT * FROM Page WHERE id = ? in 0ms.
+2011-11-30 16:38:33,840 26021 1322667487776 Executed prepared statement SELECT * FROM Page_Dim WHERE cs_ownerid= ? in 0ms
+2011-11-30 16:38:33,843 26024 1322667487776 Executed query SELECT * FROM Page_DimP WHERE cs_ownerid=1118867611428 in 0ms
+2011-11-30 16:38:33,845 26026 1322667487776 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode FROM SitePlanTree WHERE otype = ? AND oid = ? in 0ms.
+2011-11-30 16:38:33,846 26027 1322667487776 Executed prepared statement select id from Page where id=? in 0ms
+2011-11-30 16:38:33,851 26032 1322667487776 Executed element Page/FSIILink in 13ms.
+2011-11-30 16:38:33,852 26033 1322667487776 Execute page FirstSiteII/Page/FSIILink Hours: 0 Minutes: 0 Seconds: 0:014
+2011-11-30 16:38:33,852 26033 1322667487776 Fetched 4 result sets in  Hours: 0 Minutes: 0 Seconds: 0:000
+2011-11-30 16:38:33,852 26033 1322667487776 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:013
+2011-11-30 16:38:33,852 26033 1322667487776 Executed element FSIICommon/Nav/TopNav in 184ms.
+2011-11-30 16:38:33,852 26033 1322667487776 Execute page FSIICommon/Nav/TopNav Hours: 0 Minutes: 0 Seconds: 0:185
+2011-11-30 16:38:33,852 26033 1322667487776 Fetched 4 result sets in  Hours: 0 Minutes: 0 Seconds: 0:003
+2011-11-30 16:38:33,853 26034 1322667487776 Processed 2 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:190
+2011-11-30 16:38:33,854 26035 1322667487776 Executed query SELECT pagename,rootelement,csstatus,pageletonly,resargs1,resargs2,pagecriteria,cscacheinfo,sscacheinfo,acl FROM SiteCatalog WHERE pagename = ? in 1ms.
+2011-11-30 16:38:33,855 26036 1322667487776 Executed query SELECT elementname,description,url,resdetails1,resdetails2 FROM ElementCatalog WHERE elementname = ? in 0ms.
+2011-11-30 16:38:33,861 26042 1322667487776 Executed query SELECT * FROM SiteEntry WHERE id = ? in 0ms.
+2011-11-30 16:38:33,863 26044 1322667487776 Executed query SELECT * FROM CSElement WHERE id = ? in 1ms.
+2011-11-30 16:38:33,866 26047 1322667487776 Executed prepared statement SELECT * FROM CSElement_Map WHERE cs_ownerid= ? in 0ms
+2011-11-30 16:38:33,871 26052 1322667487776 Executed query SELECT * FROM AssetType WHERE assettype = ? in 0ms.
+2011-11-30 16:38:33,878 26059 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:33,879 26060 1322667487776 Loaded table metadata for DimensionSet in 0ms.
+2011-11-30 16:38:33,880 26061 1322667487776 Executed query SELECT * FROM DimensionSet WHERE name = ? in 0ms.
+2011-11-30 16:38:33,881 26062 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 1ms.
+2011-11-30 16:38:33,881 26062 1322667487776 Loaded table metadata for DimensionSet_Dim in 0ms.
+2011-11-30 16:38:33,882 26063 1322667487776 Executed prepared statement SELECT * FROM DimensionSet_Dim WHERE cs_ownerid= ? in 1ms
+2011-11-30 16:38:33,882 26063 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:33,883 26064 1322667487776 Loaded table metadata for DimensionSet_DimP in 1ms.
+2011-11-30 16:38:33,883 26064 1322667487776 Executed query SELECT * FROM DimensionSet_DimP WHERE cs_ownerid=1154551493573 in 0ms
+2011-11-30 16:38:33,883 26064 1322667487776 Executed query SELECT * FROM DimensionSet WHERE id = ? in 0ms.
+2011-11-30 16:38:33,884 26065 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:33,885 26066 1322667487776 Loaded table metadata for DimensionSet_EDim in 0ms.
+2011-11-30 16:38:33,886 26067 1322667487776 Executed prepared statement SELECT * FROM DimensionSet_EDim WHERE cs_ownerid= ? in 0ms
+2011-11-30 16:38:33,904 26085 1322667487776 Executed query select * from Dimension where id = 1154551493541  OR  id = 1154551493546  OR  id = 1154551493551  OR  id = 1154551493565  in 0ms
+2011-11-30 16:38:33,910 26091 1322667487776 Executed prepared statement SELECT * FROM Dimension_Dim WHERE cs_ownerid= ? in 0ms
+2011-11-30 16:38:33,913 26094 1322667487776 Executed query SELECT * FROM Dimension_DimP WHERE cs_ownerid=1154551493546 in 0ms
+2011-11-30 16:38:33,914 26095 1322667487776 Executed prepared statement SELECT * FROM Dimension_Dim WHERE cs_ownerid= ? in 1ms
+2011-11-30 16:38:33,914 26095 1322667487776 Executed query SELECT * FROM Dimension_DimP WHERE cs_ownerid=1154551493551 in 0ms
+2011-11-30 16:38:33,916 26097 1322667487776 Executed prepared statement SELECT * FROM Dimension_Dim WHERE cs_ownerid= ? in 1ms
+2011-11-30 16:38:33,917 26098 1322667487776 Executed query SELECT * FROM Dimension_DimP WHERE cs_ownerid=1154551493565 in 0ms
+2011-11-30 16:38:33,918 26099 1322667487776 Executed query SELECT * FROM Dimension WHERE id = ? in 0ms.
+2011-11-30 16:38:33,919 26100 1322667487776 Executed query SELECT * FROM Dimension WHERE id = ? in 0ms.
+2011-11-30 16:38:33,920 26101 1322667487776 Executed query SELECT * FROM Dimension WHERE id = ? in 0ms.
+2011-11-30 16:38:33,929 26110 1322667487776 Executed prepared statement select id from Dimension where id=? in 0ms
+2011-11-30 16:38:33,933 26114 1322667487776 Executed prepared statement select id from Dimension where id=? in 0ms
+2011-11-30 16:38:33,936 26117 1322667487776 Executed prepared statement select id from Dimension where id=? in 0ms
+2011-11-30 16:38:33,940 26121 1322667487776 Executed prepared statement select id from Dimension where id=? in 0ms
+2011-11-30 16:38:33,942 26123 1322667487776 Executed element FSIICommon/Nav/LocaleForm in 87ms.
+2011-11-30 16:38:33,942 26123 1322667487776 Execute page FSIICommon/Nav/LocaleForm Hours: 0 Minutes: 0 Seconds: 0:088
+2011-11-30 16:38:33,942 26123 1322667487776 Fetched 23 result sets in  Hours: 0 Minutes: 0 Seconds: 0:001
+2011-11-30 16:38:33,942 26123 1322667487776 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:087
+2011-11-30 16:38:33,943 26124 1322667487776 Executed element Page/FSIITopNav in 298ms.
+2011-11-30 16:38:33,943 26124 1322667487776 Execute page FirstSiteII/Page/FSIITopNav Hours: 0 Minutes: 0 Seconds: 0:301
+2011-11-30 16:38:33,944 26125 1322667487776 Fetched 3 result sets in  Hours: 0 Minutes: 0 Seconds: 0:001
+2011-11-30 16:38:33,944 26125 1322667487776 Processed 2 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:306
+2011-11-30 16:38:33,946 26127 1322667487776 Executed query SELECT elementname,description,url,resdetails1,resdetails2 FROM ElementCatalog WHERE elementname = ? in 0ms.
+2011-11-30 16:38:33,955 26136 1322667487776 Executed query SELECT * FROM Template WHERE id = ? in 1ms.
+2011-11-30 16:38:33,956 26137 1322667487776 Executed query SELECT * FROM AdvCols WHERE id = ? in 0ms.
+2011-11-30 16:38:33,957 26138 1322667487776 Executed prepared statement SELECT * FROM AdvCols_Dim WHERE cs_ownerid= ? in 0ms
+2011-11-30 16:38:33,961 26142 1322667487776 Executed query SELECT * FROM AdvCols_DimP WHERE cs_ownerid=1200501450442 in 0ms
+2011-11-30 16:38:33,962 26143 1322667487776 Executed query SELECT rulesetid AS ruleid FROM AdvCols_Extension WHERE ownerid=1200501450442 in 0ms
+2011-11-30 16:38:33,962 26143 1322667487776 Executed query SELECT urlxml FROM RuleSetDef WHERE id=1200501450454 in 0ms
+2011-11-30 16:38:33,963 26144 1322667487776 Executed query SELECT * FROM RuleMap WHERE cs_ownerid=1200501450454 in 0ms
+2011-11-30 16:38:33,963 26144 1322667487776 Executed query SELECT assettype AS assettype,assetid AS assetid,confidence AS confidence,bucketname AS bucket FROM AdvCols_ManRec WHERE ownerid=1200501450442 in 0ms
+2011-11-30 16:38:33,965 26146 1322667487776 Executed query SELECT attrtypename AS attributetypename,attrname AS attributename,direction AS direction FROM AdvCols_SSpec WHERE ownerid=1200501450442 ORDER BY id ASC in 0ms
+2011-11-30 16:38:33,966 26147 1322667487776 Executed query SELECT assettype FROM AdvCols_Types WHERE ownerid=1200501450442 in 0ms
+2011-11-30 16:38:33,967 26148 1322667487776 Executed prepared statement select id from AdvCols where id=? in 0ms
+2011-11-30 16:38:33,971 26152 1322667487776 Executed prepared statement SELECT id FROM AdvCols WHERE name=? in 0ms
+2011-11-30 16:38:33,974 26155 1322667487776 Executed query SELECT DISTINCT assettype FROM AdvCols_ManRec WHERE ownerid=1200501450442 in 0ms
+2011-11-30 16:38:33,975 26156 1322667487776 Executed query SELECT DISTINCT bucketname AS bucket FROM AdvCols_ManRec WHERE ownerid=1200501450442 in 0ms
+2011-11-30 16:38:33,975 26156 1322667487776 Executed query SELECT classname FROM RuleSetDef WHERE id=1200501450454 in 0ms
+2011-11-30 16:38:33,977 26158 1322667487776 Executed query SELECT assetid,MAX(confidence) AS confidence FROM AdvCols_ManRec WHERE ownerid=1200501450442 AND assettype='Media_C' AND bucketname IS NULL GROUP BY assetid in 0ms
+2011-11-30 16:38:33,978 26159 1322667487776 Executed query SELECT id,status,updateddate FROM AdvCols WHERE id IN (1200501450442) in 1ms
+2011-11-30 16:38:33,997 26178 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:33,998 26179 1322667487776 Loaded table metadata for FlexAssetTypes in 0ms.
+2011-11-30 16:38:33,998 26179 1322667487776 Executed query SELECT assetgroup AS grouptype,assettemplate AS templatetype,assetattr AS attributetype,assetfilter AS filtertype FROM FlexAssetTypes WHERE assettype='Media_C' in 0ms
+2011-11-30 16:38:34,038 26219 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:34,039 26220 1322667487776 Loaded table metadata for FlexGroupTypes in 0ms.
+2011-11-30 16:38:34,039 26220 1322667487776 Executed query SELECT assettemplate AS templatetype,assetattr AS attributetype,assetfilter AS filtertype FROM FlexGroupTypes WHERE assettype='Media_P' in 0ms
+2011-11-30 16:38:34,255 26436 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 1ms.
+2011-11-30 16:38:34,255 26436 1322667487776 Loaded table metadata for FlexGrpTmplTypes in 0ms.
+2011-11-30 16:38:34,256 26437 1322667487776 Executed query SELECT assetattr AS attributetype,assetfilter AS filtertype FROM FlexGrpTmplTypes WHERE assettype='Media_PD' in 0ms
+2011-11-30 16:38:34,271 26452 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:34,272 26453 1322667487776 Loaded table metadata for FlexTmplTypes in 0ms.
+2011-11-30 16:38:34,272 26453 1322667487776 Executed query SELECT assettemplate AS templatetype,assetattr AS attributetype,assetfilter AS filtertype FROM FlexTmplTypes WHERE assettype='Media_CD' in 0ms
+2011-11-30 16:38:34,274 26455 1322667487776 Executed query SELECT classname,id FROM RuleSetDef j2 WHERE EXISTS(SELECT 'x' FROM Media_P_Extension j1 WHERE j2.id=rulesetid AND (EXISTS(SELECT 'x' FROM Media_P_Group WHERE j1.ownerid=parentid AND (childid IN (1200501449389,1214229986092,1214229985979,1200501449348,1200501449429,1200501449476))))) in 1ms
+2011-11-30 16:38:34,274 26455 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:34,275 26456 1322667487776 Loaded table metadata for Media_P_Group in 1ms.
+2011-11-30 16:38:34,276 26457 1322667487776 Executed query SELECT parentid AS assetid FROM Media_P_Group WHERE childid IN (1200501449389,1214229986092,1214229985979,1200501449348,1200501449429,1200501449476) in 0ms
+2011-11-30 16:38:34,277 26458 1322667487776 Executed query SELECT classname,id FROM RuleSetDef j1 WHERE EXISTS(SELECT 'x' FROM Media_C_Extension WHERE j1.id=rulesetid AND (ownerid IN (1200501449389,1214229986092,1214229985979,1200501449348,1200501449429,1200501449476))) in 0ms
+2011-11-30 16:38:34,278 26459 1322667487776 Executed query SELECT DISTINCT childid,parentid FROM Media_P_Group WHERE childtype='Media_C' AND childid IN (1200501449389,1214229986092,1214229985979,1200501449348,1200501449429,1200501449476) AND primarycount>0 in 0ms
+2011-11-30 16:38:34,280 26461 1322667487776 Executed query SELECT DISTINCT childid,parentid FROM Media_P_Group WHERE childtype='Media_P' AND childid IN (1112195134086) AND primarycount>0 in 0ms
+2011-11-30 16:38:34,282 26463 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 2ms.
+2011-11-30 16:38:34,283 26464 1322667487776 Loaded table metadata for Media_P in 1ms.
+2011-11-30 16:38:34,284 26465 1322667487776 Executed query SELECT * FROM Media_P WHERE id IN (1112195134086,1112195134086,1112195134086,1112195134086,1112195134086,1112195134086) in 0ms
+2011-11-30 16:38:34,285 26466 1322667487776 Executed query SELECT * FROM Media_P WHERE id = ? in 1ms.
+2011-11-30 16:38:34,285 26466 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:34,287 26468 1322667487776 Loaded table metadata for Media_C in 2ms.
+2011-11-30 16:38:34,288 26469 1322667487776 Executed query SELECT * FROM Media_C WHERE id IN (1200501449389,1214229986092,1214229985979,1200501449348,1200501449429,1200501449476) in 0ms
+2011-11-30 16:38:34,289 26470 1322667487776 Executed query SELECT * FROM Media_C WHERE id = ? in 1ms.
+2011-11-30 16:38:34,289 26470 1322667487776 Executed query SELECT * FROM Media_C WHERE id = ? in 0ms.
+2011-11-30 16:38:34,290 26471 1322667487776 Executed query SELECT * FROM Media_C WHERE id = ? in 0ms.
+2011-11-30 16:38:34,291 26472 1322667487776 Executed query SELECT * FROM Media_C WHERE id = ? in 0ms.
+2011-11-30 16:38:34,292 26473 1322667487776 Executed query SELECT * FROM Media_C WHERE id = ? in 1ms.
+2011-11-30 16:38:34,292 26473 1322667487776 Executed query SELECT * FROM Media_C WHERE id = ? in 0ms.
+2011-11-30 16:38:34,297 26478 1322667487776 Executed query SELECT * FROM AssetType WHERE assettype = ? in 0ms.
+2011-11-30 16:38:34,297 26478 1322667487776 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:38:34,298 26479 1322667487776 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:38:34,299 26480 1322667487776 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:38:34,300 26481 1322667487776 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:38:34,301 26482 1322667487776 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:38:34,303 26484 1322667487776 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:38:34,303 26484 1322667487776 Executed element AdvCols/FSIIBannerTemplate in 357ms.
+2011-11-30 16:38:34,305 26486 1322667487776 Executed query SELECT elementname,description,url,resdetails1,resdetails2 FROM ElementCatalog WHERE elementname = ? in 0ms.
+2011-11-30 16:38:34,311 26492 1322667487776 Executed query SELECT * FROM Template WHERE id = ? in 0ms.
+2011-11-30 16:38:34,321 26502 1322667487776 Executed prepared statement SELECT * FROM Template_Map WHERE cs_ownerid= ? in 1ms
+2011-11-30 16:38:34,322 26503 1322667487776 Executed query SELECT pagename,rootelement,csstatus,pageletonly,resargs1,resargs2,pagecriteria,cscacheinfo,sscacheinfo,acl FROM SiteCatalog WHERE pagename = ? in 0ms.
+2011-11-30 16:38:34,323 26504 1322667487776 Executed query SELECT elementname,description,url,resdetails1,resdetails2 FROM ElementCatalog WHERE elementname = ? in 0ms.
+2011-11-30 16:38:34,329 26510 1322667487776 Executed query SELECT * FROM Template WHERE id = ? in 0ms.
+2011-11-30 16:38:34,331 26512 1322667487776 Executed prepared statement SELECT * FROM Template_Map WHERE cs_ownerid= ? in 0ms
+2011-11-30 16:38:34,337 26518 1322667487776 Executed query SELECT * FROM AdvCols WHERE name = ? in 0ms.
+2011-11-30 16:38:34,339 26520 1322667487776 Executed prepared statement SELECT * FROM AdvCols_Dim WHERE cs_ownerid= ? in 0ms
+2011-11-30 16:38:34,341 26522 1322667487776 Executed element FSIICommon/Locale/ExecuteFilter in 3ms.
+2011-11-30 16:38:34,341 26522 1322667487776 Executed query SELECT pagename,rootelement,csstatus,pageletonly,resargs1,resargs2,pagecriteria,cscacheinfo,sscacheinfo,acl FROM SiteCatalog WHERE pagename = ? in 0ms.
+2011-11-30 16:38:34,344 26525 1322667487776 Executed query SELECT elementname,description,url,resdetails1,resdetails2 FROM ElementCatalog WHERE elementname = ? in 1ms.
+2011-11-30 16:38:34,353 26534 1322667487776 Executed query SELECT * FROM Template WHERE id = ? in 0ms.
+2011-11-30 16:38:34,355 26536 1322667487776 Executed query SELECT * FROM AdvCols WHERE id = ? in 0ms.
+2011-11-30 16:38:34,356 26537 1322667487776 Executed query SELECT * FROM AdvCols_DimP WHERE cs_ownerid=1120593564193 in 0ms
+2011-11-30 16:38:34,357 26538 1322667487776 Executed query SELECT rulesetid AS ruleid FROM AdvCols_Extension WHERE ownerid=1120593564193 in 0ms
+2011-11-30 16:38:34,358 26539 1322667487776 Executed query SELECT urlxml FROM RuleSetDef WHERE id=1120593564198 in 0ms
+2011-11-30 16:38:34,358 26539 1322667487776 Executed query SELECT * FROM RuleMap WHERE cs_ownerid=1120593564198 in 0ms
+2011-11-30 16:38:34,359 26540 1322667487776 Executed query SELECT assettype AS assettype,assetid AS assetid,confidence AS confidence,bucketname AS bucket FROM AdvCols_ManRec WHERE ownerid=1120593564193 in 0ms
+2011-11-30 16:38:34,359 26540 1322667487776 Executed query SELECT attrtypename AS attributetypename,attrname AS attributename,direction AS direction FROM AdvCols_SSpec WHERE ownerid=1120593564193 ORDER BY id ASC in 0ms
+2011-11-30 16:38:34,360 26541 1322667487776 Executed query SELECT assettype FROM AdvCols_Types WHERE ownerid=1120593564193 in 0ms
+2011-11-30 16:38:34,361 26542 1322667487776 Executed prepared statement select id from AdvCols where id=? in 0ms
+2011-11-30 16:38:34,365 26546 1322667487776 Executed prepared statement SELECT id FROM AdvCols WHERE name=? in 1ms
+2011-11-30 16:38:34,369 26550 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:34,370 26551 1322667487776 Loaded table metadata for Promotions_ManRec in 1ms.
+2011-11-30 16:38:34,370 26551 1322667487776 Executed query SELECT COUNT(recoid) AS countvar FROM Promotions_ManRec WHERE ownerid IN (1124886357637) AND relid=1120593564193 AND assetid IS NULL in 0ms
+2011-11-30 16:38:34,371 26552 1322667487776 Executed query SELECT DISTINCT assettype FROM Promotions_ManRec WHERE ownerid IN (1124886357637) AND relid=1120593564193 in 0ms
+2011-11-30 16:38:34,372 26553 1322667487776 Executed query SELECT DISTINCT assettype FROM AdvCols_ManRec WHERE ownerid=1120593564193 in 0ms
+2011-11-30 16:38:34,372 26553 1322667487776 Executed query SELECT DISTINCT bucketname AS bucket FROM AdvCols_ManRec WHERE ownerid=1120593564193 in 0ms
+2011-11-30 16:38:34,373 26554 1322667487776 Executed query SELECT classname FROM RuleSetDef WHERE id=1120593564198 in 0ms
+2011-11-30 16:38:34,375 26556 1322667487776 Executed query SELECT assetid,MAX(confidence) AS confidence FROM AdvCols_ManRec WHERE ownerid=1120593564193 AND assettype='Product_C' AND bucketname IS NULL GROUP BY assetid in 0ms
+2011-11-30 16:38:34,376 26557 1322667487776 Executed query SELECT id,status,updateddate FROM AdvCols WHERE id IN (1120593564193) in 0ms
+2011-11-30 16:38:34,376 26557 1322667487776 Executed query SELECT DISTINCT recotype FROM Promotions_ManRec WHERE ownerid IN (1124886357637) AND relid=1120593564193 AND assetid IS NULL in 0ms
+2011-11-30 16:38:34,377 26558 1322667487776 Executed query SELECT assetgroup AS grouptype,assettemplate AS templatetype,assetattr AS attributetype,assetfilter AS filtertype FROM FlexAssetTypes WHERE assettype='Product_C' in 0ms
+2011-11-30 16:38:34,378 26559 1322667487776 Executed query SELECT assettemplate AS templatetype,assetattr AS attributetype,assetfilter AS filtertype FROM FlexGroupTypes WHERE assettype='Product_P' in 0ms
+2011-11-30 16:38:34,378 26559 1322667487776 Executed query SELECT assetattr AS attributetype,assetfilter AS filtertype FROM FlexGrpTmplTypes WHERE assettype='Product_PD' in 0ms
+2011-11-30 16:38:34,378 26559 1322667487776 Executed query SELECT assettemplate AS templatetype,assetattr AS attributetype,assetfilter AS filtertype FROM FlexTmplTypes WHERE assettype='Product_CD' in 0ms
+2011-11-30 16:38:34,379 26560 1322667487776 Executed query SELECT classname,id FROM RuleSetDef j2 WHERE EXISTS(SELECT 'x' FROM Product_P_Extension j1 WHERE j2.id=rulesetid AND (EXISTS(SELECT 'x' FROM Product_P_Group WHERE j1.ownerid=parentid AND (childid IN (1114083739596))))) in 0ms
+2011-11-30 16:38:34,381 26562 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 1ms.
+2011-11-30 16:38:34,382 26563 1322667487776 Loaded table metadata for Product_P_Group in 1ms.
+2011-11-30 16:38:34,383 26564 1322667487776 Executed query SELECT parentid AS assetid FROM Product_P_Group WHERE childid IN (1114083739596) in 1ms
+2011-11-30 16:38:34,384 26565 1322667487776 Executed query SELECT classname,id FROM RuleSetDef j1 WHERE EXISTS(SELECT 'x' FROM Product_C_Extension WHERE j1.id=rulesetid AND (ownerid IN (1114083739596))) in 0ms
+2011-11-30 16:38:34,385 26566 1322667487776 Executed query SELECT DISTINCT childid,parentid FROM Product_P_Group WHERE childtype='Product_C' AND childid IN (1114083739596) AND primarycount>0 in 1ms
+2011-11-30 16:38:34,387 26568 1322667487776 Executed query SELECT DISTINCT childid,parentid FROM Product_P_Group WHERE childtype='Product_P' AND childid IN (1114083739016,1114083739195,1114083739119,1114083739150) AND primarycount>0 in 2ms
+2011-11-30 16:38:34,387 26568 1322667487776 Executed query SELECT DISTINCT childid,parentid FROM Product_P_Group WHERE childtype='Product_P' AND childid IN (1114083739084,1114083739094,1112195134525,1114083739066) AND primarycount>0 in 0ms
+2011-11-30 16:38:34,388 26569 1322667487776 Executed query SELECT DISTINCT childid,parentid FROM Product_P_Group WHERE childtype='Product_P' AND childid IN (1112195134531) AND primarycount>0 in 0ms
+2011-11-30 16:38:34,388 26569 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:34,389 26570 1322667487776 Loaded table metadata for Product_P in 1ms.
+2011-11-30 16:38:34,390 26571 1322667487776 Executed query SELECT * FROM Product_P WHERE id IN (1114083739084,1112195134531,1114083739150,1112195134525,1114083739016,1114083739094,1114083739195,1114083739066,1114083739119) in 0ms
+2011-11-30 16:38:34,391 26572 1322667487776 Executed query SELECT * FROM Product_P WHERE id = ? in 1ms.
+2011-11-30 16:38:34,391 26572 1322667487776 Executed query SELECT * FROM Product_P WHERE id = ? in 0ms.
+2011-11-30 16:38:34,391 26572 1322667487776 Executed query SELECT * FROM Product_P WHERE id = ? in 0ms.
+2011-11-30 16:38:34,392 26573 1322667487776 Executed query SELECT * FROM Product_P WHERE id = ? in 0ms.
+2011-11-30 16:38:34,392 26573 1322667487776 Executed query SELECT * FROM Product_P WHERE id = ? in 0ms.
+2011-11-30 16:38:34,393 26574 1322667487776 Executed query SELECT * FROM Product_P WHERE id = ? in 0ms.
+2011-11-30 16:38:34,393 26574 1322667487776 Executed query SELECT * FROM Product_P WHERE id = ? in 0ms.
+2011-11-30 16:38:34,394 26575 1322667487776 Executed query SELECT * FROM Product_P WHERE id = ? in 1ms.
+2011-11-30 16:38:34,394 26575 1322667487776 Executed query SELECT * FROM Product_P WHERE id = ? in 0ms.
+2011-11-30 16:38:34,395 26576 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:34,396 26577 1322667487776 Loaded table metadata for Product_C in 1ms.
+2011-11-30 16:38:34,396 26577 1322667487776 Executed query SELECT * FROM Product_C WHERE id IN (1114083739596) in 0ms
+2011-11-30 16:38:34,397 26578 1322667487776 Executed query SELECT * FROM Product_C WHERE id = ? in 0ms.
+2011-11-30 16:38:34,402 26583 1322667487776 Executed prepared statement SELECT * FROM Template_Map WHERE cs_ownerid= ? in 0ms
+2011-11-30 16:38:34,403 26584 1322667487776 Executed query SELECT pagename,rootelement,csstatus,pageletonly,resargs1,resargs2,pagecriteria,cscacheinfo,sscacheinfo,acl FROM SiteCatalog WHERE pagename = ? in 0ms.
+2011-11-30 16:38:34,405 26586 1322667487776 Executed query SELECT elementname,description,url,resdetails1,resdetails2 FROM ElementCatalog WHERE elementname = ? in 1ms.
+2011-11-30 16:38:34,412 26593 1322667487776 Executed query SELECT * FROM Template WHERE id = ? in 0ms.
+2011-11-30 16:38:34,432 26613 1322667487776 Executed prepared statement SELECT * FROM Template_Map WHERE cs_ownerid= ? in 0ms
+2011-11-30 16:38:34,439 26620 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:34,440 26621 1322667487776 Loaded table metadata for Product_A in 1ms.
+2011-11-30 16:38:34,441 26622 1322667487776 Executed prepared statement SELECT id FROM Product_A WHERE name=? in 0ms
+2011-11-30 16:38:34,441 26622 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:34,443 26624 1322667487776 Loaded table metadata for Product_A_Extension in 1ms.
+2011-11-30 16:38:34,444 26625 1322667487776 Executed query SELECT type AS type,externalid AS externalid,externaltable AS externaltable,externalcolumn AS externalcolumn,enginename AS enginename,charsetname AS charsetname,storage AS storage,editing AS editing,valuestyle AS valuestyle,upload AS upload,assettypename AS assettypename,contenttype AS contenttype,diffmethod AS diffmethod,diffconv AS diffconverter,diffpres AS diffpresentation,searchconv AS searchconverter,embedtype AS embedtype,deptype AS deptype FROM Product_A_Extension WHERE ownerid=1112195134183 in 0ms
+2011-11-30 16:38:34,446 26627 1322667487776 Executed prepared statement SELECT id FROM Product_A WHERE name=? in 0ms
+2011-11-30 16:38:34,447 26628 1322667487776 Executed query SELECT type AS type,externalid AS externalid,externaltable AS externaltable,externalcolumn AS externalcolumn,enginename AS enginename,charsetname AS charsetname,storage AS storage,editing AS editing,valuestyle AS valuestyle,upload AS upload,assettypename AS assettypename,contenttype AS contenttype,diffmethod AS diffmethod,diffconv AS diffconverter,diffpres AS diffpresentation,searchconv AS searchconverter,embedtype AS embedtype,deptype AS deptype FROM Product_A_Extension WHERE ownerid=1112195134188 in 0ms
+2011-11-30 16:38:34,448 26629 1322667487776 Executed prepared statement SELECT id FROM Product_A WHERE name=? in 1ms
+2011-11-30 16:38:34,449 26630 1322667487776 Executed query SELECT type AS type,externalid AS externalid,externaltable AS externaltable,externalcolumn AS externalcolumn,enginename AS enginename,charsetname AS charsetname,storage AS storage,editing AS editing,valuestyle AS valuestyle,upload AS upload,assettypename AS assettypename,contenttype AS contenttype,diffmethod AS diffmethod,diffconv AS diffconverter,diffpres AS diffpresentation,searchconv AS searchconverter,embedtype AS embedtype,deptype AS deptype FROM Product_A_Extension WHERE ownerid=1112195134178 in 1ms
+2011-11-30 16:38:34,450 26631 1322667487776 Executed prepared statement SELECT id FROM Product_A WHERE name=? in 1ms
+2011-11-30 16:38:34,450 26631 1322667487776 Executed query SELECT type AS type,externalid AS externalid,externaltable AS externaltable,externalcolumn AS externalcolumn,enginename AS enginename,charsetname AS charsetname,storage AS storage,editing AS editing,valuestyle AS valuestyle,upload AS upload,assettypename AS assettypename,contenttype AS contenttype,diffmethod AS diffmethod,diffconv AS diffconverter,diffpres AS diffpresentation,searchconv AS searchconverter,embedtype AS embedtype,deptype AS deptype FROM Product_A_Extension WHERE ownerid=1112195134143 in 0ms
+2011-11-30 16:38:34,457 26638 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:34,459 26640 1322667487776 Loaded table metadata for Product_C_Mungo in 2ms.
+2011-11-30 16:38:34,459 26640 1322667487776 Executed query SELECT DISTINCT assetvalue,blobvalue,cs_attrid,cs_ordinal,datevalue,floatvalue,intvalue,moneyvalue,stringvalue,urlvalue FROM Product_C_Mungo WHERE cs_attrid IN (1112195134183,1112195134188,1112195134178,1112195134143) AND cs_islegal IS NULL AND cs_assetgroupid IS NULL AND cs_ownerid IN (1114083739596) ORDER BY cs_attrid ASC in 0ms
+2011-11-30 16:38:34,465 26646 1322667487776 Executed query SELECT pagename,rootelement,csstatus,pageletonly,resargs1,resargs2,pagecriteria,cscacheinfo,sscacheinfo,acl FROM SiteCatalog WHERE pagename = ? in 0ms.
+2011-11-30 16:38:34,467 26648 1322667487776 Executed query SELECT elementname,description,url,resdetails1,resdetails2 FROM ElementCatalog WHERE elementname = ? in 0ms.
+2011-11-30 16:38:34,475 26656 1322667487776 Executed query SELECT * FROM Template WHERE id = ? in 0ms.
+2011-11-30 16:38:34,478 26659 1322667487776 Executed prepared statement SELECT * FROM Template_Map WHERE cs_ownerid= ? in 0ms
+2011-11-30 16:38:34,484 26665 1322667487776 Executed query SELECT parentid AS assetid FROM Media_P_Group WHERE childid IN (1114083738411) in 0ms
+2011-11-30 16:38:34,485 26666 1322667487776 Executed query SELECT * FROM Media_P WHERE id IN (1112195134086) in 0ms
+2011-11-30 16:38:34,486 26667 1322667487776 Executed query SELECT * FROM Media_C WHERE id IN (1114083738411) in 0ms
+2011-11-30 16:38:34,486 26667 1322667487776 Executed query SELECT * FROM Media_C WHERE id = ? in 0ms.
+2011-11-30 16:38:34,487 26668 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:34,488 26669 1322667487776 Loaded table metadata for Media_A in 1ms.
+2011-11-30 16:38:34,488 26669 1322667487776 Executed prepared statement SELECT id FROM Media_A WHERE name=? in 0ms
+2011-11-30 16:38:34,489 26670 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 1ms.
+2011-11-30 16:38:34,490 26671 1322667487776 Loaded table metadata for Media_A_Extension in 1ms.
+2011-11-30 16:38:34,490 26671 1322667487776 Executed query SELECT type AS type,externalid AS externalid,externaltable AS externaltable,externalcolumn AS externalcolumn,enginename AS enginename,charsetname AS charsetname,storage AS storage,editing AS editing,valuestyle AS valuestyle,upload AS upload,assettypename AS assettypename,contenttype AS contenttype,diffmethod AS diffmethod,diffconv AS diffconverter,diffpres AS diffpresentation,searchconv AS searchconverter,embedtype AS embedtype,deptype AS deptype FROM Media_A_Extension WHERE ownerid=1112195133894 in 0ms
+2011-11-30 16:38:34,491 26672 1322667487776 Executed prepared statement SELECT id FROM Media_A WHERE name=? in 1ms
+2011-11-30 16:38:34,491 26672 1322667487776 Executed query SELECT type AS type,externalid AS externalid,externaltable AS externaltable,externalcolumn AS externalcolumn,enginename AS enginename,charsetname AS charsetname,storage AS storage,editing AS editing,valuestyle AS valuestyle,upload AS upload,assettypename AS assettypename,contenttype AS contenttype,diffmethod AS diffmethod,diffconv AS diffconverter,diffpres AS diffpresentation,searchconv AS searchconverter,embedtype AS embedtype,deptype AS deptype FROM Media_A_Extension WHERE ownerid=1112195133923 in 0ms
+2011-11-30 16:38:34,491 26672 1322667487776 Executed prepared statement SELECT id FROM Media_A WHERE name=? in 0ms
+2011-11-30 16:38:34,492 26673 1322667487776 Executed query SELECT type AS type,externalid AS externalid,externaltable AS externaltable,externalcolumn AS externalcolumn,enginename AS enginename,charsetname AS charsetname,storage AS storage,editing AS editing,valuestyle AS valuestyle,upload AS upload,assettypename AS assettypename,contenttype AS contenttype,diffmethod AS diffmethod,diffconv AS diffconverter,diffpres AS diffpresentation,searchconv AS searchconverter,embedtype AS embedtype,deptype AS deptype FROM Media_A_Extension WHERE ownerid=1112195133918 in 0ms
+2011-11-30 16:38:34,492 26673 1322667487776 Executed prepared statement SELECT id FROM Media_A WHERE name=? in 0ms
+2011-11-30 16:38:34,492 26673 1322667487776 Executed query SELECT type AS type,externalid AS externalid,externaltable AS externaltable,externalcolumn AS externalcolumn,enginename AS enginename,charsetname AS charsetname,storage AS storage,editing AS editing,valuestyle AS valuestyle,upload AS upload,assettypename AS assettypename,contenttype AS contenttype,diffmethod AS diffmethod,diffconv AS diffconverter,diffpres AS diffpresentation,searchconv AS searchconverter,embedtype AS embedtype,deptype AS deptype FROM Media_A_Extension WHERE ownerid=1112195133863 in 0ms
+2011-11-30 16:38:34,493 26674 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:34,494 26675 1322667487776 Loaded table metadata for Media_C_Mungo in 1ms.
+2011-11-30 16:38:34,494 26675 1322667487776 Executed query SELECT DISTINCT assetvalue,blobvalue,cs_attrid,cs_ordinal,datevalue,floatvalue,intvalue,moneyvalue,stringvalue,urlvalue FROM Media_C_Mungo WHERE cs_attrid IN (1112195133894,1112195133923,1112195133918,1112195133863) AND cs_islegal IS NULL AND cs_ownerid IN (1114083738411) ORDER BY cs_attrid ASC in 0ms
+2011-11-30 16:38:34,496 26677 1322667487776 Executed prepared statement SELECT id FROM Media_A WHERE name=? in 0ms
+2011-11-30 16:38:34,497 26678 1322667487776 Executed query SELECT type AS type,externalid AS externalid,externaltable AS externaltable,externalcolumn AS externalcolumn,enginename AS enginename,charsetname AS charsetname,storage AS storage,editing AS editing,valuestyle AS valuestyle,upload AS upload,assettypename AS assettypename,contenttype AS contenttype,diffmethod AS diffmethod,diffconv AS diffconverter,diffpres AS diffpresentation,searchconv AS searchconverter,embedtype AS embedtype,deptype AS deptype FROM Media_A_Extension WHERE ownerid=1112195133928 in 1ms
+2011-11-30 16:38:34,498 26679 1322667487776 Executed query SELECT DISTINCT id,cs_ordinal AS ordinal,blobvalue AS value FROM Media_C_Mungo WHERE cs_attrid=1112195133928 AND cs_islegal IS NULL AND cs_ownerid IN (1114083738411) ORDER BY id in 0ms
+2011-11-30 16:38:34,503 26684 1322667487776 Executed element Media_C/FSIISummary in 35ms.
+2011-11-30 16:38:34,503 26684 1322667487776 Execute page FirstSiteII/Media_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:037
+2011-11-30 16:38:34,503 26684 1322667487776 Fetched 18 result sets in  Hours: 0 Minutes: 0 Seconds: 0:000
+2011-11-30 16:38:34,503 26684 1322667487776 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:035
+2011-11-30 16:38:34,511 26692 1322667487776 Executed element Product_C/FSIISummary in 106ms.
+2011-11-30 16:38:34,512 26693 1322667487776 Execute page FirstSiteII/Product_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:108
+2011-11-30 16:38:34,512 26693 1322667487776 Fetched 11 result sets in  Hours: 0 Minutes: 0 Seconds: 0:001
+2011-11-30 16:38:34,512 26693 1322667487776 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:106
+2011-11-30 16:38:34,512 26693 1322667487776 Executed element AdvCols/FSIIDetail in 168ms.
+2011-11-30 16:38:34,513 26694 1322667487776 Execute page FirstSiteII/AdvCols/FSIIDetail Hours: 0 Minutes: 0 Seconds: 0:170
+2011-11-30 16:38:34,513 26694 1322667487776 Fetched 42 result sets in  Hours: 0 Minutes: 0 Seconds: 0:002
+2011-11-30 16:38:34,513 26694 1322667487776 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:168
+2011-11-30 16:38:34,515 26696 1322667487776 Executed query SELECT * FROM AdvCols WHERE name = ? in 0ms.
+2011-11-30 16:38:34,516 26697 1322667487776 Executed prepared statement SELECT * FROM AdvCols_Dim WHERE cs_ownerid= ? in 0ms
+2011-11-30 16:38:34,517 26698 1322667487776 Executed element FSIICommon/Locale/ExecuteFilter in 2ms.
+2011-11-30 16:38:34,519 26700 1322667487776 Executed query SELECT * FROM AdvCols WHERE id = ? in 0ms.
+2011-11-30 16:38:34,520 26701 1322667487776 Executed query SELECT * FROM AdvCols_DimP WHERE cs_ownerid=1120854395753 in 0ms
+2011-11-30 16:38:34,521 26702 1322667487776 Executed query SELECT rulesetid AS ruleid FROM AdvCols_Extension WHERE ownerid=1120854395753 in 1ms
+2011-11-30 16:38:34,521 26702 1322667487776 Executed query SELECT urlxml FROM RuleSetDef WHERE id=1120854395759 in 0ms
+2011-11-30 16:38:34,521 26702 1322667487776 Executed query SELECT * FROM RuleMap WHERE cs_ownerid=1120854395759 in 0ms
+2011-11-30 16:38:34,522 26703 1322667487776 Executed query SELECT assettype AS assettype,assetid AS assetid,confidence AS confidence,bucketname AS bucket FROM AdvCols_ManRec WHERE ownerid=1120854395753 in 0ms
+2011-11-30 16:38:34,522 26703 1322667487776 Executed query SELECT attrtypename AS attributetypename,attrname AS attributename,direction AS direction FROM AdvCols_SSpec WHERE ownerid=1120854395753 ORDER BY id ASC in 0ms
+2011-11-30 16:38:34,523 26704 1322667487776 Executed query SELECT assettype FROM AdvCols_Types WHERE ownerid=1120854395753 in 0ms
+2011-11-30 16:38:34,525 26706 1322667487776 Executed prepared statement select id from AdvCols where id=? in 1ms
+2011-11-30 16:38:34,527 26708 1322667487776 Executed prepared statement SELECT id FROM AdvCols WHERE name=? in 1ms
+2011-11-30 16:38:34,529 26710 1322667487776 Executed query SELECT COUNT(recoid) AS countvar FROM Promotions_ManRec WHERE ownerid IN (1124886357637) AND relid=1120854395753 AND assetid IS NULL in 0ms
+2011-11-30 16:38:34,530 26711 1322667487776 Executed query SELECT DISTINCT assettype FROM Promotions_ManRec WHERE ownerid IN (1124886357637) AND relid=1120854395753 in 0ms
+2011-11-30 16:38:34,530 26711 1322667487776 Executed query SELECT DISTINCT assettype FROM AdvCols_ManRec WHERE ownerid=1120854395753 in 0ms
+2011-11-30 16:38:34,531 26712 1322667487776 Executed query SELECT DISTINCT bucketname AS bucket FROM AdvCols_ManRec WHERE ownerid=1120854395753 in 0ms
+2011-11-30 16:38:34,531 26712 1322667487776 Executed query SELECT classname FROM RuleSetDef WHERE id=1120854395759 in 0ms
+2011-11-30 16:38:34,532 26713 1322667487776 Executed query SELECT assetid,MAX(confidence) AS confidence FROM AdvCols_ManRec WHERE ownerid=1120854395753 AND assettype='Media_C' AND bucketname IS NULL GROUP BY assetid in 0ms
+2011-11-30 16:38:34,533 26714 1322667487776 Executed query SELECT id,status,updateddate FROM AdvCols WHERE id IN (1120854395753) in 0ms
+2011-11-30 16:38:34,533 26714 1322667487776 Executed query SELECT DISTINCT recotype FROM Promotions_ManRec WHERE ownerid IN (1124886357637) AND relid=1120854395753 AND assetid IS NULL in 0ms
+2011-11-30 16:38:34,534 26715 1322667487776 Executed query SELECT classname,id FROM RuleSetDef j2 WHERE EXISTS(SELECT 'x' FROM Media_P_Extension j1 WHERE j2.id=rulesetid AND (EXISTS(SELECT 'x' FROM Media_P_Group WHERE j1.ownerid=parentid AND (childid IN (1114083738383))))) in 0ms
+2011-11-30 16:38:34,534 26715 1322667487776 Executed query SELECT parentid AS assetid FROM Media_P_Group WHERE childid IN (1114083738383) in 0ms
+2011-11-30 16:38:34,535 26716 1322667487776 Executed query SELECT classname,id FROM RuleSetDef j1 WHERE EXISTS(SELECT 'x' FROM Media_C_Extension WHERE j1.id=rulesetid AND (ownerid IN (1114083738383))) in 0ms
+2011-11-30 16:38:34,536 26717 1322667487776 Executed query SELECT DISTINCT childid,parentid FROM Media_P_Group WHERE childtype='Media_C' AND childid IN (1114083738383) AND primarycount>0 in 0ms
+2011-11-30 16:38:34,537 26718 1322667487776 Executed query SELECT * FROM Media_C WHERE id IN (1114083738383) in 0ms
+2011-11-30 16:38:34,537 26718 1322667487776 Executed query SELECT * FROM Media_C WHERE id = ? in 0ms.
+2011-11-30 16:38:34,553 26734 1322667487776 Executed query SELECT DISTINCT assetvalue,blobvalue,cs_attrid,cs_ordinal,datevalue,floatvalue,intvalue,moneyvalue,stringvalue,urlvalue FROM Media_C_Mungo WHERE cs_attrid IN (1112195133894,1112195133923,1112195133918,1112195133863) AND cs_islegal IS NULL AND cs_ownerid IN (1114083738383) ORDER BY cs_attrid ASC in 1ms
+2011-11-30 16:38:34,555 26736 1322667487776 Executed query SELECT DISTINCT id,cs_ordinal AS ordinal,blobvalue AS value FROM Media_C_Mungo WHERE cs_attrid=1112195133928 AND cs_islegal IS NULL AND cs_ownerid IN (1114083738383) ORDER BY id in 1ms
+2011-11-30 16:38:34,555 26736 1322667487776 Executed element Media_C/FSIISummary in 15ms.
+2011-11-30 16:38:34,556 26737 1322667487776 Execute page FirstSiteII/Media_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:017
+2011-11-30 16:38:34,556 26737 1322667487776 Fetched 2 result sets in  Hours: 0 Minutes: 0 Seconds: 0:001
+2011-11-30 16:38:34,556 26737 1322667487776 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:015
+2011-11-30 16:38:34,557 26738 1322667487776 Executed element AdvCols/FSIIDetail in 39ms.
+2011-11-30 16:38:34,557 26738 1322667487776 Execute page FirstSiteII/AdvCols/FSIIDetail Hours: 0 Minutes: 0 Seconds: 0:039
+2011-11-30 16:38:34,557 26738 1322667487776 Fetched 23 result sets in  Hours: 0 Minutes: 0 Seconds: 0:000
+2011-11-30 16:38:34,557 26738 1322667487776 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:039
+2011-11-30 16:38:34,557 26738 1322667487776 Executed element Page/FSIIStandardSideNavView in 234ms.
+2011-11-30 16:38:34,558 26739 1322667487776 Execute page FirstSiteII/Page/FSIIStandardSideNavView Hours: 0 Minutes: 0 Seconds: 0:236
+2011-11-30 16:38:34,558 26739 1322667487776 Fetched 6 result sets in  Hours: 0 Minutes: 0 Seconds: 0:000
+2011-11-30 16:38:34,558 26739 1322667487776 Processed 3 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:239
+2011-11-30 16:38:34,558 26739 1322667487776 Executed element Page/FSIISideNav in 252ms.
+2011-11-30 16:38:34,561 26742 1322667487776 Executed query SELECT elementname,description,url,resdetails1,resdetails2 FROM ElementCatalog WHERE elementname = ? in 1ms.
+2011-11-30 16:38:34,567 26748 1322667487776 Executed query SELECT * FROM Template WHERE id = ? in 0ms.
+2011-11-30 16:38:34,573 26754 1322667487776 Executed prepared statement SELECT * FROM Template_Map WHERE cs_ownerid= ? in 0ms
+2011-11-30 16:38:34,574 26755 1322667487776 Executed query SELECT pagename,rootelement,csstatus,pageletonly,resargs1,resargs2,pagecriteria,cscacheinfo,sscacheinfo,acl FROM SiteCatalog WHERE pagename = ? in 0ms.
+2011-11-30 16:38:34,575 26756 1322667487776 Executed query SELECT elementname,description,url,resdetails1,resdetails2 FROM ElementCatalog WHERE elementname = ? in 0ms.
+2011-11-30 16:38:34,581 26762 1322667487776 Executed query SELECT * FROM Template WHERE id = ? in 0ms.
+2011-11-30 16:38:34,583 26764 1322667487776 Executed prepared statement SELECT * FROM Template_Map WHERE cs_ownerid= ? in 0ms
+2011-11-30 16:38:34,583 26764 1322667487776 Executed query SELECT elementname,description,url,resdetails1,resdetails2 FROM ElementCatalog WHERE elementname = ? in 0ms.
+2011-11-30 16:38:34,589 26770 1322667487776 Executed query SELECT * FROM Template WHERE id = ? in 0ms.
+2011-11-30 16:38:34,602 26783 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 7ms.
+2011-11-30 16:38:34,604 26785 1322667487776 Loaded table metadata for AssetRelationTree in 1ms.
+2011-11-30 16:38:34,604 26785 1322667487776 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode FROM AssetRelationTree WHERE otype = ? AND oid = ? in 0ms.
+2011-11-30 16:38:34,605 26786 1322667487776 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode FROM AssetRelationTree WHERE ncode = '-' AND nparentid = 1125274447597 ORDER BY nrank in 0ms
+2011-11-30 16:38:34,606 26787 1322667487776 Executed query SELECT * FROM AssetType WHERE assettype = ? in 0ms.
+2011-11-30 16:38:34,607 26788 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:34,608 26789 1322667487776 Loaded table metadata for Content_C in 1ms.
+2011-11-30 16:38:34,609 26790 1322667487776 Executed query SELECT * FROM Content_C WHERE id = ? in 0ms.
+2011-11-30 16:38:34,609 26790 1322667487776 Executed nested tag asset.list using using ICS.runTag in 3ms
+2011-11-30 16:38:34,610 26791 1322667487776 Executed query SELECT * FROM AdvCols WHERE id = ? in 0ms.
+2011-11-30 16:38:34,610 26791 1322667487776 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:38:34,611 26792 1322667487776 Executed query SELECT * FROM Content_C WHERE id = ? in 0ms.
+2011-11-30 16:38:34,612 26793 1322667487776 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:38:34,615 26796 1322667487776 Executed query SELECT * FROM AdvCols WHERE id = ? in 1ms.
+2011-11-30 16:38:34,615 26796 1322667487776 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:38:34,616 26797 1322667487776 Executed query SELECT * FROM Content_C WHERE id = ? in 0ms.
+2011-11-30 16:38:34,617 26798 1322667487776 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:38:34,619 26800 1322667487776 Executed prepared statement SELECT * FROM Template_Map WHERE cs_ownerid= ? in 0ms
+2011-11-30 16:38:34,620 26801 1322667487776 Executed query SELECT pagename,rootelement,csstatus,pageletonly,resargs1,resargs2,pagecriteria,cscacheinfo,sscacheinfo,acl FROM SiteCatalog WHERE pagename = ? in 0ms.
+2011-11-30 16:38:34,620 26801 1322667487776 Executed query SELECT elementname,description,url,resdetails1,resdetails2 FROM ElementCatalog WHERE elementname = ? in 0ms.
+2011-11-30 16:38:34,627 26808 1322667487776 Executed query SELECT * FROM Template WHERE id = ? in 0ms.
+2011-11-30 16:38:34,629 26810 1322667487776 Executed prepared statement SELECT * FROM Template_Map WHERE cs_ownerid= ? in 0ms
+2011-11-30 16:38:34,633 26814 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:34,634 26815 1322667487776 Loaded table metadata for Content_A in 0ms.
+2011-11-30 16:38:34,635 26816 1322667487776 Executed prepared statement SELECT id FROM Content_A WHERE name=? in 0ms
+2011-11-30 16:38:34,636 26817 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 1ms.
+2011-11-30 16:38:34,636 26817 1322667487776 Loaded table metadata for Content_A_Extension in 0ms.
+2011-11-30 16:38:34,637 26818 1322667487776 Executed query SELECT type AS type,externalid AS externalid,externaltable AS externaltable,externalcolumn AS externalcolumn,enginename AS enginename,charsetname AS charsetname,storage AS storage,editing AS editing,valuestyle AS valuestyle,upload AS upload,assettypename AS assettypename,contenttype AS contenttype,diffmethod AS diffmethod,diffconv AS diffconverter,diffpres AS diffpresentation,searchconv AS searchconverter,embedtype AS embedtype,deptype AS deptype FROM Content_A_Extension WHERE ownerid=1112192431378 in 0ms
+2011-11-30 16:38:34,638 26819 1322667487776 Executed prepared statement SELECT id FROM Content_A WHERE name=? in 1ms
+2011-11-30 16:38:34,639 26820 1322667487776 Executed query SELECT type AS type,externalid AS externalid,externaltable AS externaltable,externalcolumn AS externalcolumn,enginename AS enginename,charsetname AS charsetname,storage AS storage,editing AS editing,valuestyle AS valuestyle,upload AS upload,assettypename AS assettypename,contenttype AS contenttype,diffmethod AS diffmethod,diffconv AS diffconverter,diffpres AS diffpresentation,searchconv AS searchconverter,embedtype AS embedtype,deptype AS deptype FROM Content_A_Extension WHERE ownerid=1112192431398 in 1ms
+2011-11-30 16:38:34,639 26820 1322667487776 Executed prepared statement SELECT id FROM Content_A WHERE name=? in 0ms
+2011-11-30 16:38:34,639 26820 1322667487776 Executed query SELECT type AS type,externalid AS externalid,externaltable AS externaltable,externalcolumn AS externalcolumn,enginename AS enginename,charsetname AS charsetname,storage AS storage,editing AS editing,valuestyle AS valuestyle,upload AS upload,assettypename AS assettypename,contenttype AS contenttype,diffmethod AS diffmethod,diffconv AS diffconverter,diffpres AS diffpresentation,searchconv AS searchconverter,embedtype AS embedtype,deptype AS deptype FROM Content_A_Extension WHERE ownerid=1112192431368 in 0ms
+2011-11-30 16:38:34,640 26821 1322667487776 Executed query SELECT assetgroup AS grouptype,assettemplate AS templatetype,assetattr AS attributetype,assetfilter AS filtertype FROM FlexAssetTypes WHERE assettype='Content_C' in 0ms
+2011-11-30 16:38:34,640 26821 1322667487776 Executed query SELECT assettemplate AS templatetype,assetattr AS attributetype,assetfilter AS filtertype FROM FlexGroupTypes WHERE assettype='Content_P' in 0ms
+2011-11-30 16:38:34,640 26821 1322667487776 Executed query SELECT assetattr AS attributetype,assetfilter AS filtertype FROM FlexGrpTmplTypes WHERE assettype='Content_PD' in 0ms
+2011-11-30 16:38:34,641 26822 1322667487776 Executed query SELECT assettemplate AS templatetype,assetattr AS attributetype,assetfilter AS filtertype FROM FlexTmplTypes WHERE assettype='Content_CD' in 0ms
+2011-11-30 16:38:34,641 26822 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:34,642 26823 1322667487776 Loaded table metadata for Content_C_Mungo in 1ms.
+2011-11-30 16:38:34,642 26823 1322667487776 Executed query SELECT DISTINCT assetvalue,blobvalue,cs_attrid,cs_ordinal,datevalue,floatvalue,intvalue,moneyvalue,stringvalue,urlvalue FROM Content_C_Mungo WHERE cs_attrid IN (1112192431378,1112192431398,1112192431368) AND cs_islegal IS NULL AND cs_assetgroupid IS NULL AND cs_ownerid IN (1202138292284) ORDER BY cs_attrid ASC in 0ms
+2011-11-30 16:38:34,652 26833 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 1ms.
+2011-11-30 16:38:34,656 26837 1322667487776 Loaded table metadata for Content_P_Group in 1ms.
+2011-11-30 16:38:34,656 26837 1322667487776 Executed query SELECT parentid AS assetid FROM Content_P_Group WHERE childid IN (1202138292284) in 0ms
+2011-11-30 16:38:34,658 26839 1322667487776 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:34,660 26841 1322667487776 Loaded table metadata for Content_P in 1ms.
+2011-11-30 16:38:34,661 26842 1322667487776 Executed query SELECT * FROM Content_P WHERE id IN (1112192431478) in 0ms
+2011-11-30 16:38:34,661 26842 1322667487776 Executed query SELECT * FROM Content_P WHERE id = ? in 0ms.
+2011-11-30 16:38:34,661 26842 1322667487776 Executed query SELECT * FROM Content_C WHERE id IN (1202138292284) in 0ms
+2011-11-30 16:38:34,664 26845 1322667487776 Executed prepared statement SELECT id FROM Content_A WHERE name=? in 0ms
+2011-11-30 16:38:34,665 26846 1322667487776 Executed query SELECT type AS type,externalid AS externalid,externaltable AS externaltable,externalcolumn AS externalcolumn,enginename AS enginename,charsetname AS charsetname,storage AS storage,editing AS editing,valuestyle AS valuestyle,upload AS upload,assettypename AS assettypename,contenttype AS contenttype,diffmethod AS diffmethod,diffconv AS diffconverter,diffpres AS diffpresentation,searchconv AS searchconverter,embedtype AS embedtype,deptype AS deptype FROM Content_A_Extension WHERE ownerid=1112192431363 in 1ms
+2011-11-30 16:38:34,665 26846 1322667487776 Executed query SELECT id,cs_ordinal AS ordinal,textvalue AS value FROM Content_C_Mungo WHERE cs_attrid=1112192431363 AND cs_islegal IS NULL AND cs_ownerid IN (1202138292284) ORDER BY id in 0ms
+2011-11-30 16:38:34,680 26861 1322667487776 Executed element Content_C/FSIIDetail in 59ms.
+2011-11-30 16:38:34,681 26862 1322667487776 Execute page FirstSiteII/Content_C/FSIIDetail Hours: 0 Minutes: 0 Seconds: 0:061
+2011-11-30 16:38:34,681 26862 1322667487776 Fetched 20 result sets in  Hours: 0 Minutes: 0 Seconds: 0:001
+2011-11-30 16:38:34,681 26862 1322667487776 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:059
+2011-11-30 16:38:34,682 26863 1322667487776 Executed query SELECT * FROM AdvCols WHERE id = ? in 0ms.
+2011-11-30 16:38:34,682 26863 1322667487776 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:38:34,684 26865 1322667487776 Executed query SELECT * FROM AdvCols WHERE id = ? in 0ms.
+2011-11-30 16:38:34,684 26865 1322667487776 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:38:34,689 26870 1322667487776 Executed query SELECT * FROM AdvCols WHERE id = ? in 0ms.
+2011-11-30 16:38:34,689 26870 1322667487776 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:38:34,694 26875 1322667487776 Executed prepared statement SELECT * FROM AdvCols_Dim WHERE cs_ownerid= ? in 0ms
+2011-11-30 16:38:34,700 26881 1322667487776 Executed query SELECT * FROM AdvCols_DimP WHERE cs_ownerid=1214229986262 in 0ms
+2011-11-30 16:38:34,702 26883 1322667487776 Executed query SELECT rulesetid AS ruleid FROM AdvCols_Extension WHERE ownerid=1214229986262 in 1ms
+2011-11-30 16:38:34,702 26883 1322667487776 Executed query SELECT urlxml FROM RuleSetDef WHERE id=1214229986268 in 0ms
+2011-11-30 16:38:34,702 26883 1322667487776 Executed query SELECT * FROM RuleMap WHERE cs_ownerid=1214229986268 in 0ms
+2011-11-30 16:38:34,703 26884 1322667487776 Executed query SELECT assettype AS assettype,assetid AS assetid,confidence AS confidence,bucketname AS bucket FROM AdvCols_ManRec WHERE ownerid=1214229986262 in 0ms
+2011-11-30 16:38:34,703 26884 1322667487776 Executed query SELECT attrtypename AS attributetypename,attrname AS attributename,direction AS direction FROM AdvCols_SSpec WHERE ownerid=1214229986262 ORDER BY id ASC in 0ms
+2011-11-30 16:38:34,703 26884 1322667487776 Executed query SELECT assettype FROM AdvCols_Types WHERE ownerid=1214229986262 in 0ms
+2011-11-30 16:38:34,706 26887 1322667487776 Executed prepared statement select id from AdvCols where id=? in 0ms
+2011-11-30 16:38:34,708 26889 1322667487776 Executed prepared statement SELECT id FROM AdvCols WHERE name=? in 0ms
+2011-11-30 16:38:34,712 26893 1322667487776 Executed query SELECT DISTINCT assettype FROM AdvCols_ManRec WHERE ownerid=1214229986262 in 0ms
+2011-11-30 16:38:34,713 26894 1322667487776 Executed query SELECT DISTINCT bucketname AS bucket FROM AdvCols_ManRec WHERE ownerid=1214229986262 in 1ms
+2011-11-30 16:38:34,713 26894 1322667487776 Executed query SELECT classname FROM RuleSetDef WHERE id=1214229986268 in 0ms
+2011-11-30 16:38:34,714 26895 1322667487776 Executed query SELECT assetid,MAX(confidence) AS confidence FROM AdvCols_ManRec WHERE ownerid=1214229986262 AND assettype='Content_C' AND bucketname IS NULL GROUP BY assetid in 0ms
+2011-11-30 16:38:34,715 26896 1322667487776 Executed query SELECT id,status,updateddate FROM AdvCols WHERE id IN (1214229986262) in 0ms
+2011-11-30 16:38:34,716 26897 1322667487776 Executed query SELECT classname,id FROM RuleSetDef j2 WHERE EXISTS(SELECT 'x' FROM Content_P_Extension j1 WHERE j2.id=rulesetid AND (EXISTS(SELECT 'x' FROM Content_P_Group WHERE j1.ownerid=parentid AND (childid IN (1114083740016,1114083740076,1114083739996,1114083739888,1114083740036,1114083740056,1114083739926))))) in 1ms
+2011-11-30 16:38:34,717 26898 1322667487776 Executed query SELECT parentid AS assetid FROM Content_P_Group WHERE childid IN (1114083740016,1114083740076,1114083739996,1114083739888,1114083740036,1114083740056,1114083739926) in 1ms
+2011-11-30 16:38:34,718 26899 1322667487776 Executed query SELECT classname,id FROM RuleSetDef j1 WHERE EXISTS(SELECT 'x' FROM Content_C_Extension WHERE j1.id=rulesetid AND (ownerid IN (1114083740016,1114083740076,1114083739996,1114083739888,1114083740036,1114083740056,1114083739926))) in 0ms
+2011-11-30 16:38:34,720 26901 1322667487776 Executed query SELECT DISTINCT childid,parentid FROM Content_P_Group WHERE childtype='Content_C' AND childid IN (1114083740016,1114083740076,1114083739996,1114083739888,1114083740036,1114083740056,1114083739926) AND primarycount>0 in 1ms
+2011-11-30 16:38:34,720 26901 1322667487776 Executed query SELECT DISTINCT childid,parentid FROM Content_P_Group WHERE childtype='Content_P' AND childid IN (1112192431478) AND primarycount>0 in 0ms
+2011-11-30 16:38:34,721 26902 1322667487776 Executed query SELECT * FROM Content_P WHERE id IN (1112192431478,1112192431478,1112192431478,1112192431478,1112192431478,1112192431478,1112192431478) in 0ms
+2011-11-30 16:38:34,722 26903 1322667487776 Executed query SELECT * FROM Content_C WHERE id IN (1114083740016,1114083740076,1114083739996,1114083739888,1114083740036,1114083740056,1114083739926) in 0ms
+2011-11-30 16:38:34,723 26904 1322667487776 Executed query SELECT * FROM Content_C WHERE id = ? in 0ms.
+2011-11-30 16:38:34,724 26905 1322667487776 Executed query SELECT * FROM Content_C WHERE id = ? in 1ms.
+2011-11-30 16:38:34,724 26905 1322667487776 Executed query SELECT * FROM Content_C WHERE id = ? in 0ms.
+2011-11-30 16:38:34,725 26906 1322667487776 Executed query SELECT * FROM Content_C WHERE id = ? in 0ms.
+2011-11-30 16:38:34,725 26906 1322667487776 Executed query SELECT * FROM Content_C WHERE id = ? in 0ms.
+2011-11-30 16:38:34,726 26907 1322667487776 Executed query SELECT * FROM Content_C WHERE id = ? in 0ms.
+2011-11-30 16:38:34,726 26907 1322667487776 Executed query SELECT * FROM Content_C WHERE id = ? in 0ms.
+2011-11-30 16:38:34,733 26914 1322667487776 Executed query SELECT pagename,rootelement,csstatus,pageletonly,resargs1,resargs2,pagecriteria,cscacheinfo,sscacheinfo,acl FROM SiteCatalog WHERE pagename = ? in 0ms.
+2011-11-30 16:38:34,734 26915 1322667487776 Executed query SELECT elementname,description,url,resdetails1,resdetails2 FROM ElementCatalog WHERE elementname = ? in 0ms.
+2011-11-30 16:38:34,740 26921 1322667487776 Executed query SELECT * FROM Template WHERE id = ? in 0ms.
+2011-11-30 16:38:34,744 26925 1322667487776 Executed prepared statement SELECT * FROM Template_Map WHERE cs_ownerid= ? in 1ms
+2011-11-30 16:38:34,748 26929 1322667487776 Executed prepared statement SELECT id FROM Content_A WHERE name=? in 0ms
+2011-11-30 16:38:34,749 26930 1322667487776 Executed query SELECT type AS type,externalid AS externalid,externaltable AS externaltable,externalcolumn AS externalcolumn,enginename AS enginename,charsetname AS charsetname,storage AS storage,editing AS editing,valuestyle AS valuestyle,upload AS upload,assettypename AS assettypename,contenttype AS contenttype,diffmethod AS diffmethod,diffconv AS diffconverter,diffpres AS diffpresentation,searchconv AS searchconverter,embedtype AS embedtype,deptype AS deptype FROM Content_A_Extension WHERE ownerid=1112192431393 in 1ms
+2011-11-30 16:38:34,749 26930 1322667487776 Executed query SELECT DISTINCT assetvalue,blobvalue,cs_attrid,cs_ordinal,datevalue,floatvalue,intvalue,moneyvalue,stringvalue,urlvalue FROM Content_C_Mungo WHERE cs_attrid IN (1112192431378,1112192431393) AND cs_islegal IS NULL AND cs_assetgroupid IS NULL AND cs_ownerid IN (1114083740076) ORDER BY cs_attrid ASC in 0ms
+2011-11-30 16:38:34,750 26931 1322667487776 Executed query SELECT parentid AS assetid FROM Content_P_Group WHERE childid IN (1114083740076) in 0ms
+2011-11-30 16:38:34,750 26931 1322667487776 Executed query SELECT * FROM Content_C WHERE id IN (1114083740076) in 0ms
+2011-11-30 16:38:34,751 26932 1322667487776 Executed prepared statement SELECT id FROM Content_A WHERE name=? in 0ms
+2011-11-30 16:38:34,751 26932 1322667487776 Executed query SELECT type AS type,externalid AS externalid,externaltable AS externaltable,externalcolumn AS externalcolumn,enginename AS enginename,charsetname AS charsetname,storage AS storage,editing AS editing,valuestyle AS valuestyle,upload AS upload,assettypename AS assettypename,contenttype AS contenttype,diffmethod AS diffmethod,diffconv AS diffconverter,diffpres AS diffpresentation,searchconv AS searchconverter,embedtype AS embedtype,deptype AS deptype FROM Content_A_Extension WHERE ownerid=1112192431358 in 0ms
+2011-11-30 16:38:34,752 26933 1322667487776 Executed query SELECT id,cs_ordinal AS ordinal,textvalue AS value FROM Content_C_Mungo WHERE cs_attrid=1112192431358 AND cs_islegal IS NULL AND cs_ownerid IN (1114083740076) ORDER BY id in 0ms
+2011-11-30 16:38:34,755 26936 1322667487776 Executed nested tag asset.list using using ICS.runTag in 2ms
+2011-11-30 16:38:34,762 26943 1322667487776 Executed element Content_C/FSIISummary in 28ms.
+2011-11-30 16:38:34,763 26944 1322667487776 Execute page FirstSiteII/Content_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:030
+2011-11-30 16:38:34,763 26944 1322667487776 Fetched 10 result sets in  Hours: 0 Minutes: 0 Seconds: 0:000
+2011-11-30 16:38:34,763 26944 1322667487776 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:028
+2011-11-30 16:38:34,771 26952 1322667487776 Executed query SELECT DISTINCT assetvalue,blobvalue,cs_attrid,cs_ordinal,datevalue,floatvalue,intvalue,moneyvalue,stringvalue,urlvalue FROM Content_C_Mungo WHERE cs_attrid IN (1112192431378,1112192431393) AND cs_islegal IS NULL AND cs_assetgroupid IS NULL AND cs_ownerid IN (1114083740056) ORDER BY cs_attrid ASC in 0ms
+2011-11-30 16:38:34,772 26953 1322667487776 Executed query SELECT parentid AS assetid FROM Content_P_Group WHERE childid IN (1114083740056) in 0ms
+2011-11-30 16:38:34,773 26954 1322667487776 Executed query SELECT * FROM Content_C WHERE id IN (1114083740056) in 0ms
+2011-11-30 16:38:34,773 26954 1322667487776 Executed query SELECT id,cs_ordinal AS ordinal,textvalue AS value FROM Content_C_Mungo WHERE cs_attrid=1112192431358 AND cs_islegal IS NULL AND cs_ownerid IN (1114083740056) ORDER BY id in 0ms
+2011-11-30 16:38:34,775 26956 1322667487776 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:38:34,778 26959 1322667487776 Executed element Content_C/FSIISummary in 12ms.
+2011-11-30 16:38:34,778 26959 1322667487776 Execute page FirstSiteII/Content_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:013
+2011-11-30 16:38:34,779 26960 1322667487776 Fetched 4 result sets in  Hours: 0 Minutes: 0 Seconds: 0:000
+2011-11-30 16:38:34,780 26961 1322667487776 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:012
+2011-11-30 16:38:34,791 26972 1322667487776 Executed query SELECT DISTINCT assetvalue,blobvalue,cs_attrid,cs_ordinal,datevalue,floatvalue,intvalue,moneyvalue,stringvalue,urlvalue FROM Content_C_Mungo WHERE cs_attrid IN (1112192431378,1112192431393) AND cs_islegal IS NULL AND cs_assetgroupid IS NULL AND cs_ownerid IN (1114083740036) ORDER BY cs_attrid ASC in 0ms
+2011-11-30 16:38:34,792 26973 1322667487776 Executed query SELECT parentid AS assetid FROM Content_P_Group WHERE childid IN (1114083740036) in 0ms
+2011-11-30 16:38:34,795 26976 1322667487776 Executed query SELECT * FROM Content_C WHERE id IN (1114083740036) in 0ms
+2011-11-30 16:38:34,798 26979 1322667487776 Executed query SELECT id,cs_ordinal AS ordinal,textvalue AS value FROM Content_C_Mungo WHERE cs_attrid=1112192431358 AND cs_islegal IS NULL AND cs_ownerid IN (1114083740036) ORDER BY id in 0ms
+2011-11-30 16:38:34,799 26980 1322667487776 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:38:34,801 26982 1322667487776 Executed element Content_C/FSIISummary in 18ms.
+2011-11-30 16:38:34,801 26982 1322667487776 Execute page FirstSiteII/Content_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:018
+2011-11-30 16:38:34,802 26983 1322667487776 Fetched 4 result sets in  Hours: 0 Minutes: 0 Seconds: 0:000
+2011-11-30 16:38:34,802 26983 1322667487776 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:018
+2011-11-30 16:38:34,811 26992 1322667487776 Executed query SELECT DISTINCT assetvalue,blobvalue,cs_attrid,cs_ordinal,datevalue,floatvalue,intvalue,moneyvalue,stringvalue,urlvalue FROM Content_C_Mungo WHERE cs_attrid IN (1112192431378,1112192431393) AND cs_islegal IS NULL AND cs_assetgroupid IS NULL AND cs_ownerid IN (1114083740016) ORDER BY cs_attrid ASC in 0ms
+2011-11-30 16:38:34,813 26994 1322667487776 Executed query SELECT parentid AS assetid FROM Content_P_Group WHERE childid IN (1114083740016) in 0ms
+2011-11-30 16:38:34,813 26994 1322667487776 Executed query SELECT * FROM Content_C WHERE id IN (1114083740016) in 0ms
+2011-11-30 16:38:34,815 26996 1322667487776 Executed query SELECT id,cs_ordinal AS ordinal,textvalue AS value FROM Content_C_Mungo WHERE cs_attrid=1112192431358 AND cs_islegal IS NULL AND cs_ownerid IN (1114083740016) ORDER BY id in 0ms
+2011-11-30 16:38:34,816 26997 1322667487776 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:38:34,818 26999 1322667487776 Executed element Content_C/FSIISummary in 13ms.
+2011-11-30 16:38:34,818 26999 1322667487776 Execute page FirstSiteII/Content_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:014
+2011-11-30 16:38:34,818 26999 1322667487776 Fetched 4 result sets in  Hours: 0 Minutes: 0 Seconds: 0:001
+2011-11-30 16:38:34,818 26999 1322667487776 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:013
+2011-11-30 16:38:34,826 27007 1322667487776 Executed query SELECT DISTINCT assetvalue,blobvalue,cs_attrid,cs_ordinal,datevalue,floatvalue,intvalue,moneyvalue,stringvalue,urlvalue FROM Content_C_Mungo WHERE cs_attrid IN (1112192431378,1112192431393) AND cs_islegal IS NULL AND cs_assetgroupid IS NULL AND cs_ownerid IN (1114083739996) ORDER BY cs_attrid ASC in 0ms
+2011-11-30 16:38:34,827 27008 1322667487776 Executed query SELECT parentid AS assetid FROM Content_P_Group WHERE childid IN (1114083739996) in 0ms
+2011-11-30 16:38:34,828 27009 1322667487776 Executed query SELECT * FROM Content_C WHERE id IN (1114083739996) in 0ms
+2011-11-30 16:38:34,829 27010 1322667487776 Executed query SELECT id,cs_ordinal AS ordinal,textvalue AS value FROM Content_C_Mungo WHERE cs_attrid=1112192431358 AND cs_islegal IS NULL AND cs_ownerid IN (1114083739996) ORDER BY id in 0ms
+2011-11-30 16:38:34,832 27013 1322667487776 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:38:34,839 27020 1322667487776 Executed element Content_C/FSIISummary in 19ms.
+2011-11-30 16:38:34,839 27020 1322667487776 Execute page FirstSiteII/Content_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:019
+2011-11-30 16:38:34,839 27020 1322667487776 Fetched 4 result sets in  Hours: 0 Minutes: 0 Seconds: 0:000
+2011-11-30 16:38:34,839 27020 1322667487776 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:019
+2011-11-30 16:38:34,849 27030 1322667487776 Executed query SELECT DISTINCT assetvalue,blobvalue,cs_attrid,cs_ordinal,datevalue,floatvalue,intvalue,moneyvalue,stringvalue,urlvalue FROM Content_C_Mungo WHERE cs_attrid IN (1112192431378,1112192431393) AND cs_islegal IS NULL AND cs_assetgroupid IS NULL AND cs_ownerid IN (1114083739888) ORDER BY cs_attrid ASC in 0ms
+2011-11-30 16:38:34,854 27035 1322667487776 Executed query SELECT parentid AS assetid FROM Content_P_Group WHERE childid IN (1114083739888) in 0ms
+2011-11-30 16:38:34,854 27035 1322667487776 Executed query SELECT * FROM Content_C WHERE id IN (1114083739888) in 0ms
+2011-11-30 16:38:34,856 27037 1322667487776 Executed query SELECT id,cs_ordinal AS ordinal,textvalue AS value FROM Content_C_Mungo WHERE cs_attrid=1112192431358 AND cs_islegal IS NULL AND cs_ownerid IN (1114083739888) ORDER BY id in 0ms
+2011-11-30 16:38:34,857 27038 1322667487776 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:38:34,860 27041 1322667487776 Executed element Content_C/FSIISummary in 18ms.
+2011-11-30 16:38:34,860 27041 1322667487776 Execute page FirstSiteII/Content_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:018
+2011-11-30 16:38:34,860 27041 1322667487776 Fetched 4 result sets in  Hours: 0 Minutes: 0 Seconds: 0:000
+2011-11-30 16:38:34,860 27041 1322667487776 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:018
+2011-11-30 16:38:34,877 27058 1322667487776 Executed query SELECT DISTINCT assetvalue,blobvalue,cs_attrid,cs_ordinal,datevalue,floatvalue,intvalue,moneyvalue,stringvalue,urlvalue FROM Content_C_Mungo WHERE cs_attrid IN (1112192431378,1112192431393) AND cs_islegal IS NULL AND cs_assetgroupid IS NULL AND cs_ownerid IN (1114083739926) ORDER BY cs_attrid ASC in 0ms
+2011-11-30 16:38:34,878 27059 1322667487776 Executed query SELECT parentid AS assetid FROM Content_P_Group WHERE childid IN (1114083739926) in 0ms
+2011-11-30 16:38:34,879 27060 1322667487776 Executed query SELECT * FROM Content_C WHERE id IN (1114083739926) in 1ms
+2011-11-30 16:38:34,879 27060 1322667487776 Executed query SELECT id,cs_ordinal AS ordinal,textvalue AS value FROM Content_C_Mungo WHERE cs_attrid=1112192431358 AND cs_islegal IS NULL AND cs_ownerid IN (1114083739926) ORDER BY id in 0ms
+2011-11-30 16:38:34,880 27061 1322667487776 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:38:34,882 27063 1322667487776 Executed element Content_C/FSIISummary in 17ms.
+2011-11-30 16:38:34,887 27068 1322667487776 Execute page FirstSiteII/Content_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:022
+2011-11-30 16:38:34,888 27069 1322667487776 Fetched 4 result sets in  Hours: 0 Minutes: 0 Seconds: 0:000
+2011-11-30 16:38:34,888 27069 1322667487776 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:017
+2011-11-30 16:38:34,889 27070 1322667487776 Executed element AdvCols/FSIIDetail in 197ms.
+2011-11-30 16:38:34,890 27071 1322667487776 Execute page FirstSiteII/AdvCols/FSIIDetail Hours: 0 Minutes: 0 Seconds: 0:198
+2011-11-30 16:38:34,890 27071 1322667487776 Fetched 29 result sets in  Hours: 0 Minutes: 0 Seconds: 0:001
+2011-11-30 16:38:34,890 27071 1322667487776 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:197
+2011-11-30 16:38:34,891 27072 1322667487776 Executed query SELECT * FROM AdvCols WHERE id = ? in 1ms.
+2011-11-30 16:38:34,891 27072 1322667487776 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:38:34,892 27073 1322667487776 Executed query SELECT * FROM AdvCols WHERE id = ? in 0ms.
+2011-11-30 16:38:34,892 27073 1322667487776 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:38:34,898 27079 1322667487776 Executed prepared statement SELECT * FROM AdvCols_Dim WHERE cs_ownerid= ? in 0ms
+2011-11-30 16:38:34,899 27080 1322667487776 Executed query SELECT * FROM AdvCols_DimP WHERE cs_ownerid=1214229986333 in 0ms
+2011-11-30 16:38:34,900 27081 1322667487776 Executed query SELECT rulesetid AS ruleid FROM AdvCols_Extension WHERE ownerid=1214229986333 in 0ms
+2011-11-30 16:38:34,901 27082 1322667487776 Executed query SELECT urlxml FROM RuleSetDef WHERE id=1214229986339 in 0ms
+2011-11-30 16:38:34,901 27082 1322667487776 Executed query SELECT * FROM RuleMap WHERE cs_ownerid=1214229986339 in 0ms
+2011-11-30 16:38:34,902 27083 1322667487776 Executed query SELECT assettype AS assettype,assetid AS assetid,confidence AS confidence,bucketname AS bucket FROM AdvCols_ManRec WHERE ownerid=1214229986333 in 0ms
+2011-11-30 16:38:34,902 27083 1322667487776 Executed query SELECT attrtypename AS attributetypename,attrname AS attributename,direction AS direction FROM AdvCols_SSpec WHERE ownerid=1214229986333 ORDER BY id ASC in 0ms
+2011-11-30 16:38:34,903 27084 1322667487776 Executed query SELECT assettype FROM AdvCols_Types WHERE ownerid=1214229986333 in 0ms
+2011-11-30 16:38:34,905 27086 1322667487776 Executed prepared statement select id from AdvCols where id=? in 0ms
+2011-11-30 16:38:34,906 27087 1322667487776 Executed prepared statement SELECT id FROM AdvCols WHERE name=? in 0ms
+2011-11-30 16:38:34,908 27089 1322667487776 Executed query SELECT DISTINCT assettype FROM AdvCols_ManRec WHERE ownerid=1214229986333 in 0ms
+2011-11-30 16:38:34,909 27090 1322667487776 Executed query SELECT DISTINCT bucketname AS bucket FROM AdvCols_ManRec WHERE ownerid=1214229986333 in 0ms
+2011-11-30 16:38:34,910 27091 1322667487776 Executed query SELECT classname FROM RuleSetDef WHERE id=1214229986339 in 0ms
+2011-11-30 16:38:34,911 27092 1322667487776 Executed query SELECT assetid,MAX(confidence) AS confidence FROM AdvCols_ManRec WHERE ownerid=1214229986333 AND assettype='Product_C' AND bucketname IS NULL GROUP BY assetid in 0ms
+2011-11-30 16:38:34,911 27092 1322667487776 Executed query SELECT assetid,MAX(confidence) AS confidence FROM AdvCols_ManRec WHERE ownerid=1214229986333 AND assettype='Content_C' AND bucketname IS NULL GROUP BY assetid in 0ms
+2011-11-30 16:38:34,912 27093 1322667487776 Executed query SELECT id,status,updateddate FROM AdvCols WHERE id IN (1214229986333) in 0ms
+2011-11-30 16:38:34,913 27094 1322667487776 Executed query SELECT classname,id FROM RuleSetDef j2 WHERE EXISTS(SELECT 'x' FROM Product_P_Extension j1 WHERE j2.id=rulesetid AND (EXISTS(SELECT 'x' FROM Product_P_Group WHERE j1.ownerid=parentid AND (childid IN (1114083739663,1114083739851))))) in 0ms
+2011-11-30 16:38:34,913 27094 1322667487776 Executed query SELECT parentid AS assetid FROM Product_P_Group WHERE childid IN (1114083739663,1114083739851) in 0ms
+2011-11-30 16:38:34,915 27096 1322667487776 Executed query SELECT classname,id FROM RuleSetDef j1 WHERE EXISTS(SELECT 'x' FROM Product_C_Extension WHERE j1.id=rulesetid AND (ownerid IN (1114083739663,1114083739851))) in 1ms
+2011-11-30 16:38:34,916 27097 1322667487776 Executed query SELECT classname,id FROM RuleSetDef j2 WHERE EXISTS(SELECT 'x' FROM Content_P_Extension j1 WHERE j2.id=rulesetid AND (EXISTS(SELECT 'x' FROM Content_P_Group WHERE j1.ownerid=parentid AND (childid IN (1114083740076,1114083739996,1114083739951))))) in 1ms
+2011-11-30 16:38:34,916 27097 1322667487776 Executed query SELECT parentid AS assetid FROM Content_P_Group WHERE childid IN (1114083740076,1114083739996,1114083739951) in 0ms
+2011-11-30 16:38:34,919 27100 1322667487776 Executed query SELECT classname,id FROM RuleSetDef j1 WHERE EXISTS(SELECT 'x' FROM Content_C_Extension WHERE j1.id=rulesetid AND (ownerid IN (1114083740076,1114083739996,1114083739951))) in 1ms
+2011-11-30 16:38:34,919 27100 1322667487776 Executed query SELECT DISTINCT childid,parentid FROM Product_P_Group WHERE childtype='Product_C' AND childid IN (1114083739663,1114083739851) AND primarycount>0 in 0ms
+2011-11-30 16:38:34,920 27101 1322667487776 Executed query SELECT DISTINCT childid,parentid FROM Content_P_Group WHERE childtype='Content_C' AND childid IN (1114083740076,1114083739996,1114083739951) AND primarycount>0 in 0ms
+2011-11-30 16:38:34,921 27102 1322667487776 Executed query SELECT DISTINCT childid,parentid FROM Product_P_Group WHERE childtype='Product_P' AND childid IN (1114083739165,1114083739135,1114083739026,1114083739036) AND primarycount>0 in 0ms
+2011-11-30 16:38:34,922 27103 1322667487776 Executed query SELECT DISTINCT childid,parentid FROM Product_P_Group WHERE childtype='Product_P' AND childid IN (1114083739084,1112195134525,1114083739066) AND primarycount>0 in 0ms
+2011-11-30 16:38:34,923 27104 1322667487776 Executed query SELECT * FROM Content_P WHERE id IN (1112192431478,1112192431478,1112192431478) in 0ms
+2011-11-30 16:38:34,923 27104 1322667487776 Executed query SELECT * FROM Content_C WHERE id IN (1114083740076,1114083739996,1114083739951) in 0ms
+2011-11-30 16:38:34,924 27105 1322667487776 Executed query SELECT * FROM Content_C WHERE id = ? in 0ms.
+2011-11-30 16:38:34,925 27106 1322667487776 Executed query SELECT * FROM Product_P WHERE id IN (1112195134531,1114083739066,1114083739135,1112195134525,1114083739036,1112195134525,1114083739026,1112195134531,1114083739084,1114083739165) in 1ms
+2011-11-30 16:38:34,925 27106 1322667487776 Executed query SELECT * FROM Product_P WHERE id = ? in 0ms.
+2011-11-30 16:38:34,925 27106 1322667487776 Executed query SELECT * FROM Product_P WHERE id = ? in 0ms.
+2011-11-30 16:38:34,926 27107 1322667487776 Executed query SELECT * FROM Product_P WHERE id = ? in 0ms.
+2011-11-30 16:38:34,926 27107 1322667487776 Executed query SELECT * FROM Product_P WHERE id = ? in 0ms.
+2011-11-30 16:38:34,927 27108 1322667487776 Executed query SELECT * FROM Product_C WHERE id IN (1114083739663,1114083739851) in 0ms
+2011-11-30 16:38:34,927 27108 1322667487776 Executed query SELECT * FROM Product_C WHERE id = ? in 0ms.
+2011-11-30 16:38:34,928 27109 1322667487776 Executed query SELECT * FROM Product_C WHERE id = ? in 0ms.
+2011-11-30 16:38:34,940 27121 1322667487776 Executed query SELECT DISTINCT assetvalue,blobvalue,cs_attrid,cs_ordinal,datevalue,floatvalue,intvalue,moneyvalue,stringvalue,urlvalue FROM Product_C_Mungo WHERE cs_attrid IN (1112195134183,1112195134188,1112195134178,1112195134143) AND cs_islegal IS NULL AND cs_assetgroupid IS NULL AND cs_ownerid IN (1114083739663) ORDER BY cs_attrid ASC in 0ms
+2011-11-30 16:38:34,953 27134 1322667487776 Executed element Media_C/FSIISummary in 10ms.
+2011-11-30 16:38:34,954 27135 1322667487776 Execute page FirstSiteII/Media_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:012
+2011-11-30 16:38:34,954 27135 1322667487776 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:010
+2011-11-30 16:38:34,956 27137 1322667487776 Executed element Product_C/FSIISummary in 24ms.
+2011-11-30 16:38:34,956 27137 1322667487776 Execute page FirstSiteII/Product_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:025
+2011-11-30 16:38:34,956 27137 1322667487776 Fetched 1 result sets in  Hours: 0 Minutes: 0 Seconds: 0:000
+2011-11-30 16:38:34,956 27137 1322667487776 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:024
+2011-11-30 16:38:34,958 27139 1322667487776 Execute page FirstSiteII/Content_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:000
+2011-11-30 16:38:34,966 27147 1322667487776 Executed query SELECT DISTINCT assetvalue,blobvalue,cs_attrid,cs_ordinal,datevalue,floatvalue,intvalue,moneyvalue,stringvalue,urlvalue FROM Content_C_Mungo WHERE cs_attrid IN (1112192431378,1112192431393) AND cs_islegal IS NULL AND cs_assetgroupid IS NULL AND cs_ownerid IN (1114083739951) ORDER BY cs_attrid ASC in 1ms
+2011-11-30 16:38:34,966 27147 1322667487776 Executed query SELECT parentid AS assetid FROM Content_P_Group WHERE childid IN (1114083739951) in 0ms
+2011-11-30 16:38:34,967 27148 1322667487776 Executed query SELECT * FROM Content_C WHERE id IN (1114083739951) in 0ms
+2011-11-30 16:38:34,968 27149 1322667487776 Executed query SELECT id,cs_ordinal AS ordinal,textvalue AS value FROM Content_C_Mungo WHERE cs_attrid=1112192431358 AND cs_islegal IS NULL AND cs_ownerid IN (1114083739951) ORDER BY id in 1ms
+2011-11-30 16:38:34,969 27150 1322667487776 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:38:34,971 27152 1322667487776 Executed element Content_C/FSIISummary in 11ms.
+2011-11-30 16:38:34,972 27153 1322667487776 Execute page FirstSiteII/Content_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:013
+2011-11-30 16:38:34,972 27153 1322667487776 Fetched 4 result sets in  Hours: 0 Minutes: 0 Seconds: 0:000
+2011-11-30 16:38:34,972 27153 1322667487776 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:011
+2011-11-30 16:38:34,982 27163 1322667487776 Executed query SELECT DISTINCT assetvalue,blobvalue,cs_attrid,cs_ordinal,datevalue,floatvalue,intvalue,moneyvalue,stringvalue,urlvalue FROM Product_C_Mungo WHERE cs_attrid IN (1112195134183,1112195134188,1112195134178,1112195134143) AND cs_islegal IS NULL AND cs_assetgroupid IS NULL AND cs_ownerid IN (1114083739851) ORDER BY cs_attrid ASC in 1ms
+2011-11-30 16:38:34,993 27174 1322667487776 Executed query SELECT parentid AS assetid FROM Media_P_Group WHERE childid IN (1114083738243) in 1ms
+2011-11-30 16:38:34,993 27174 1322667487776 Executed query SELECT * FROM Media_C WHERE id IN (1114083738243) in 0ms
+2011-11-30 16:38:34,993 27174 1322667487776 Executed query SELECT * FROM Media_C WHERE id = ? in 0ms.
+2011-11-30 16:38:34,995 27176 1322667487776 Executed query SELECT DISTINCT assetvalue,blobvalue,cs_attrid,cs_ordinal,datevalue,floatvalue,intvalue,moneyvalue,stringvalue,urlvalue FROM Media_C_Mungo WHERE cs_attrid IN (1112195133894,1112195133923,1112195133918,1112195133863) AND cs_islegal IS NULL AND cs_ownerid IN (1114083738243) ORDER BY cs_attrid ASC in 0ms
+2011-11-30 16:38:34,995 27176 1322667487776 Executed query SELECT DISTINCT id,cs_ordinal AS ordinal,blobvalue AS value FROM Media_C_Mungo WHERE cs_attrid=1112195133928 AND cs_islegal IS NULL AND cs_ownerid IN (1114083738243) ORDER BY id in 0ms
+2011-11-30 16:38:34,996 27177 1322667487776 Executed element Media_C/FSIISummary in 11ms.
+2011-11-30 16:38:34,996 27177 1322667487776 Execute page FirstSiteII/Media_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:011
+2011-11-30 16:38:34,996 27177 1322667487776 Fetched 5 result sets in  Hours: 0 Minutes: 0 Seconds: 0:001
+2011-11-30 16:38:34,996 27177 1322667487776 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:011
+2011-11-30 16:38:34,999 27180 1322667487776 Executed element Product_C/FSIISummary in 24ms.
+2011-11-30 16:38:35,000 27181 1322667487776 Execute page FirstSiteII/Product_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:026
+2011-11-30 16:38:35,000 27181 1322667487776 Fetched 1 result sets in  Hours: 0 Minutes: 0 Seconds: 0:000
+2011-11-30 16:38:35,000 27181 1322667487776 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:024
+2011-11-30 16:38:35,001 27182 1322667487776 Execute page FirstSiteII/Content_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:000
+2011-11-30 16:38:35,002 27183 1322667487776 Executed element AdvCols/FSIIDetail in 106ms.
+2011-11-30 16:38:35,003 27184 1322667487776 Execute page FirstSiteII/AdvCols/FSIIDetail Hours: 0 Minutes: 0 Seconds: 0:107
+2011-11-30 16:38:35,003 27184 1322667487776 Fetched 37 result sets in  Hours: 0 Minutes: 0 Seconds: 0:001
+2011-11-30 16:38:35,003 27184 1322667487776 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:106
+2011-11-30 16:38:35,004 27185 1322667487776 Executed query SELECT * FROM AdvCols WHERE id = ? in 0ms.
+2011-11-30 16:38:35,005 27186 1322667487776 Executed nested tag asset.list using using ICS.runTag in 2ms
+2011-11-30 16:38:35,005 27186 1322667487776 Executed element Page/FSIIStandardDetailView in 422ms.
+2011-11-30 16:38:35,005 27186 1322667487776 Executed element Page/FSIIHomeDetailView in 430ms.
+2011-11-30 16:38:35,009 27190 1322667487776 Execute page FirstSiteII/Page/FSIIHomeDetailView Hours: 0 Minutes: 0 Seconds: 0:434
+2011-11-30 16:38:35,009 27190 1322667487776 Fetched 16 result sets in  Hours: 0 Minutes: 0 Seconds: 0:001
+2011-11-30 16:38:35,009 27190 1322667487776 Processed 2 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:852
+2011-11-30 16:38:35,009 27190 1322667487776 Executed element Page/FSIIDetail in 447ms.
+2011-11-30 16:38:35,010 27191 1322667487776 Executed query SELECT pagename,rootelement,csstatus,pageletonly,resargs1,resargs2,pagecriteria,cscacheinfo,sscacheinfo,acl FROM SiteCatalog WHERE pagename = ? in 0ms.
+2011-11-30 16:38:35,011 27192 1322667487776 Executed query SELECT elementname,description,url,resdetails1,resdetails2 FROM ElementCatalog WHERE elementname = ? in 0ms.
+2011-11-30 16:38:35,016 27197 1322667487776 Executed query SELECT * FROM Template WHERE id = ? in 0ms.
+2011-11-30 16:38:35,017 27198 1322667487776 Executed element Page/FSIIBottomNav in 6ms.
+2011-11-30 16:38:35,017 27198 1322667487776 Execute page FirstSiteII/Page/FSIIBottomNav Hours: 0 Minutes: 0 Seconds: 0:007
+2011-11-30 16:38:35,017 27198 1322667487776 Fetched 1 result sets in  Hours: 0 Minutes: 0 Seconds: 0:000
+2011-11-30 16:38:35,017 27198 1322667487776 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:006
+2011-11-30 16:38:35,017 27198 1322667487776 Executed element /FSIILayout in 1921ms.
+2011-11-30 16:38:35,028 27209 1322667487776 Execute page FirstSiteII/FSIILayout Hours: 0 Minutes: 0 Seconds: 2:278
+2011-11-30 16:38:35,028 27209 1322667487776 Fetched 92 result sets in  Hours: 0 Minutes: 0 Seconds: 0:015
+2011-11-30 16:38:35,028 27209 1322667487776 Processed 6 JSP elements in  Hours: 0 Minutes: 0 Seconds: 3:438
+2011-11-30 16:38:35,029 27210 1322667487776 Executed element FSIIWrapper in 2483ms.
+2011-11-30 16:38:35,029 27210 1322667487776 Execute page FSIIWrapper Hours: 0 Minutes: 0 Seconds: 2:485
+2011-11-30 16:38:35,029 27210 1322667487776 Fetched 11 result sets in  Hours: 0 Minutes: 0 Seconds: 0:016
+2011-11-30 16:38:35,029 27210 1322667487776 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 2:483
+2011-11-30 16:38:35,029 27210 1322667487776 Executed request 1322667487776 'http://jsk-virtualbox:8180/cs/ContentServer?c=Page&childpagename=FirstSiteII/FSIILayout&p=1118867611403&pagename=FSIIWrapper&cid=1118867611403' in 2486 ms
+2011-11-30 16:38:38,137 30318 1322667487777 Start request 1322667487777 http://jsk-virtualbox:8180/cs/ContentServer?c=Page&childpagename=FirstSiteII/FSIILayout&p=1118867611403&pagename=FSIIWrapper&cid=1118867611403
+2011-11-30 16:38:38,160 30341 1322667487777 Execute page FirstSiteII/FSIILayout Hours: 0 Minutes: 0 Seconds: 0:005
+2011-11-30 16:38:38,161 30342 1322667487777 Executed element FSIIWrapper in 16ms.
+2011-11-30 16:38:38,161 30342 1322667487777 Execute page FSIIWrapper Hours: 0 Minutes: 0 Seconds: 0:020
+2011-11-30 16:38:38,161 30342 1322667487777 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:016
+2011-11-30 16:38:38,161 30342 1322667487777 Executed request 1322667487777 'http://jsk-virtualbox:8180/cs/ContentServer?c=Page&childpagename=FirstSiteII/FSIILayout&p=1118867611403&pagename=FSIIWrapper&cid=1118867611403' in 23 ms
+2011-11-30 16:38:40,228 32409 1322667487778 Start request 1322667487778 http://localhost:8180/cs/ContentServer?pagename=OpenMarket/Xcelerate/Search/Event
+2011-11-30 16:38:40,245 32426 1322667487778 Executed element OpenMarket/Xcelerate/Search/Event in 11ms.
+2011-11-30 16:38:40,246 32427 1322667487778 Execute page OpenMarket/Xcelerate/Search/Event Hours: 0 Minutes: 0 Seconds: 0:014
+2011-11-30 16:38:40,247 32428 1322667487778 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:011
+2011-11-30 16:38:40,250 32431 1322667487778 Executed request 1322667487778 'http://localhost:8180/cs/ContentServer?pagename=OpenMarket/Xcelerate/Search/Event' in 22 ms
+2011-11-30 16:38:40,252 32433 1322667487778 Executed prepared statement select * from AssetQueues in 0ms
+2011-11-30 16:38:40,253 32434 1322667487778 Executed prepared statement SELECT assettype,assetid,action FROM Global_Q ORDER BY id in 0ms
+2011-11-30 16:38:40,253 32434 1322667487778 Executed prepared statement SELECT assettype,assetid,action FROM Media_C_Q ORDER BY id in 0ms
+2011-11-30 16:38:40,254 32435 1322667487778 Executed prepared statement SELECT assettype,assetid,action FROM Content_C_Q ORDER BY id in 0ms
+2011-11-30 16:38:40,254 32435 1322667487778 Executed prepared statement SELECT assettype,assetid,action FROM Document_C_Q ORDER BY id in 0ms
+2011-11-30 16:38:40,254 32435 1322667487778 Executed prepared statement SELECT assettype,assetid,action FROM GSTAlias_Q ORDER BY id in 0ms
+2011-11-30 16:38:40,254 32435 1322667487778 Executed prepared statement SELECT assettype,assetid,action FROM GSTVirtualWebroot_Q ORDER BY id in 0ms
+2011-11-30 16:38:40,255 32436 1322667487778 Executed prepared statement SELECT assettype,assetid,action FROM Product_C_Q ORDER BY id in 0ms
+2011-11-30 16:38:45,924 38105 1322667487779 Start request 1322667487779 http://jsk-virtualbox:8180/cs/Satellite?c=Page&childpagename=FirstSiteII/FSIILayout&p=1118867611403&pagename=FSIIWrapper&cid=1118867611403
+2011-11-30 16:38:45,987 38168 1322667487779 Executed element FSIIWrapper in 12ms.
+2011-11-30 16:38:45,987 38168 1322667487779 Execute page FSIIWrapper Hours: 0 Minutes: 0 Seconds: 0:013
+2011-11-30 16:38:45,988 38169 1322667487779 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:012
+2011-11-30 16:38:46,014 38195 1322667487779 Executed element FSIICommon/Locale/ExecuteFilter in 4ms.
+2011-11-30 16:38:46,027 38208 1322667487779 Executed query SELECT urldata FROM scratch WHERE id = '1299863431785:_VISITOROBJECT_' in 0ms
+2011-11-30 16:38:46,028 38209 1322667487779 Executed query SELECT urldata FROM scratch WHERE id = '1299863431785:Cart' in 0ms
+2011-11-30 16:38:46,028 38209 1322667487779 Executed query SELECT urldata FROM scratch WHERE id = '1299863431785:CurrentDate' in 0ms
+2011-11-30 16:38:46,035 38216 1322667487779 Executed query SELECT description FROM VMVISITOR WHERE id='1299863431785' in 0ms
+2011-11-30 16:38:46,036 38217 1322667487779 Executed query SELECT urldata FROM scratch WHERE id = '1299863431785:EffectiveSegments' in 0ms
+2011-11-30 16:38:46,038 38219 1322667487779 Executed query SELECT urldata FROM scratch WHERE id = '1299863431785:EffectivePromotions' in 0ms
+2011-11-30 16:38:46,047 38228 1322667487779 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:38:46,050 38231 1322667487779 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:38:46,051 38232 1322667487779 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:38:46,058 38239 1322667487779 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:38:46,058 38239 1322667487779 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:38:46,058 38239 1322667487779 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:38:46,059 38240 1322667487779 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:38:46,059 38240 1322667487779 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:38:46,060 38241 1322667487779 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:38:46,060 38241 1322667487779 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:38:46,072 38253 1322667487779 Executed element AdvCols/FSIIStyleSheetResolver in 53ms.
+2011-11-30 16:38:46,077 38258 1322667487779 Executed element FSIICommon/LookAndFeel/TopNavJavaScript in 1ms.
+2011-11-30 16:38:46,079 38260 1322667487779 Executed element Page/FSIITopNav in 4ms.
+2011-11-30 16:38:46,079 38260 1322667487779 Execute page FirstSiteII/Page/FSIITopNav Hours: 0 Minutes: 0 Seconds: 0:005
+2011-11-30 16:38:46,079 38260 1322667487779 Processed 2 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:005
+2011-11-30 16:38:46,094 38275 1322667487779 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:38:46,095 38276 1322667487779 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:38:46,096 38277 1322667487779 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:38:46,097 38278 1322667487779 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:38:46,099 38280 1322667487779 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:38:46,100 38281 1322667487779 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:38:46,100 38281 1322667487779 Executed element AdvCols/FSIIBannerTemplate in 16ms.
+2011-11-30 16:38:46,110 38291 1322667487779 Executed element FSIICommon/Locale/ExecuteFilter in 1ms.
+2011-11-30 16:38:46,113 38294 1322667487779 Executed element FSIICommon/Locale/ExecuteFilter in 2ms.
+2011-11-30 16:38:46,113 38294 1322667487779 Executed element Page/FSIIStandardSideNavView in 7ms.
+2011-11-30 16:38:46,113 38294 1322667487779 Execute page FirstSiteII/Page/FSIIStandardSideNavView Hours: 0 Minutes: 0 Seconds: 0:007
+2011-11-30 16:38:46,113 38294 1322667487779 Processed 3 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:010
+2011-11-30 16:38:46,114 38295 1322667487779 Executed element Page/FSIISideNav in 12ms.
+2011-11-30 16:38:46,118 38299 1322667487779 Executed element Page/FSIIDetail in 3ms.
+2011-11-30 16:38:46,120 38301 1322667487779 Executed element Page/FSIIBottomNav in 1ms.
+2011-11-30 16:38:46,121 38302 1322667487779 Execute page FirstSiteII/Page/FSIIBottomNav Hours: 0 Minutes: 0 Seconds: 0:002
+2011-11-30 16:38:46,121 38302 1322667487779 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:001
+2011-11-30 16:38:46,121 38302 1322667487779 Executed element /FSIILayout in 114ms.
+2011-11-30 16:38:46,125 38306 1322667487779 Execute page FirstSiteII/FSIILayout Hours: 0 Minutes: 0 Seconds: 0:122
+2011-11-30 16:38:46,125 38306 1322667487779 Fetched 6 result sets in  Hours: 0 Minutes: 0 Seconds: 0:000
+2011-11-30 16:38:46,125 38306 1322667487779 Processed 6 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:202
+2011-11-30 16:38:46,141 38322 1322667487779 Executed element Page/FSIIHead in 3ms.
+2011-11-30 16:38:46,141 38322 1322667487779 Execute page FirstSiteII/Page/FSIIHead Hours: 0 Minutes: 0 Seconds: 0:003
+2011-11-30 16:38:46,141 38322 1322667487779 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:003
+2011-11-30 16:38:46,149 38330 1322667487779 Executed element FSIICommon/Locale/ExecuteFilter in 2ms.
+2011-11-30 16:38:46,175 38356 1322667487779 Executed element FSIICommon/Nav/TopNav in 33ms.
+2011-11-30 16:38:46,176 38357 1322667487779 Execute page FSIICommon/Nav/TopNav Hours: 0 Minutes: 0 Seconds: 0:034
+2011-11-30 16:38:46,176 38357 1322667487779 Processed 2 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:035
+2011-11-30 16:38:46,220 38401 1322667487779 Executed query SELECT * FROM Publication in 0ms.
+2011-11-30 16:38:46,221 38402 1322667487779 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode FROM PublicationTree WHERE otype = ? AND oid = ? in 0ms.
+2011-11-30 16:38:46,222 38403 1322667487779 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode FROM PublicationTree WHERE otype = ? AND oid = ? in 0ms.
+2011-11-30 16:38:46,223 38404 1322667487779 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode FROM PublicationTree WHERE otype = ? AND oid = ? in 1ms.
+2011-11-30 16:38:46,224 38405 1322667487779 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:46,224 38405 1322667487779 Loaded table metadata for StatusCode in 0ms.
+2011-11-30 16:38:46,224 38405 1322667487779 Executed query SELECT * FROM StatusCode in 0ms.
+2011-11-30 16:38:46,225 38406 1322667487779 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:46,225 38406 1322667487779 Loaded table metadata for Category in 0ms.
+2011-11-30 16:38:46,225 38406 1322667487779 Executed query SELECT * FROM Category WHERE assettype = ? in 0ms.
+2011-11-30 16:38:46,263 38444 1322667487779 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:46,264 38445 1322667487779 Loaded table metadata for AssocNamed in 1ms.
+2011-11-30 16:38:46,264 38445 1322667487779 Executed query SELECT DISTINCT AssocNamed.* FROM AssocNamed WHERE AssocNamed.assettype='Page' ORDER BY AssocNamed.name in 0ms
+2011-11-30 16:38:46,266 38447 1322667487779 Executed query SELECT * FROM AssetType WHERE canbechild = ? in 0ms.
+2011-11-30 16:38:46,268 38449 1322667487779 Executed prepared statement SELECT subtype FROM Page WHERE ID = ? in 0ms
+2011-11-30 16:38:46,273 38454 1322667487779 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode FROM AssetRelationTree WHERE nparentid = 1125274447597 ORDER BY ncode desc,nrank asc in 1ms
+2011-11-30 16:38:46,276 38457 1322667487779 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 1ms.
+2011-11-30 16:38:46,277 38458 1322667487779 Loaded table metadata for AssetPublication in 1ms.
+2011-11-30 16:38:46,278 38459 1322667487779 Executed query Select pubid from AssetPublication where assetid=1118867611403 and assettype='Page' in 1ms
+2011-11-30 16:38:46,290 38471 1322667487779 Executed query SELECT DISTINCT AssocNamed.*,AssocNamed_Subtypes.* FROM AssocNamed,AssocNamed_Subtypes WHERE AssocNamed.assettype='Page' AND AssocNamed.id=AssocNamed_Subtypes.ownerid AND (AssocNamed_Subtypes.subtype='Home' OR AssocNamed_Subtypes.subtype='*' ) ORDER BY AssocNamed.name in 4ms
+2011-11-30 16:38:46,297 38478 1322667487779 Executed element Page/FSIILink in 117ms.
+2011-11-30 16:38:46,297 38478 1322667487779 Execute page FirstSiteII/Page/FSIILink Hours: 0 Minutes: 0 Seconds: 0:119
+2011-11-30 16:38:46,297 38478 1322667487779 Fetched 8 result sets in  Hours: 0 Minutes: 0 Seconds: 0:001
+2011-11-30 16:38:46,297 38478 1322667487779 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:117
+2011-11-30 16:38:46,305 38486 1322667487779 Executed prepared statement SELECT subtype FROM Page WHERE ID = ? in 1ms
+2011-11-30 16:38:46,306 38487 1322667487779 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode FROM AssetRelationTree WHERE otype = ? AND oid = ? in 0ms.
+2011-11-30 16:38:46,307 38488 1322667487779 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode FROM AssetRelationTree WHERE nparentid = 1118950293199 ORDER BY ncode desc,nrank asc in 1ms
+2011-11-30 16:38:46,307 38488 1322667487779 Executed query Select pubid from AssetPublication where assetid=1118867611408 and assettype='Page' in 0ms
+2011-11-30 16:38:46,318 38499 1322667487779 Executed query SELECT DISTINCT AssocNamed.*,AssocNamed_Subtypes.* FROM AssocNamed,AssocNamed_Subtypes WHERE AssocNamed.assettype='Page' AND AssocNamed.id=AssocNamed_Subtypes.ownerid AND (AssocNamed_Subtypes.subtype='Standard' OR AssocNamed_Subtypes.subtype='*' ) ORDER BY AssocNamed.name in 1ms
+2011-11-30 16:38:46,320 38501 1322667487779 Executed element Page/FSIILink in 20ms.
+2011-11-30 16:38:46,320 38501 1322667487779 Execute page FirstSiteII/Page/FSIILink Hours: 0 Minutes: 0 Seconds: 0:021
+2011-11-30 16:38:46,320 38501 1322667487779 Fetched 3 result sets in  Hours: 0 Minutes: 0 Seconds: 0:000
+2011-11-30 16:38:46,320 38501 1322667487779 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:020
+2011-11-30 16:38:46,325 38506 1322667487779 Executed prepared statement SELECT subtype FROM Page WHERE ID = ? in 0ms
+2011-11-30 16:38:46,327 38508 1322667487779 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode FROM AssetRelationTree WHERE otype = ? AND oid = ? in 0ms.
+2011-11-30 16:38:46,328 38509 1322667487779 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode FROM AssetRelationTree WHERE nparentid = 1124902550830 ORDER BY ncode desc,nrank asc in 0ms
+2011-11-30 16:38:46,328 38509 1322667487779 Executed query Select pubid from AssetPublication where assetid=1124747609912 and assettype='Page' in 0ms
+2011-11-30 16:38:46,336 38517 1322667487779 Executed query SELECT DISTINCT AssocNamed.*,AssocNamed_Subtypes.* FROM AssocNamed,AssocNamed_Subtypes WHERE AssocNamed.assettype='Page' AND AssocNamed.id=AssocNamed_Subtypes.ownerid AND (AssocNamed_Subtypes.subtype='Product' OR AssocNamed_Subtypes.subtype='*' ) ORDER BY AssocNamed.name in 0ms
+2011-11-30 16:38:46,338 38519 1322667487779 Executed element Page/FSIILink in 16ms.
+2011-11-30 16:38:46,338 38519 1322667487779 Execute page FirstSiteII/Page/FSIILink Hours: 0 Minutes: 0 Seconds: 0:017
+2011-11-30 16:38:46,339 38520 1322667487779 Fetched 3 result sets in  Hours: 0 Minutes: 0 Seconds: 0:000
+2011-11-30 16:38:46,339 38520 1322667487779 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:016
+2011-11-30 16:38:46,344 38525 1322667487779 Executed prepared statement SELECT subtype FROM Page WHERE ID = ? in 0ms
+2011-11-30 16:38:46,345 38526 1322667487779 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode FROM AssetRelationTree WHERE otype = ? AND oid = ? in 0ms.
+2011-11-30 16:38:46,346 38527 1322667487779 Executed query Select pubid from AssetPublication where assetid=1124747609916 and assettype='Page' in 0ms
+2011-11-30 16:38:46,356 38537 1322667487779 Executed query SELECT DISTINCT AssocNamed.*,AssocNamed_Subtypes.* FROM AssocNamed,AssocNamed_Subtypes WHERE AssocNamed.assettype='Page' AND AssocNamed.id=AssocNamed_Subtypes.ownerid AND (AssocNamed_Subtypes.subtype='Cart' OR AssocNamed_Subtypes.subtype='*' ) ORDER BY AssocNamed.name in 0ms
+2011-11-30 16:38:46,357 38538 1322667487779 Executed element Page/FSIILink in 16ms.
+2011-11-30 16:38:46,358 38539 1322667487779 Execute page FirstSiteII/Page/FSIILink Hours: 0 Minutes: 0 Seconds: 0:018
+2011-11-30 16:38:46,358 38539 1322667487779 Fetched 3 result sets in  Hours: 0 Minutes: 0 Seconds: 0:000
+2011-11-30 16:38:46,358 38539 1322667487779 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:016
+2011-11-30 16:38:46,364 38545 1322667487779 Executed prepared statement SELECT subtype FROM Page WHERE ID = ? in 0ms
+2011-11-30 16:38:46,366 38547 1322667487779 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode FROM AssetRelationTree WHERE otype = ? AND oid = ? in 1ms.
+2011-11-30 16:38:46,367 38548 1322667487779 Executed query Select pubid from AssetPublication where assetid=1123788998839 and assettype='Page' in 1ms
+2011-11-30 16:38:46,380 38561 1322667487779 Executed query SELECT DISTINCT AssocNamed.*,AssocNamed_Subtypes.* FROM AssocNamed,AssocNamed_Subtypes WHERE AssocNamed.assettype='Page' AND AssocNamed.id=AssocNamed_Subtypes.ownerid AND (AssocNamed_Subtypes.subtype='Profile' OR AssocNamed_Subtypes.subtype='*' ) ORDER BY AssocNamed.name in 0ms
+2011-11-30 16:38:46,381 38562 1322667487779 Executed element Page/FSIILink in 21ms.
+2011-11-30 16:38:46,381 38562 1322667487779 Execute page FirstSiteII/Page/FSIILink Hours: 0 Minutes: 0 Seconds: 0:022
+2011-11-30 16:38:46,381 38562 1322667487779 Fetched 3 result sets in  Hours: 0 Minutes: 0 Seconds: 0:000
+2011-11-30 16:38:46,381 38562 1322667487779 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:021
+2011-11-30 16:38:46,389 38570 1322667487779 Executed prepared statement SELECT subtype FROM Page WHERE ID = ? in 0ms
+2011-11-30 16:38:46,390 38571 1322667487779 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode FROM AssetRelationTree WHERE otype = ? AND oid = ? in 1ms.
+2011-11-30 16:38:46,390 38571 1322667487779 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode FROM AssetRelationTree WHERE nparentid = 1124902551368 ORDER BY ncode desc,nrank asc in 0ms
+2011-11-30 16:38:46,392 38573 1322667487779 Executed query Select pubid from AssetPublication where assetid=1118867611428 and assettype='Page' in 0ms
+2011-11-30 16:38:46,397 38578 1322667487779 Executed element Page/FSIILink in 15ms.
+2011-11-30 16:38:46,397 38578 1322667487779 Execute page FirstSiteII/Page/FSIILink Hours: 0 Minutes: 0 Seconds: 0:015
+2011-11-30 16:38:46,397 38578 1322667487779 Fetched 2 result sets in  Hours: 0 Minutes: 0 Seconds: 0:000
+2011-11-30 16:38:46,397 38578 1322667487779 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:015
+2011-11-30 16:38:46,428 38609 1322667487779 Executed element FSIICommon/Nav/LocaleForm in 28ms.
+2011-11-30 16:38:46,428 38609 1322667487779 Execute page FSIICommon/Nav/LocaleForm Hours: 0 Minutes: 0 Seconds: 0:028
+2011-11-30 16:38:46,429 38610 1322667487779 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:028
+2011-11-30 16:38:46,437 38618 1322667487779 Executed query SELECT COUNT(recoid) AS countvar FROM Promotions_ManRec WHERE ownerid IN (1124886357637) AND relid=1120593564193 AND assetid IS NULL in 1ms
+2011-11-30 16:38:46,442 38623 1322667487779 Executed element AdvCols/FSIIDetail in 11ms.
+2011-11-30 16:38:46,443 38624 1322667487779 Execute page FirstSiteII/AdvCols/FSIIDetail Hours: 0 Minutes: 0 Seconds: 0:013
+2011-11-30 16:38:46,443 38624 1322667487779 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:011
+2011-11-30 16:38:46,459 38640 1322667487779 Executed query SELECT * FROM AssetType WHERE assettype = ? in 0ms.
+2011-11-30 16:38:46,463 38644 1322667487779 Executed query SELECT Product_CD.name FROM Product_C,Product_CD WHERE Product_C.flextemplateid=Product_CD.id AND Product_C.id=1114083739596 in 0ms
+2011-11-30 16:38:46,467 38648 1322667487779 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:46,469 38650 1322667487779 Loaded table metadata for Product_CD in 1ms.
+2011-11-30 16:38:46,469 38650 1322667487779 Executed prepared statement SELECT id FROM Product_CD WHERE name=? in 0ms
+2011-11-30 16:38:46,470 38651 1322667487779 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 1ms.
+2011-11-30 16:38:46,471 38652 1322667487779 Loaded table metadata for Product_CD_TAttr in 1ms.
+2011-11-30 16:38:46,472 38653 1322667487779 Executed query SELECT t2.id AS assetid,t3.assettypename AS assettypename,t2.attributetype AS attributetype,t3.charsetname AS charsetname,t3.contenttype AS contenttype,t3.deptype AS deptype,t2.description AS description,t3.diffconv AS diffconv,t3.diffmethod AS diffmethod,t3.diffpres AS diffpres,t3.editing AS editing,t3.embedtype AS embedtype,t3.enginename AS enginename,t3.externalcolumn AS externalcolumn,t3.externalid AS externalid,t3.externaltable AS externaltable,t2.name AS name,t1.ordinal AS ordinal,t1.requiredflag AS required,t3.searchconv AS searchconv,t3.storage AS storage,t3.type AS type,t3.upload AS upload,t3.valuestyle AS valuestyle FROM Product_A t2,Product_A_Extension t3,Product_CD_TAttr t1 WHERE t2.id=t3.ownerid AND t1.ownerid=1112195134281 AND t1.attributeid=t2.id ORDER BY ordinal ASC in 0ms
+2011-11-30 16:38:46,473 38654 1322667487779 Executed query SELECT * FROM AssetType WHERE assettype = ? in 0ms.
+2011-11-30 16:38:46,473 38654 1322667487779 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:46,474 38655 1322667487779 Loaded table metadata for Product_CD_TFilter in 1ms.
+2011-11-30 16:38:46,475 38656 1322667487779 Executed query SELECT filterid AS assetid,ordinal AS ordinal FROM Product_CD_TFilter WHERE ownerid=1112195134281 ORDER BY ordinal ASC in 0ms
+2011-11-30 16:38:46,477 38658 1322667487779 Executed query SELECT * FROM AssetType WHERE assettype = ? in 0ms.
+2011-11-30 16:38:46,478 38659 1322667487779 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:46,479 38660 1322667487779 Loaded table metadata for Product_F in 1ms.
+2011-11-30 16:38:46,479 38660 1322667487779 Executed query SELECT * FROM Product_F WHERE id = ? in 0ms.
+2011-11-30 16:38:46,480 38661 1322667487779 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode FROM AssetRelationTree WHERE otype = ? AND oid = ? in 0ms.
+2011-11-30 16:38:46,481 38662 1322667487779 Executed query Select pubid from AssetPublication where assetid=1112195134254 and assettype='Product_F' in 0ms
+2011-11-30 16:38:46,481 38662 1322667487779 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:46,482 38663 1322667487779 Loaded table metadata for Product_F_Dim in 0ms.
+2011-11-30 16:38:46,482 38663 1322667487779 Executed prepared statement SELECT * FROM Product_F_Dim WHERE cs_ownerid= ? in 0ms
+2011-11-30 16:38:46,483 38664 1322667487779 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:46,483 38664 1322667487779 Loaded table metadata for Product_F_DimP in 0ms.
+2011-11-30 16:38:46,484 38665 1322667487779 Executed query SELECT * FROM Product_F_DimP WHERE cs_ownerid=1112195134254 in 0ms
+2011-11-30 16:38:46,484 38665 1322667487779 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:46,485 38666 1322667487779 Loaded table metadata for Product_F_Args in 1ms.
+2011-11-30 16:38:46,486 38667 1322667487779 Executed query SELECT * FROM Product_F_Args WHERE ownerid=1112195134254 ORDER BY name ASC in 1ms
+2011-11-30 16:38:46,489 38670 1322667487779 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:46,489 38670 1322667487779 Loaded table metadata for Filters in 0ms.
+2011-11-30 16:38:46,489 38670 1322667487779 Executed query SELECT * FROM Filters WHERE name='FieldCopier' in 0ms
+2011-11-30 16:38:46,494 38675 1322667487779 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:46,495 38676 1322667487779 Loaded table metadata for FlexFilterTypes in 0ms.
+2011-11-30 16:38:46,495 38676 1322667487779 Executed query SELECT filterattr AS attributetype FROM FlexFilterTypes WHERE filtertype='Product_F' in 0ms
+2011-11-30 16:38:46,497 38678 1322667487779 Executed prepared statement SELECT id FROM Product_A WHERE name=? in 0ms
+2011-11-30 16:38:46,500 38681 1322667487779 Executed query SELECT t2.id AS assetid,t3.assettypename AS assettypename,t2.attributetype AS attributetype,t3.charsetname AS charsetname,t3.contenttype AS contenttype,t3.deptype AS deptype,t2.description AS description,t3.diffconv AS diffconv,t3.diffmethod AS diffmethod,t3.diffpres AS diffpres,t3.editing AS editing,t3.embedtype AS embedtype,t3.enginename AS enginename,t3.externalcolumn AS externalcolumn,t3.externalid AS externalid,t3.externaltable AS externaltable,t2.name AS name,t3.searchconv AS searchconv,t3.storage AS storage,t3.type AS type,t3.upload AS upload,t3.valuestyle AS valuestyle FROM Product_A t2,Product_A_Extension t3 WHERE t2.id=t3.ownerid AND t2.id IN (1112195134183,1112195134211,1112195134188) in 1ms
+2011-11-30 16:38:46,500 38681 1322667487779 Executed query SELECT DISTINCT AssocNamed.*,AssocNamed_Subtypes.* FROM AssocNamed,AssocNamed_Subtypes WHERE AssocNamed.assettype='Product_C' AND AssocNamed.id=AssocNamed_Subtypes.ownerid AND (AssocNamed_Subtypes.subtype='FSII Product' OR AssocNamed_Subtypes.subtype='*' ) ORDER BY AssocNamed.name in 0ms
+2011-11-30 16:38:46,501 38682 1322667487779 Executed query SELECT DISTINCT childassettype AS childassettype FROM AssocNamed WHERE assettype='Product_C' AND name='InfoSheet' in 0ms
+2011-11-30 16:38:46,501 38682 1322667487779 Executed query SELECT * FROM AssocNamed WHERE name='InfoSheet' in 0ms
+2011-11-30 16:38:46,510 38691 1322667487779 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 3ms.
+2011-11-30 16:38:46,513 38694 1322667487779 Loaded table metadata for AssocNamed_Subtypes in 2ms.
+2011-11-30 16:38:46,513 38694 1322667487779 Executed query SELECT subtype,required FROM AssocNamed_Subtypes WHERE ownerid=1099333414109 in 0ms
+2011-11-30 16:38:46,513 38694 1322667487779 Executed query SELECT DISTINCT childassettype AS childassettype FROM AssocNamed WHERE assettype='Product_C' AND name='Manual' in 0ms
+2011-11-30 16:38:46,513 38694 1322667487779 Executed query SELECT * FROM AssocNamed WHERE name='Manual' in 0ms
+2011-11-30 16:38:46,514 38695 1322667487779 Executed query SELECT subtype,required FROM AssocNamed_Subtypes WHERE ownerid=1099333414111 in 0ms
+2011-11-30 16:38:46,514 38695 1322667487779 Executed query SELECT DISTINCT childassettype AS childassettype FROM AssocNamed WHERE assettype='Product_C' AND name='SpecSheet' in 0ms
+2011-11-30 16:38:46,515 38696 1322667487779 Executed query SELECT * FROM AssocNamed WHERE name='SpecSheet' in 1ms
+2011-11-30 16:38:46,516 38697 1322667487779 Executed query SELECT subtype,required FROM AssocNamed_Subtypes WHERE ownerid=1099333414107 in 1ms
+2011-11-30 16:38:46,516 38697 1322667487779 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:46,517 38698 1322667487779 Loaded table metadata for Product_CD_TGroup in 1ms.
+2011-11-30 16:38:46,519 38700 1322667487779 Executed query SELECT Product_PD.id AS assetid,Product_PD.description AS description,Product_CD_TGroup.multipleflag AS multiple,Product_PD.name AS name,Product_CD_TGroup.requiredflag AS required FROM Product_PD,Product_CD_TGroup WHERE Product_CD_TGroup.ownerid=1112195134281 AND Product_CD_TGroup.productgrouptemplateid=Product_PD.id in 1ms
+2011-11-30 16:38:46,525 38706 1322667487779 Executed query SELECT * FROM AssetType WHERE assettype = ? in 0ms.
+2011-11-30 16:38:46,528 38709 1322667487779 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:46,529 38710 1322667487779 Loaded table metadata for Product_PD in 1ms.
+2011-11-30 16:38:46,530 38711 1322667487779 Executed prepared statement SELECT id FROM Product_PD WHERE name=? in 1ms
+2011-11-30 16:38:46,530 38711 1322667487779 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:46,531 38712 1322667487779 Loaded table metadata for Product_PD_TAttr in 1ms.
+2011-11-30 16:38:46,531 38712 1322667487779 Executed query SELECT t2.id AS assetid,t3.assettypename AS assettypename,t2.attributetype AS attributetype,t3.charsetname AS charsetname,t3.contenttype AS contenttype,t3.deptype AS deptype,t2.description AS description,t3.diffconv AS diffconv,t3.diffmethod AS diffmethod,t3.diffpres AS diffpres,t3.editing AS editing,t3.embedtype AS embedtype,t3.enginename AS enginename,t3.externalcolumn AS externalcolumn,t3.externalid AS externalid,t3.externaltable AS externaltable,t2.name AS name,t1.ordinal AS ordinal,t1.requiredflag AS required,t3.searchconv AS searchconv,t3.storage AS storage,t3.type AS type,t3.upload AS upload,t3.valuestyle AS valuestyle FROM Product_A t2,Product_A_Extension t3,Product_PD_TAttr t1 WHERE t2.id=t3.ownerid AND t1.ownerid=1112195134220 AND t1.attributeid=t2.id ORDER BY ordinal ASC in 0ms
+2011-11-30 16:38:46,532 38713 1322667487779 Executed query SELECT * FROM AssetType WHERE assettype = ? in 1ms.
+2011-11-30 16:38:46,532 38713 1322667487779 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:46,533 38714 1322667487779 Loaded table metadata for Product_PD_TFilter in 1ms.
+2011-11-30 16:38:46,533 38714 1322667487779 Executed query SELECT filterid AS assetid,ordinal AS ordinal FROM Product_PD_TFilter WHERE ownerid=1112195134220 ORDER BY ordinal ASC in 0ms
+2011-11-30 16:38:46,533 38714 1322667487779 Executed query SELECT * FROM Product_F WHERE id = ? in 0ms.
+2011-11-30 16:38:46,534 38715 1322667487779 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode FROM AssetRelationTree WHERE otype = ? AND oid = ? in 0ms.
+2011-11-30 16:38:46,534 38715 1322667487779 Executed query Select pubid from AssetPublication where assetid=1112195134227 and assettype='Product_F' in 0ms
+2011-11-30 16:38:46,535 38716 1322667487779 Executed prepared statement SELECT * FROM Product_F_Dim WHERE cs_ownerid= ? in 1ms
+2011-11-30 16:38:46,535 38716 1322667487779 Executed query SELECT * FROM Product_F_DimP WHERE cs_ownerid=1112195134227 in 0ms
+2011-11-30 16:38:46,536 38717 1322667487779 Executed query SELECT * FROM Product_F_Args WHERE ownerid=1112195134227 ORDER BY name ASC in 1ms
+2011-11-30 16:38:46,537 38718 1322667487779 Executed prepared statement SELECT id FROM Product_A WHERE name=? in 0ms
+2011-11-30 16:38:46,537 38718 1322667487779 Executed query SELECT t2.id AS assetid,t3.assettypename AS assettypename,t2.attributetype AS attributetype,t3.charsetname AS charsetname,t3.contenttype AS contenttype,t3.deptype AS deptype,t2.description AS description,t3.diffconv AS diffconv,t3.diffmethod AS diffmethod,t3.diffpres AS diffpres,t3.editing AS editing,t3.embedtype AS embedtype,t3.enginename AS enginename,t3.externalcolumn AS externalcolumn,t3.externalid AS externalid,t3.externaltable AS externaltable,t2.name AS name,t3.searchconv AS searchconv,t3.storage AS storage,t3.type AS type,t3.upload AS upload,t3.valuestyle AS valuestyle FROM Product_A t2,Product_A_Extension t3 WHERE t2.id=t3.ownerid AND t2.id IN (1112195134168) in 0ms
+2011-11-30 16:38:46,537 38718 1322667487779 Executed query SELECT DISTINCT AssocNamed.*,AssocNamed_Subtypes.* FROM AssocNamed,AssocNamed_Subtypes WHERE AssocNamed.assettype='Product_P' AND AssocNamed.id=AssocNamed_Subtypes.ownerid AND (AssocNamed_Subtypes.subtype='FSIIManufacturer' OR AssocNamed_Subtypes.subtype='*' ) ORDER BY AssocNamed.name in 0ms
+2011-11-30 16:38:46,538 38719 1322667487779 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:46,539 38720 1322667487779 Loaded table metadata for Product_PD_TGroup in 1ms.
+2011-11-30 16:38:46,540 38721 1322667487779 Executed query SELECT Product_PD.id AS assetid,Product_PD.description AS description,Product_PD_TGroup.multipleflag AS multiple,Product_PD.name AS name,Product_PD_TGroup.requiredflag AS required FROM Product_PD,Product_PD_TGroup WHERE Product_PD_TGroup.ownerid=1112195134220 AND Product_PD_TGroup.productgrouptemplateid=Product_PD.id in 0ms
+2011-11-30 16:38:46,544 38725 1322667487779 Executed prepared statement SELECT id FROM Product_PD WHERE name=? in 1ms
+2011-11-30 16:38:46,544 38725 1322667487779 Executed query SELECT t2.id AS assetid,t3.assettypename AS assettypename,t2.attributetype AS attributetype,t3.charsetname AS charsetname,t3.contenttype AS contenttype,t3.deptype AS deptype,t2.description AS description,t3.diffconv AS diffconv,t3.diffmethod AS diffmethod,t3.diffpres AS diffpres,t3.editing AS editing,t3.embedtype AS embedtype,t3.enginename AS enginename,t3.externalcolumn AS externalcolumn,t3.externalid AS externalid,t3.externaltable AS externaltable,t2.name AS name,t1.ordinal AS ordinal,t1.requiredflag AS required,t3.searchconv AS searchconv,t3.storage AS storage,t3.type AS type,t3.upload AS upload,t3.valuestyle AS valuestyle FROM Product_A t2,Product_A_Extension t3,Product_PD_TAttr t1 WHERE t2.id=t3.ownerid AND t1.ownerid=1112195134216 AND t1.attributeid=t2.id ORDER BY ordinal ASC in 0ms
+2011-11-30 16:38:46,545 38726 1322667487779 Executed query SELECT filterid AS assetid,ordinal AS ordinal FROM Product_PD_TFilter WHERE ownerid=1112195134216 ORDER BY ordinal ASC in 1ms
+2011-11-30 16:38:46,545 38726 1322667487779 Executed query SELECT DISTINCT AssocNamed.*,AssocNamed_Subtypes.* FROM AssocNamed,AssocNamed_Subtypes WHERE AssocNamed.assettype='Product_P' AND AssocNamed.id=AssocNamed_Subtypes.ownerid AND (AssocNamed_Subtypes.subtype='FSIIProductTopLevel' OR AssocNamed_Subtypes.subtype='*' ) ORDER BY AssocNamed.name in 0ms
+2011-11-30 16:38:46,545 38726 1322667487779 Executed query SELECT Product_PD.id AS assetid,Product_PD.description AS description,Product_PD_TGroup.multipleflag AS multiple,Product_PD.name AS name,Product_PD_TGroup.requiredflag AS required FROM Product_PD,Product_PD_TGroup WHERE Product_PD_TGroup.ownerid=1112195134216 AND Product_PD_TGroup.productgrouptemplateid=Product_PD.id in 0ms
+2011-11-30 16:38:46,548 38729 1322667487779 Executed prepared statement SELECT id FROM Product_PD WHERE name=? in 0ms
+2011-11-30 16:38:46,549 38730 1322667487779 Executed query SELECT t2.id AS assetid,t3.assettypename AS assettypename,t2.attributetype AS attributetype,t3.charsetname AS charsetname,t3.contenttype AS contenttype,t3.deptype AS deptype,t2.description AS description,t3.diffconv AS diffconv,t3.diffmethod AS diffmethod,t3.diffpres AS diffpres,t3.editing AS editing,t3.embedtype AS embedtype,t3.enginename AS enginename,t3.externalcolumn AS externalcolumn,t3.externalid AS externalid,t3.externaltable AS externaltable,t2.name AS name,t1.ordinal AS ordinal,t1.requiredflag AS required,t3.searchconv AS searchconv,t3.storage AS storage,t3.type AS type,t3.upload AS upload,t3.valuestyle AS valuestyle FROM Product_A t2,Product_A_Extension t3,Product_PD_TAttr t1 WHERE t2.id=t3.ownerid AND t1.ownerid=1112195134269 AND t1.attributeid=t2.id ORDER BY ordinal ASC in 0ms
+2011-11-30 16:38:46,549 38730 1322667487779 Executed query SELECT filterid AS assetid,ordinal AS ordinal FROM Product_PD_TFilter WHERE ownerid=1112195134269 ORDER BY ordinal ASC in 0ms
+2011-11-30 16:38:46,550 38731 1322667487779 Executed query SELECT * FROM Product_F WHERE id = ? in 0ms.
+2011-11-30 16:38:46,551 38732 1322667487779 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode FROM AssetRelationTree WHERE otype = ? AND oid = ? in 0ms.
+2011-11-30 16:38:46,551 38732 1322667487779 Executed query Select pubid from AssetPublication where assetid=1112195134247 and assettype='Product_F' in 0ms
+2011-11-30 16:38:46,552 38733 1322667487779 Executed prepared statement SELECT * FROM Product_F_Dim WHERE cs_ownerid= ? in 0ms
+2011-11-30 16:38:46,552 38733 1322667487779 Executed query SELECT * FROM Product_F_DimP WHERE cs_ownerid=1112195134247 in 0ms
+2011-11-30 16:38:46,552 38733 1322667487779 Executed query SELECT * FROM Product_F_Args WHERE ownerid=1112195134247 ORDER BY name ASC in 0ms
+2011-11-30 16:38:46,553 38734 1322667487779 Executed prepared statement SELECT id FROM Product_A WHERE name=? in 0ms
+2011-11-30 16:38:46,553 38734 1322667487779 Executed prepared statement SELECT id FROM Product_A WHERE name=? in 0ms
+2011-11-30 16:38:46,554 38735 1322667487779 Executed query SELECT t2.id AS assetid,t3.assettypename AS assettypename,t2.attributetype AS attributetype,t3.charsetname AS charsetname,t3.contenttype AS contenttype,t3.deptype AS deptype,t2.description AS description,t3.diffconv AS diffconv,t3.diffmethod AS diffmethod,t3.diffpres AS diffpres,t3.editing AS editing,t3.embedtype AS embedtype,t3.enginename AS enginename,t3.externalcolumn AS externalcolumn,t3.externalid AS externalid,t3.externaltable AS externaltable,t2.name AS name,t3.searchconv AS searchconv,t3.storage AS storage,t3.type AS type,t3.upload AS upload,t3.valuestyle AS valuestyle FROM Product_A t2,Product_A_Extension t3 WHERE t2.id=t3.ownerid AND t2.id IN (1112195134198,1112195134206) in 1ms
+2011-11-30 16:38:46,554 38735 1322667487779 Executed query SELECT DISTINCT AssocNamed.*,AssocNamed_Subtypes.* FROM AssocNamed,AssocNamed_Subtypes WHERE AssocNamed.assettype='Product_P' AND AssocNamed.id=AssocNamed_Subtypes.ownerid AND (AssocNamed_Subtypes.subtype='FSIISubcategory' OR AssocNamed_Subtypes.subtype='*' ) ORDER BY AssocNamed.name in 0ms
+2011-11-30 16:38:46,555 38736 1322667487779 Executed query SELECT Product_PD.id AS assetid,Product_PD.description AS description,Product_PD_TGroup.multipleflag AS multiple,Product_PD.name AS name,Product_PD_TGroup.requiredflag AS required FROM Product_PD,Product_PD_TGroup WHERE Product_PD_TGroup.ownerid=1112195134269 AND Product_PD_TGroup.productgrouptemplateid=Product_PD.id in 0ms
+2011-11-30 16:38:46,559 38740 1322667487779 Executed prepared statement SELECT id FROM Product_PD WHERE name=? in 0ms
+2011-11-30 16:38:46,560 38741 1322667487779 Executed query SELECT t2.id AS assetid,t3.assettypename AS assettypename,t2.attributetype AS attributetype,t3.charsetname AS charsetname,t3.contenttype AS contenttype,t3.deptype AS deptype,t2.description AS description,t3.diffconv AS diffconv,t3.diffmethod AS diffmethod,t3.diffpres AS diffpres,t3.editing AS editing,t3.embedtype AS embedtype,t3.enginename AS enginename,t3.externalcolumn AS externalcolumn,t3.externalid AS externalid,t3.externaltable AS externaltable,t2.name AS name,t1.ordinal AS ordinal,t1.requiredflag AS required,t3.searchconv AS searchconv,t3.storage AS storage,t3.type AS type,t3.upload AS upload,t3.valuestyle AS valuestyle FROM Product_A t2,Product_A_Extension t3,Product_PD_TAttr t1 WHERE t2.id=t3.ownerid AND t1.ownerid=1112195134262 AND t1.attributeid=t2.id ORDER BY ordinal ASC in 0ms
+2011-11-30 16:38:46,560 38741 1322667487779 Executed query SELECT filterid AS assetid,ordinal AS ordinal FROM Product_PD_TFilter WHERE ownerid=1112195134262 ORDER BY ordinal ASC in 0ms
+2011-11-30 16:38:46,561 38742 1322667487779 Executed query SELECT * FROM Product_F WHERE id = ? in 0ms.
+2011-11-30 16:38:46,562 38743 1322667487779 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode FROM AssetRelationTree WHERE otype = ? AND oid = ? in 0ms.
+2011-11-30 16:38:46,564 38745 1322667487779 Executed query Select pubid from AssetPublication where assetid=1112195134240 and assettype='Product_F' in 0ms
+2011-11-30 16:38:46,564 38745 1322667487779 Executed prepared statement SELECT * FROM Product_F_Dim WHERE cs_ownerid= ? in 0ms
+2011-11-30 16:38:46,564 38745 1322667487779 Executed query SELECT * FROM Product_F_DimP WHERE cs_ownerid=1112195134240 in 0ms
+2011-11-30 16:38:46,565 38746 1322667487779 Executed query SELECT * FROM Product_F_Args WHERE ownerid=1112195134240 ORDER BY name ASC in 0ms
+2011-11-30 16:38:46,566 38747 1322667487779 Executed prepared statement SELECT id FROM Product_A WHERE name=? in 0ms
+2011-11-30 16:38:46,566 38747 1322667487779 Executed prepared statement SELECT id FROM Product_A WHERE name=? in 0ms
+2011-11-30 16:38:46,566 38747 1322667487779 Executed query SELECT t2.id AS assetid,t3.assettypename AS assettypename,t2.attributetype AS attributetype,t3.charsetname AS charsetname,t3.contenttype AS contenttype,t3.deptype AS deptype,t2.description AS description,t3.diffconv AS diffconv,t3.diffmethod AS diffmethod,t3.diffpres AS diffpres,t3.editing AS editing,t3.embedtype AS embedtype,t3.enginename AS enginename,t3.externalcolumn AS externalcolumn,t3.externalid AS externalid,t3.externaltable AS externaltable,t2.name AS name,t3.searchconv AS searchconv,t3.storage AS storage,t3.type AS type,t3.upload AS upload,t3.valuestyle AS valuestyle FROM Product_A t2,Product_A_Extension t3 WHERE t2.id=t3.ownerid AND t2.id IN (1112195134138,1112195134133) in 0ms
+2011-11-30 16:38:46,567 38748 1322667487779 Executed query SELECT DISTINCT AssocNamed.*,AssocNamed_Subtypes.* FROM AssocNamed,AssocNamed_Subtypes WHERE AssocNamed.assettype='Product_P' AND AssocNamed.id=AssocNamed_Subtypes.ownerid AND (AssocNamed_Subtypes.subtype='FSIICategory' OR AssocNamed_Subtypes.subtype='*' ) ORDER BY AssocNamed.name in 0ms
+2011-11-30 16:38:46,567 38748 1322667487779 Executed query SELECT Product_PD.id AS assetid,Product_PD.description AS description,Product_PD_TGroup.multipleflag AS multiple,Product_PD.name AS name,Product_PD_TGroup.requiredflag AS required FROM Product_PD,Product_PD_TGroup WHERE Product_PD_TGroup.ownerid=1112195134262 AND Product_PD_TGroup.productgrouptemplateid=Product_PD.id in 0ms
+2011-11-30 16:38:46,575 38756 1322667487779 Executed prepared statement SELECT id FROM Product_C WHERE flextemplateid=1112195134281 AND id IN(?) in 4ms
+2011-11-30 16:38:46,576 38757 1322667487779 Executed prepared statement SELECT id FROM Product_A WHERE name=? in 0ms
+2011-11-30 16:38:46,577 38758 1322667487779 Executed element Product_C/FSIISummary in 132ms.
+2011-11-30 16:38:46,579 38760 1322667487779 Execute page FirstSiteII/Product_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:135
+2011-11-30 16:38:46,579 38760 1322667487779 Fetched 74 result sets in  Hours: 0 Minutes: 0 Seconds: 0:001
+2011-11-30 16:38:46,579 38760 1322667487779 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:132
+2011-11-30 16:38:46,589 38770 1322667487779 Executed element Media_C/FSIISummary in 8ms.
+2011-11-30 16:38:46,589 38770 1322667487779 Execute page FirstSiteII/Media_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:009
+2011-11-30 16:38:46,590 38771 1322667487779 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:008
+2011-11-30 16:38:46,597 38778 1322667487779 Executed query SELECT COUNT(recoid) AS countvar FROM Promotions_ManRec WHERE ownerid IN (1124886357637) AND relid=1120854395753 AND assetid IS NULL in 0ms
+2011-11-30 16:38:46,600 38781 1322667487779 Executed element AdvCols/FSIIDetail in 8ms.
+2011-11-30 16:38:46,601 38782 1322667487779 Execute page FirstSiteII/AdvCols/FSIIDetail Hours: 0 Minutes: 0 Seconds: 0:010
+2011-11-30 16:38:46,601 38782 1322667487779 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:008
+2011-11-30 16:38:46,608 38789 1322667487779 Executed element Media_C/FSIISummary in 5ms.
+2011-11-30 16:38:46,609 38790 1322667487779 Execute page FirstSiteII/Media_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:007
+2011-11-30 16:38:46,609 38790 1322667487779 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:005
+2011-11-30 16:38:46,620 38801 1322667487779 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:38:46,621 38802 1322667487779 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:38:46,621 38802 1322667487779 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:38:46,622 38803 1322667487779 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:38:46,622 38803 1322667487779 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:38:46,624 38805 1322667487779 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:38:46,624 38805 1322667487779 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:38:46,625 38806 1322667487779 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:38:46,627 38808 1322667487779 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:38:46,627 38808 1322667487779 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:38:46,629 38810 1322667487779 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:38:46,629 38810 1322667487779 Executed element Page/FSIIStandardDetailView in 14ms.
+2011-11-30 16:38:46,629 38810 1322667487779 Executed element Page/FSIIHomeDetailView in 16ms.
+2011-11-30 16:38:46,632 38813 1322667487779 Execute page FirstSiteII/Page/FSIIHomeDetailView Hours: 0 Minutes: 0 Seconds: 0:021
+2011-11-30 16:38:46,632 38813 1322667487779 Processed 2 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:030
+2011-11-30 16:38:46,640 38821 1322667487779 Executed element Content_C/FSIIDetail in 6ms.
+2011-11-30 16:38:46,641 38822 1322667487779 Execute page FirstSiteII/Content_C/FSIIDetail Hours: 0 Minutes: 0 Seconds: 0:008
+2011-11-30 16:38:46,641 38822 1322667487779 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:006
+2011-11-30 16:38:46,659 38840 1322667487779 Executed element AdvCols/FSIIDetail in 16ms.
+2011-11-30 16:38:46,660 38841 1322667487779 Execute page FirstSiteII/AdvCols/FSIIDetail Hours: 0 Minutes: 0 Seconds: 0:018
+2011-11-30 16:38:46,660 38841 1322667487779 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:016
+2011-11-30 16:38:46,669 38850 1322667487779 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:38:46,672 38853 1322667487779 Executed query SELECT Content_CD.name FROM Content_C,Content_CD WHERE Content_C.flextemplateid=Content_CD.id AND Content_C.id=1114083740076 in 0ms
+2011-11-30 16:38:46,675 38856 1322667487779 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 1ms.
+2011-11-30 16:38:46,677 38858 1322667487779 Loaded table metadata for Content_CD in 2ms.
+2011-11-30 16:38:46,677 38858 1322667487779 Executed prepared statement SELECT id FROM Content_CD WHERE name=? in 0ms
+2011-11-30 16:38:46,677 38858 1322667487779 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:46,678 38859 1322667487779 Loaded table metadata for Content_CD_TAttr in 0ms.
+2011-11-30 16:38:46,679 38860 1322667487779 Executed query SELECT t2.id AS assetid,t3.assettypename AS assettypename,t2.attributetype AS attributetype,t3.charsetname AS charsetname,t3.contenttype AS contenttype,t3.deptype AS deptype,t2.description AS description,t3.diffconv AS diffconv,t3.diffmethod AS diffmethod,t3.diffpres AS diffpres,t3.editing AS editing,t3.embedtype AS embedtype,t3.enginename AS enginename,t3.externalcolumn AS externalcolumn,t3.externalid AS externalid,t3.externaltable AS externaltable,t2.name AS name,t1.ordinal AS ordinal,t1.requiredflag AS required,t3.searchconv AS searchconv,t3.storage AS storage,t3.type AS type,t3.upload AS upload,t3.valuestyle AS valuestyle FROM Content_A t2,Content_A_Extension t3,Content_CD_TAttr t1 WHERE t2.id=t3.ownerid AND t1.ownerid=1112192431441 AND t1.attributeid=t2.id ORDER BY ordinal ASC in 1ms
+2011-11-30 16:38:46,679 38860 1322667487779 Executed query SELECT * FROM AssetType WHERE assettype = ? in 0ms.
+2011-11-30 16:38:46,680 38861 1322667487779 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 1ms.
+2011-11-30 16:38:46,681 38862 1322667487779 Loaded table metadata for Content_CD_TFilter in 1ms.
+2011-11-30 16:38:46,681 38862 1322667487779 Executed query SELECT filterid AS assetid,ordinal AS ordinal FROM Content_CD_TFilter WHERE ownerid=1112192431441 ORDER BY ordinal ASC in 0ms
+2011-11-30 16:38:46,682 38863 1322667487779 Executed query SELECT * FROM AssetType WHERE assettype = ? in 1ms.
+2011-11-30 16:38:46,683 38864 1322667487779 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:46,684 38865 1322667487779 Loaded table metadata for Content_F in 1ms.
+2011-11-30 16:38:46,684 38865 1322667487779 Executed query SELECT * FROM Content_F WHERE id = ? in 0ms.
+2011-11-30 16:38:46,685 38866 1322667487779 Executed query SELECT nid,nparentid,nrank,otype,oid,oversion,ncode FROM AssetRelationTree WHERE otype = ? AND oid = ? in 0ms.
+2011-11-30 16:38:46,685 38866 1322667487779 Executed query Select pubid from AssetPublication where assetid=1112192431414 and assettype='Content_F' in 0ms
+2011-11-30 16:38:46,685 38866 1322667487779 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:46,686 38867 1322667487779 Loaded table metadata for Content_F_Dim in 1ms.
+2011-11-30 16:38:46,686 38867 1322667487779 Executed prepared statement SELECT * FROM Content_F_Dim WHERE cs_ownerid= ? in 0ms
+2011-11-30 16:38:46,686 38867 1322667487779 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:46,687 38868 1322667487779 Loaded table metadata for Content_F_DimP in 0ms.
+2011-11-30 16:38:46,687 38868 1322667487779 Executed query SELECT * FROM Content_F_DimP WHERE cs_ownerid=1112192431414 in 0ms
+2011-11-30 16:38:46,688 38869 1322667487779 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:46,689 38870 1322667487779 Loaded table metadata for Content_F_Args in 1ms.
+2011-11-30 16:38:46,689 38870 1322667487779 Executed query SELECT * FROM Content_F_Args WHERE ownerid=1112192431414 ORDER BY name ASC in 0ms
+2011-11-30 16:38:46,689 38870 1322667487779 Executed query SELECT filterattr AS attributetype FROM FlexFilterTypes WHERE filtertype='Content_F' in 0ms
+2011-11-30 16:38:46,690 38871 1322667487779 Executed prepared statement SELECT id FROM Content_A WHERE name=? in 1ms
+2011-11-30 16:38:46,690 38871 1322667487779 Executed prepared statement SELECT id FROM Content_A WHERE name=? in 0ms
+2011-11-30 16:38:46,690 38871 1322667487779 Executed prepared statement SELECT id FROM Content_A WHERE name=? in 0ms
+2011-11-30 16:38:46,690 38871 1322667487779 Executed query SELECT t2.id AS assetid,t3.assettypename AS assettypename,t2.attributetype AS attributetype,t3.charsetname AS charsetname,t3.contenttype AS contenttype,t3.deptype AS deptype,t2.description AS description,t3.diffconv AS diffconv,t3.diffmethod AS diffmethod,t3.diffpres AS diffpres,t3.editing AS editing,t3.embedtype AS embedtype,t3.enginename AS enginename,t3.externalcolumn AS externalcolumn,t3.externalid AS externalid,t3.externaltable AS externaltable,t2.name AS name,t3.searchconv AS searchconv,t3.storage AS storage,t3.type AS type,t3.upload AS upload,t3.valuestyle AS valuestyle FROM Content_A t2,Content_A_Extension t3 WHERE t2.id=t3.ownerid AND t2.id IN (1112192431388,1112192431373,1112192431403) in 0ms
+2011-11-30 16:38:46,691 38872 1322667487779 Executed query SELECT DISTINCT AssocNamed.*,AssocNamed_Subtypes.* FROM AssocNamed,AssocNamed_Subtypes WHERE AssocNamed.assettype='Content_C' AND AssocNamed.id=AssocNamed_Subtypes.ownerid AND (AssocNamed_Subtypes.subtype='FSII Article' OR AssocNamed_Subtypes.subtype='*' ) ORDER BY AssocNamed.name in 0ms
+2011-11-30 16:38:46,691 38872 1322667487779 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:46,692 38873 1322667487779 Loaded table metadata for Content_CD_TGroup in 1ms.
+2011-11-30 16:38:46,693 38874 1322667487779 Executed query SELECT Content_PD.id AS assetid,Content_PD.description AS description,Content_CD_TGroup.multipleflag AS multiple,Content_PD.name AS name,Content_CD_TGroup.requiredflag AS required FROM Content_PD,Content_CD_TGroup WHERE Content_CD_TGroup.ownerid=1112192431441 AND Content_CD_TGroup.productgrouptemplateid=Content_PD.id in 0ms
+2011-11-30 16:38:46,696 38877 1322667487779 Executed query SELECT * FROM AssetType WHERE assettype = ? in 0ms.
+2011-11-30 16:38:46,699 38880 1322667487779 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:46,700 38881 1322667487779 Loaded table metadata for Content_PD in 1ms.
+2011-11-30 16:38:46,700 38881 1322667487779 Executed prepared statement SELECT id FROM Content_PD WHERE name=? in 0ms
+2011-11-30 16:38:46,700 38881 1322667487779 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:46,701 38882 1322667487779 Loaded table metadata for Content_PD_TAttr in 0ms.
+2011-11-30 16:38:46,702 38883 1322667487779 Executed query SELECT t2.id AS assetid,t3.assettypename AS assettypename,t2.attributetype AS attributetype,t3.charsetname AS charsetname,t3.contenttype AS contenttype,t3.deptype AS deptype,t2.description AS description,t3.diffconv AS diffconv,t3.diffmethod AS diffmethod,t3.diffpres AS diffpres,t3.editing AS editing,t3.embedtype AS embedtype,t3.enginename AS enginename,t3.externalcolumn AS externalcolumn,t3.externalid AS externalid,t3.externaltable AS externaltable,t2.name AS name,t1.ordinal AS ordinal,t1.requiredflag AS required,t3.searchconv AS searchconv,t3.storage AS storage,t3.type AS type,t3.upload AS upload,t3.valuestyle AS valuestyle FROM Content_A t2,Content_A_Extension t3,Content_PD_TAttr t1 WHERE t2.id=t3.ownerid AND t1.ownerid=1112192431428 AND t1.attributeid=t2.id ORDER BY ordinal ASC in 1ms
+2011-11-30 16:38:46,702 38883 1322667487779 Executed query SELECT * FROM AssetType WHERE assettype = ? in 0ms.
+2011-11-30 16:38:46,702 38883 1322667487779 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 0ms.
+2011-11-30 16:38:46,703 38884 1322667487779 Loaded table metadata for Content_PD_TFilter in 0ms.
+2011-11-30 16:38:46,703 38884 1322667487779 Executed query SELECT filterid AS assetid,ordinal AS ordinal FROM Content_PD_TFilter WHERE ownerid=1112192431428 ORDER BY ordinal ASC in 0ms
+2011-11-30 16:38:46,704 38885 1322667487779 Executed query SELECT DISTINCT AssocNamed.*,AssocNamed_Subtypes.* FROM AssocNamed,AssocNamed_Subtypes WHERE AssocNamed.assettype='Content_P' AND AssocNamed.id=AssocNamed_Subtypes.ownerid AND (AssocNamed_Subtypes.subtype='FSII ContentCategory' OR AssocNamed_Subtypes.subtype='*' ) ORDER BY AssocNamed.name in 0ms
+2011-11-30 16:38:46,705 38886 1322667487779 Executed query SELECT tblname,defdir,systable,acl,metadata FROM SystemInfo WHERE tblname = ? in 1ms.
+2011-11-30 16:38:46,706 38887 1322667487779 Loaded table metadata for Content_PD_TGroup in 1ms.
+2011-11-30 16:38:46,706 38887 1322667487779 Executed query SELECT Content_PD.id AS assetid,Content_PD.description AS description,Content_PD_TGroup.multipleflag AS multiple,Content_PD.name AS name,Content_PD_TGroup.requiredflag AS required FROM Content_PD,Content_PD_TGroup WHERE Content_PD_TGroup.ownerid=1112192431428 AND Content_PD_TGroup.productgrouptemplateid=Content_PD.id in 0ms
+2011-11-30 16:38:46,708 38889 1322667487779 Executed prepared statement SELECT id FROM Content_C WHERE flextemplateid=1112192431441 AND id IN(?) in 0ms
+2011-11-30 16:38:46,708 38889 1322667487779 Executed prepared statement SELECT id FROM Content_A WHERE name=? in 0ms
+2011-11-30 16:38:46,709 38890 1322667487779 Executed element Content_C/FSIISummary in 46ms.
+2011-11-30 16:38:46,709 38890 1322667487779 Execute page FirstSiteII/Content_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:047
+2011-11-30 16:38:46,709 38890 1322667487779 Fetched 27 result sets in  Hours: 0 Minutes: 0 Seconds: 0:001
+2011-11-30 16:38:46,709 38890 1322667487779 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:046
+2011-11-30 16:38:46,720 38901 1322667487779 Executed nested tag asset.list using using ICS.runTag in 2ms
+2011-11-30 16:38:46,723 38904 1322667487779 Executed query SELECT Content_CD.name FROM Content_C,Content_CD WHERE Content_C.flextemplateid=Content_CD.id AND Content_C.id=1114083740056 in 0ms
+2011-11-30 16:38:46,724 38905 1322667487779 Executed prepared statement SELECT id FROM Content_C WHERE flextemplateid=1112192431441 AND id IN(?) in 0ms
+2011-11-30 16:38:46,725 38906 1322667487779 Executed element Content_C/FSIISummary in 12ms.
+2011-11-30 16:38:46,725 38906 1322667487779 Execute page FirstSiteII/Content_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:012
+2011-11-30 16:38:46,725 38906 1322667487779 Fetched 2 result sets in  Hours: 0 Minutes: 0 Seconds: 0:000
+2011-11-30 16:38:46,725 38906 1322667487779 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:012
+2011-11-30 16:38:46,736 38917 1322667487779 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:38:46,739 38920 1322667487779 Executed query SELECT Content_CD.name FROM Content_C,Content_CD WHERE Content_C.flextemplateid=Content_CD.id AND Content_C.id=1114083740036 in 1ms
+2011-11-30 16:38:46,740 38921 1322667487779 Executed prepared statement SELECT id FROM Content_C WHERE flextemplateid=1112192431441 AND id IN(?) in 0ms
+2011-11-30 16:38:46,741 38922 1322667487779 Executed element Content_C/FSIISummary in 13ms.
+2011-11-30 16:38:46,741 38922 1322667487779 Execute page FirstSiteII/Content_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:014
+2011-11-30 16:38:46,741 38922 1322667487779 Fetched 2 result sets in  Hours: 0 Minutes: 0 Seconds: 0:000
+2011-11-30 16:38:46,741 38922 1322667487779 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:013
+2011-11-30 16:38:46,752 38933 1322667487779 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:38:46,758 38939 1322667487779 Executed query SELECT Content_CD.name FROM Content_C,Content_CD WHERE Content_C.flextemplateid=Content_CD.id AND Content_C.id=1114083740016 in 1ms
+2011-11-30 16:38:46,759 38940 1322667487779 Executed prepared statement SELECT id FROM Content_C WHERE flextemplateid=1112192431441 AND id IN(?) in 0ms
+2011-11-30 16:38:46,760 38941 1322667487779 Executed element Content_C/FSIISummary in 13ms.
+2011-11-30 16:38:46,760 38941 1322667487779 Execute page FirstSiteII/Content_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:013
+2011-11-30 16:38:46,760 38941 1322667487779 Fetched 2 result sets in  Hours: 0 Minutes: 0 Seconds: 0:000
+2011-11-30 16:38:46,760 38941 1322667487779 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:013
+2011-11-30 16:38:46,775 38956 1322667487779 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:38:46,780 38961 1322667487779 Executed query SELECT Content_CD.name FROM Content_C,Content_CD WHERE Content_C.flextemplateid=Content_CD.id AND Content_C.id=1114083739996 in 0ms
+2011-11-30 16:38:46,781 38962 1322667487779 Executed prepared statement SELECT id FROM Content_C WHERE flextemplateid=1112192431441 AND id IN(?) in 0ms
+2011-11-30 16:38:46,781 38962 1322667487779 Executed element Content_C/FSIISummary in 18ms.
+2011-11-30 16:38:46,782 38963 1322667487779 Execute page FirstSiteII/Content_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:020
+2011-11-30 16:38:46,782 38963 1322667487779 Fetched 2 result sets in  Hours: 0 Minutes: 0 Seconds: 0:000
+2011-11-30 16:38:46,782 38963 1322667487779 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:018
+2011-11-30 16:38:46,788 38969 1322667487779 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:38:46,792 38973 1322667487779 Executed query SELECT Content_CD.name FROM Content_C,Content_CD WHERE Content_C.flextemplateid=Content_CD.id AND Content_C.id=1114083739888 in 1ms
+2011-11-30 16:38:46,793 38974 1322667487779 Executed prepared statement SELECT id FROM Content_C WHERE flextemplateid=1112192431441 AND id IN(?) in 0ms
+2011-11-30 16:38:46,794 38975 1322667487779 Executed element Content_C/FSIISummary in 10ms.
+2011-11-30 16:38:46,794 38975 1322667487779 Execute page FirstSiteII/Content_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:011
+2011-11-30 16:38:46,794 38975 1322667487779 Fetched 2 result sets in  Hours: 0 Minutes: 0 Seconds: 0:000
+2011-11-30 16:38:46,794 38975 1322667487779 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:010
+2011-11-30 16:38:46,801 38982 1322667487779 Executed nested tag asset.list using using ICS.runTag in 0ms
+2011-11-30 16:38:46,803 38984 1322667487779 Executed query SELECT Content_CD.name FROM Content_C,Content_CD WHERE Content_C.flextemplateid=Content_CD.id AND Content_C.id=1114083739926 in 0ms
+2011-11-30 16:38:46,805 38986 1322667487779 Executed prepared statement SELECT id FROM Content_C WHERE flextemplateid=1112192431441 AND id IN(?) in 0ms
+2011-11-30 16:38:46,806 38987 1322667487779 Executed element Content_C/FSIISummary in 10ms.
+2011-11-30 16:38:46,806 38987 1322667487779 Execute page FirstSiteII/Content_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:011
+2011-11-30 16:38:46,806 38987 1322667487779 Fetched 2 result sets in  Hours: 0 Minutes: 0 Seconds: 0:000
+2011-11-30 16:38:46,806 38987 1322667487779 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:010
+2011-11-30 16:38:46,848 39029 1322667487779 Executed element AdvCols/FSIIDetail in 40ms.
+2011-11-30 16:38:46,853 39034 1322667487779 Execute page FirstSiteII/AdvCols/FSIIDetail Hours: 0 Minutes: 0 Seconds: 0:046
+2011-11-30 16:38:46,853 39034 1322667487779 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:040
+2011-11-30 16:38:46,865 39046 1322667487779 Executed query SELECT Product_CD.name FROM Product_C,Product_CD WHERE Product_C.flextemplateid=Product_CD.id AND Product_C.id=1114083739663 in 0ms
+2011-11-30 16:38:46,866 39047 1322667487779 Executed query SELECT parentid AS assetid FROM Product_P_Group WHERE childid IN (1114083739663) in 0ms
+2011-11-30 16:38:46,867 39048 1322667487779 Executed query SELECT * FROM Product_P WHERE id IN (1112195134525,1114083739026,1112195134531,1114083739084,1114083739165) in 0ms
+2011-11-30 16:38:46,868 39049 1322667487779 Executed query SELECT * FROM Product_C WHERE id IN (1114083739663) in 0ms
+2011-11-30 16:38:46,869 39050 1322667487779 Executed prepared statement SELECT id FROM Product_C WHERE flextemplateid=1112195134281 AND id IN(?) in 0ms
+2011-11-30 16:38:46,871 39052 1322667487779 Executed element Product_C/FSIISummary in 17ms.
+2011-11-30 16:38:46,872 39053 1322667487779 Execute page FirstSiteII/Product_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:018
+2011-11-30 16:38:46,872 39053 1322667487779 Fetched 5 result sets in  Hours: 0 Minutes: 0 Seconds: 0:001
+2011-11-30 16:38:46,872 39053 1322667487779 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:017
+2011-11-30 16:38:46,881 39062 1322667487779 Executed element Media_C/FSIISummary in 7ms.
+2011-11-30 16:38:46,881 39062 1322667487779 Execute page FirstSiteII/Media_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:008
+2011-11-30 16:38:46,881 39062 1322667487779 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:007
+2011-11-30 16:38:46,888 39069 1322667487779 Executed nested tag asset.list using using ICS.runTag in 1ms
+2011-11-30 16:38:46,890 39071 1322667487779 Executed query SELECT Content_CD.name FROM Content_C,Content_CD WHERE Content_C.flextemplateid=Content_CD.id AND Content_C.id=1114083739951 in 0ms
+2011-11-30 16:38:46,892 39073 1322667487779 Executed prepared statement SELECT id FROM Content_C WHERE flextemplateid=1112192431441 AND id IN(?) in 1ms
+2011-11-30 16:38:46,892 39073 1322667487779 Executed element Content_C/FSIISummary in 9ms.
+2011-11-30 16:38:46,893 39074 1322667487779 Execute page FirstSiteII/Content_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:010
+2011-11-30 16:38:46,893 39074 1322667487779 Fetched 2 result sets in  Hours: 0 Minutes: 0 Seconds: 0:000
+2011-11-30 16:38:46,893 39074 1322667487779 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:009
+2011-11-30 16:38:46,907 39088 1322667487779 Executed query SELECT Product_CD.name FROM Product_C,Product_CD WHERE Product_C.flextemplateid=Product_CD.id AND Product_C.id=1114083739851 in 0ms
+2011-11-30 16:38:46,908 39089 1322667487779 Executed query SELECT parentid AS assetid FROM Product_P_Group WHERE childid IN (1114083739851) in 0ms
+2011-11-30 16:38:46,909 39090 1322667487779 Executed query SELECT * FROM Product_P WHERE id IN (1112195134531,1114083739066,1114083739135,1112195134525,1114083739036) in 0ms
+2011-11-30 16:38:46,910 39091 1322667487779 Executed query SELECT * FROM Product_C WHERE id IN (1114083739851) in 1ms
+2011-11-30 16:38:46,911 39092 1322667487779 Executed prepared statement SELECT id FROM Product_C WHERE flextemplateid=1112195134281 AND id IN(?) in 0ms
+2011-11-30 16:38:46,912 39093 1322667487779 Executed element Product_C/FSIISummary in 17ms.
+2011-11-30 16:38:46,912 39093 1322667487779 Execute page FirstSiteII/Product_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:018
+2011-11-30 16:38:46,912 39093 1322667487779 Fetched 5 result sets in  Hours: 0 Minutes: 0 Seconds: 0:001
+2011-11-30 16:38:46,913 39094 1322667487779 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:017
+2011-11-30 16:38:46,920 39101 1322667487779 Executed element Media_C/FSIISummary in 6ms.
+2011-11-30 16:38:46,920 39101 1322667487779 Execute page FirstSiteII/Media_C/FSIISummary Hours: 0 Minutes: 0 Seconds: 0:007
+2011-11-30 16:38:46,920 39101 1322667487779 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:006
+2011-11-30 16:38:46,921 39102 1322667487779 Executed request 1322667487779 'http://jsk-virtualbox:8180/cs/Satellite?c=Page&childpagename=FirstSiteII/FSIILayout&p=1118867611403&pagename=FSIIWrapper&cid=1118867611403' in 997 ms
+2011-11-30 16:38:49,415 41596 1322667487780 Start request 1322667487780 http://jsk-virtualbox:8180/cs/Satellite?c=Page&childpagename=FirstSiteII/FSIILayout&p=1118867611403&pagename=FSIIWrapper&cid=1118867611403
+2011-11-30 16:38:49,433 41614 1322667487780 Executed element FSIIWrapper in 12ms.
+2011-11-30 16:38:49,433 41614 1322667487780 Execute page FSIIWrapper Hours: 0 Minutes: 0 Seconds: 0:013
+2011-11-30 16:38:49,433 41614 1322667487780 Processed 1 JSP elements in  Hours: 0 Minutes: 0 Seconds: 0:012
+2011-11-30 16:38:49,441 41622 1322667487780 Executed request 1322667487780 'http://jsk-virtualbox:8180/cs/Satellite?c=Page&childpagename=FirstSiteII/FSIILayout&p=1118867611403&pagename=FSIIWrapper&cid=1118867611403' in 26 ms

@@ -1,0 +1,27 @@
+<html>
+<head><title>Hello Links</title>
+</head>
+<body>
+<h1>Links tester</h1>
+<a href="hello2.html">Hello</a><br/>
+<a class="load" href="hello.html">Hello</a><br/>
+<a class="load" href="hello.html">Hello</a><br/>
+<div id="msg"></div>
+<iframe id="frame" style="width:100%;border:0" src="about:blank"></iframe> 
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+
+<script type="text/javascript">
+$(window).load(function () {
+  $('a').click(redir);
+  $('#msg').append(window.performance.timing.navigationStart +"<br/>");
+});
+
+function redir(){
+  this.style.backgroundColor = 'pink';
+  this.href='javascript:void(0)';
+  $('#frame').attr('src',"foo.html");
+  return false;
+}
+</script>
+</body>
+</html>

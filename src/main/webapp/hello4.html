@@ -1,0 +1,41 @@
+<!doctype html> 
+<head><title>Hello Links</title>
+<meta http-equiv="X-UA-Compatible" content="IE=9" > <!-- IE9 mode -->
+</head>
+<body>
+<h1>Links tester</h1>
+<div id="msg"></div>
+<div id="msg2"></div>
+
+<script type="text/javascript">
+(function(){
+if (top === self) {
+	console.log("top level " + self.performance.timing.navigationStart);
+	ifrm = document.createElement("iframe");
+	ifrm.setAttribute("id", "frm");
+	ifrm.setAttribute("src", "hello4.html");
+	ifrm.style.width = "900px";
+	ifrm.style.height = "900px";
+	document.body.appendChild(ifrm);
+
+ } else {
+	 console.log("in a frame "+ (self.performance.timing.navigationStart - top.performance.timing.navigationStart))
+     top.document.getElementById("msg2").innerHTML="Hello";
+ }
+function load() {   
+
+	var div = document.getElementById('msg');
+	content = div.innerHTML;
+
+	p = performance.timing;       
+	start= p.navigationStart; 
+	for (var k in p){
+		if(p[k] ) content = content.concat( k + ' ' + (p[k]-start) + "<br/>");
+	}
+	div.innerHTML = content
+}
+   document.addEventListener("DOMContentLoaded", load, false);  
+}());
+</script>
+</body>
+</html>

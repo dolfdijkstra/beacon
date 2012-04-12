@@ -1,0 +1,46 @@
+<!doctype html> 
+<head><title>Hello Links</title>
+<meta http-equiv="X-UA-Compatible" content="IE=9" > <!-- IE9 mode -->
+</head>
+<body>
+<h1>Links tester</h1>
+<div id="msg"></div>
+<div id="msg1"></div>
+<div id="msg2"></div>
+
+<script type="text/javascript">
+(function(){
+ if (top === self) {
+ console.log("top level " + self.performance.timing.navigationStart);
+ var ifrm = document.createElement("iframe");
+ ifrm.setAttribute("id", "frm");
+ ifrm.setAttribute("src", "hello4.html");
+ console.log( window.availWidth +"px");
+ ifrm.style.width =  (document.documentElement.clientWidth-5) +"px";
+ ifrm.style.height = window.screen.availHeight +"px";
+ ifrm.addEventListener("load", function(){
+	 document.getElementById("msg1").innerHTML="loaded " +ifrm.document.documentElement.clientWidth
+	 },false);
+ document.body.appendChild(ifrm);
+
+ } else {
+ console.log("in a frame "+ (self.performance.timing.navigationStart - top.performance.timing.navigationStart))
+ top.document.getElementById("msg2").innerHTML="Hello";
+ }
+ function load() {   
+
+ var div = document.getElementById('msg');
+ content = div.innerHTML;
+
+ var p = performance.timing;       
+ var start= p.navigationStart; 
+ for (var k in p){
+	 if(p[k] ) content = content.concat( k + ' ' + (p[k]-start) + "<br/>");
+ }
+ div.innerHTML = content
+ }
+ document.addEventListener("DOMContentLoaded", load, false);  
+}());
+</script>
+</body>
+</html>

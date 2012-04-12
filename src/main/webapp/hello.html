@@ -1,0 +1,152 @@
+<!doctype html> 
+<head><title>Hello Links</title>
+<meta http-equiv="X-UA-Compatible" content="IE=9" > <!-- IE9 mode -->
+</head>
+<body>
+<h1>Links tester</h1>
+<a href="hello2.html">Hello</a><br/>
+<a class="load" href="hello.html">Hello</a><br/>
+<a class="load" href="hello.html">Hello</a><br/>
+<a href="hello.html">Hello</a><br/>
+<a href="hello.html">Hello</a><br/>
+<div id="msg"></div>
+<script src="jquery-latest.js"></script>
+<img src="images/scrollerMarbles/CSElement_large.jpg"/>
+<iframe id="frame" style="width:100%;border:0" src="about:blank"></iframe> 
+
+<script type="text/javascript">
+(function(w){
+console.log("foo"+w);
+})(window);
+$(window).load(function () {
+		$('a').click(redir);
+		$('#msg').append(window.performance.timing.navigationStart +"<br/>");
+		$("#frame").ready(function() {
+			//console.log("frame is ready" + this);
+			});
+		$("#frame").load(function() {
+			$('#msg').append(this.contentWindow.performance.timing.navigationStart +"<br/>");
+			//console.log("frame is loaded " + this.src + " "+ this.contentDocument.body.scrollHeight);
+			this.style.display='block';
+			this.style.height = this.contentDocument.body.scrollHeight;
+			this.style.visibility='visible';
+			//console.log("frame " + this.contentDocument.body.offsetHeight + " " + this.contentDocument.body.scrollHeight + " " + this.scrollHeight);
+			});
+		//console.log("posting json");
+		setTimeout( beacon.send_json,10);
+});
+
+function redir(){
+  this.style.backgroundColor = 'pink';
+  this.href='javascript:void(0)';
+  //$('#msg').html($('#frame').parents('iframe').size());
+  $('#frame').attr('src',"foo.html");
+  return false;
+}
+var beacon = {
+send: function(data){
+	      data= data || beacon.check_perf2();
+	      $.ajax({ url: "beacon.jsp",
+			      type: "POST",
+			      data: data ,
+			      success:function(){}
+			      });
+
+      },
+
+send_json: function(data){
+		   data= data || beacon.check_perf2();
+		   $.ajax({ url: "beacon-json.jsp",
+				   type: "POST",
+				   contentType: "application/json",
+				   data: JSON.stringify(data),
+				   done:function(){}
+				   })},
+
+check_perf: function(){
+		    var t= window.performance.timing;
+		    var n=window.performance.navigation;
+
+		    return  {"navigationStart": t.navigationStart,
+			    "unloadEventStart": t.unloadEventStart,
+			    "unloadEventEnd": t.unloadEventEnd,
+			    "redirectStart": t.redirectStart,
+			    "redirectEnd": t.redirectEnd,
+			    "fetchStart": t.fetchStart,
+			    "domainLookupStart": t.domainLookupStart,
+			    "domainLookupEnd": t.domainLookupEnd,
+			    "connectStart": t.connectStart,
+			    "connectEnd": t.connectEnd,
+			    "secureConnectionStart": t.secureConnectionStart,
+			    "requestStart": t.requestStart,
+			    "responseStart": t.responseStart,
+			    "responseEnd": t.responseEnd,
+			    "domLoading": t.domLoading,
+			    "domInteractive": t.domInteractive,
+			    "domContentLoadedEventStart": t.domContentLoadedEventStart,
+			    "domContentLoadedEventEnd": t.domContentLoadedEventEnd,
+			    "domComplete": t.domComplete,
+			    "loadEventStart": t.loadEventStart,
+			    "loadEventEnd": t.loadEventEnd,
+			    "type":n.type,
+			    "redirectCount":n.redirectCount
+		    };
+	    },
+copyProperties: function(obj,p){
+			for(var prop in obj) {
+				if(!this.isUpperCase(prop)) { //don't transport CONSTANTS
+					var value=obj[prop];
+					//console.log(prop +": "+ value +' typeof ' + typeof(value));
+					//p[prop]=obj[prop];
+					switch(typeof value){
+						case 'string':
+							p[prop]=quote(value);
+							break;
+						case 'number':
+							p[prop]= isFinite(value) ? String(value) : 'null';
+							break;
+						case 'boolean':
+						case 'null':
+							p[prop]= String(value);
+							break;
+					}
+				}
+			}
+		},
+isUpperCase:function ( string ) {
+		    return string == string.toUpperCase();
+	    },
+
+check_perf2: function(){
+		     var p={};
+		     //p.performance={};
+		     //p.performance.timing=window.performance.timing;
+		     //p.performance.navigation=window.performance.navigation;
+		     //p.screen=window.screen;
+		     //console.log("json: "+Object.toJSON(window.performance.timing));
+		     this.copyProperties(window.performance.timing,p);
+		     this.copyProperties(window.performance.navigation,p);
+		     this.copyProperties(window.screen,p);
+
+		     p.location=window.location.href;
+		     p.userAgent=window.navigator.userAgent;
+		     p.title=document.title;
+		     p.innerHeight=window.innerHeight;
+		     p.innerWidth=window.innerWidth;
+		     p.outerHeight=window.outerHeight;
+		     p.outerWidth=window.outerWidth;
+		     p.pageXOffset=window.pageXOffset;
+		     p.pageYOffset=window.pageYOffset;
+		     p.screenLeft=window.screenLeft;
+		     p.screenTop=window.screenTop;
+		     p.screenX=window.screenX;
+		     p.screenY=window.screenY;
+		     p.referrer=document.referrer;
+
+		     return p;
+	     }
+};
+
+</script>
+</body>
+</html>

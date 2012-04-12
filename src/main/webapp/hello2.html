@@ -1,0 +1,29 @@
+<!doctype html> 
+<head>
+<title>Hello Links</title>
+<meta http-equiv="X-UA-Compatible" content="IE=9" > <!-- IE9 mode -->
+</head>
+<body>
+<h1>Links tester</h1>
+<a href="hello2.html">Hello</a><br/>
+<a href="hello3.html">Hello</a><br/>
+<div id="msg"></div>
+<img src="images/scrollerMarbles/CSElement_large.jpg"/>
+<script>
+(function(w, d, s) {
+function go() {
+  var js, fjs = d.getElementsByTagName(s)[0], load = function(url, id,objName) {
+    if (d.getElementById(id)) {return;}
+    if (objName && window[objName]) {return;}
+    js = d.createElement(s); js.src = url; js.id = id;
+    fjs.parentNode.insertBefore(js, fjs);
+  };
+  //load('/cs/jquery-latest.js', 'jquery','jQuery');
+  load('/cs/beacon.js', 'beacon','beacon');
+}
+  if (w.addEventListener) { w.addEventListener("load", go, false); }
+  else if (w.attachEvent) { w.attachEvent("onload",go); }
+}(window, document, 'script'));
+</script>
+</body>
+</html>

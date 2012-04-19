@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5" metadata-complete="true">
+    <display-name>Beacon App</display-name>
+    <description>
+    </description>
+    <servlet>
+        <servlet-name>beacon</servlet-name>
+        <servlet-class>com.dolfdijkstra.beacon.BeaconServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>beacon</servlet-name>
+        <url-pattern>/beacon</url-pattern>
+    </servlet-mapping>
+</web-app>

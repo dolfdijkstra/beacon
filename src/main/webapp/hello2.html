@@ -1,4 +1,5 @@
 <!doctype html> 
+<html>
 <head>
 <title>Hello Links</title>
 <meta http-equiv="X-UA-Compatible" content="IE=9" > <!-- IE9 mode -->
@@ -7,8 +8,8 @@
 <h1>Links tester</h1>
 <a href="hello2.html">Hello</a><br/>
 <a href="hello3.html">Hello</a><br/>
+<img alt="headers" src="headers.png"/>
 <div id="msg"></div>
-<img src="images/scrollerMarbles/CSElement_large.jpg"/>
 <script>
 (function(w, d, s) {
 function go() {
@@ -19,7 +20,7 @@ function go() {
     fjs.parentNode.insertBefore(js, fjs);
   };
   //load('/cs/jquery-latest.js', 'jquery','jQuery');
-  load('/cs/beacon.js', 'beacon','beacon');
+  load('beacon.js', 'beacon','beacon');
 }
   if (w.addEventListener) { w.addEventListener("load", go, false); }
   else if (w.attachEvent) { w.attachEvent("onload",go); }

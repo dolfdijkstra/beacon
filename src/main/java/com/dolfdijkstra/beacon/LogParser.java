@@ -2,7 +2,6 @@ package com.dolfdijkstra.beacon;
 
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -15,30 +14,13 @@ import org.codehaus.jackson.map.ObjectMapper;
 import org.codehaus.jackson.type.TypeReference;
 
 public class LogParser {
-    private BufferedReader reader;
-
-    class ValueComparator implements Comparator<String> {
-
-        final Map<String, Long> base;
-
-        public ValueComparator(Map<String, Long> base) {
-            this.base = base;
-        }
-
-        public int compare(String a, String b) {
-            int i = base.get(a).compareTo(base.get(b));
-            if (i == 0) {
-                return a.compareTo(b);
-            } else {
-                return i;
-            }
-        }
-    }
+   
 
     private final TypeReference<Map<String, Object>> typeRef = new TypeReference<Map<String, Object>>() {
 
     };
-
+    private ObjectMapper mapper = new ObjectMapper();
+    private BufferedReader reader;
     /**
      * @param reader
      */
@@ -47,7 +29,7 @@ public class LogParser {
         this.reader = reader;
     }
 
-    private ObjectMapper mapper = new ObjectMapper();
+   
 
     public void parse() throws IOException {
         String line = null;
